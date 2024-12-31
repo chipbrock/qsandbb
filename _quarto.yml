@@ -20,6 +20,7 @@ website:
       - about.qmd
       - about2.qmd
       - about3.qmd
+      - authoring.qmd
 
 format:
   html:

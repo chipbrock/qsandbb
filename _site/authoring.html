@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Norah Jones">
 
-<title>About2 – Quarks, Spacetime, and the Big Bang</title>
+<title>authoring – Quarks, Spacetime, and the Big Bang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -67,6 +102,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -97,12 +161,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about2.html" aria-current="page"> 
+    <a class="nav-link" href="./about2.html"> 
 <span class="menu-text">About2</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="./about3.qmd"> 
 <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./authoring.html" aria-current="page"> 
+<span class="menu-text">authoring</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -115,21 +183,41 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#colors" id="toc-colors" class="nav-link active" data-scroll-target="#colors"><span class="header-section-number">1</span> Colors</a></li>
+  <li><a href="#shapes" id="toc-shapes" class="nav-link" data-scroll-target="#shapes"><span class="header-section-number">2</span> Shapes</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview"><span class="header-section-number">3</span> Overview</a></li>
+  <li><a href="#overview-1" id="toc-overview-1" class="nav-link" data-scroll-target="#overview-1"><span class="header-section-number">4</span> Overview</a></li>
+  <li><a href="#sec-plot" id="toc-sec-plot" class="nav-link" data-scroll-target="#sec-plot"><span class="header-section-number">5</span> Plot</a></li>
+  <li><a href="#sec-equation" id="toc-sec-equation" class="nav-link" data-scroll-target="#sec-equation"><span class="header-section-number">6</span> Equation</a></li>
+  <li><a href="#textures" id="toc-textures" class="nav-link" data-scroll-target="#textures"><span class="header-section-number">7</span> Textures</a></li>
+  <li><a href="#placing-colorbars" id="toc-placing-colorbars" class="nav-link" data-scroll-target="#placing-colorbars"><span class="header-section-number">8</span> Placing Colorbars</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">9</span> References</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About2</h1>
+<h1 class="title">authoring</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Norah Jones </p>
+          </div>
+  </div>
     
   
     
@@ -140,8 +228,127 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site again…testing</p>
+<section id="colors" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="colors"><span class="header-section-number">1</span> Colors</h2>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+</section>
+<section id="shapes" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="shapes"><span class="header-section-number">2</span> Shapes</h2>
+<ul>
+<li>Square</li>
+<li>Circle</li>
+<li>Triangle</li>
+</ul>
+</section>
+<section id="overview" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="overview"><span class="header-section-number">3</span> Overview</h2>
+</section>
+<section id="overview-1" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="overview-1"><span class="header-section-number">4</span> Overview</h2>
+<p>See <a href="#fig-simple" class="quarto-xref">Figure&nbsp;1</a> in <a href="#sec-plot" class="quarto-xref">Section&nbsp;5</a> for a demonstration of a simple plot.</p>
+<p>See <a href="#eq-stddev" class="quarto-xref">Equation&nbsp;1</a> to better understand standard deviation.</p>
+</section>
+<section id="sec-plot" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="sec-plot"><span class="header-section-number">5</span> Plot</h2>
+<div id="cell-fig-simple" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">1</span>,<span class="dv">23</span>,<span class="dv">2</span>,<span class="dv">4</span>])</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig-simple" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-simple-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="authoring_files/figure-html/fig-simple-output-1.png" width="566" height="404" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-simple-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Simple Plot
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="sec-equation" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="sec-equation"><span class="header-section-number">6</span> Equation</h2>
+<p><span id="eq-stddev"><span class="math display">\[
+s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
+\tag{1}\]</span></span></p>
+<p>Knuth says always be literate <span class="citation" data-cites="knuth1984">[@knuth1984]</span>.</p>
+<div id="09db4b5a" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="op">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="11">
+<pre><code>2</code></pre>
+</div>
+</div>
+</section>
+<section id="textures" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="textures"><span class="header-section-number">7</span> Textures</h2>
+<ul>
+<li>Smooth</li>
+<li>Bumpy</li>
+<li>Fuzzy</li>
+</ul>
+<p>Einstein’s theory of special relatively that expresses the equivalence of mass and energy: <span class="math inline">\(E = mc^{2}\)</span> <span class="math display">\[F=ma\]</span></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that there are five types of callouts, including: <code>note</code>, <code>tip</code>, <code>warning</code>, <code>caution</code>, and <code>important</code>.</p>
+</div>
+</div>
+</section>
+<section id="placing-colorbars" class="level2 page-columns page-full" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="placing-colorbars"><span class="header-section-number">8</span> Placing Colorbars</h2>
+<p>Colorbars indicate the quantitative extent of image data. Placing in a figure is non-trivial because room needs to be made for them. The simplest case is just attaching a colorbar to each axes:<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;See the <a href="https://matplotlib.org/stable/gallery/subplots_axes_and_figures/colorbar_placement.html">Matplotlib Gallery</a> to explore colorbars further</p></div></div><div id="4ebe8f28" class="cell page-columns page-full" data-execution_count="3">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>fig.set_size_inches(<span class="dv">20</span>, <span class="dv">8</span>)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>cmaps <span class="op">=</span> [<span class="st">'RdBu_r'</span>, <span class="st">'viridis'</span>]</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">2</span>):</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> row <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">2</span>):</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>        ax <span class="op">=</span> axs[row, col]</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>        pcm <span class="op">=</span> ax.pcolormesh(</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>          np.random.random((<span class="dv">20</span>, <span class="dv">20</span>)) <span class="op">*</span> (col <span class="op">+</span> <span class="dv">1</span>),</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>          cmap<span class="op">=</span>cmaps[col]</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>        fig.colorbar(pcm, ax<span class="op">=</span>ax)</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display page-columns page-full">
+<div class="page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="authoring_files/figure-html/cell-4-output-1.png" width="1497" height="626" class="figure-img column-screen-inset"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="references" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="references"><span class="header-section-number">9</span> References</h2>
 
+
+</section>
 
 
 </main> <!-- /main -->
