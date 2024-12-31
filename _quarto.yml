@@ -1,0 +1,32 @@
+project:
+  type: website
+  title: "Quarks, Spacetime, and the Big Bang"
+  render:
+    - "*.qmd"
+    - "!about3.qmd"
+    #- about2.qmd
+    #- index.qmd
+    #- about.qmd
+    #- about2.qmd
+toc: true
+number-sections: true
+
+website:
+  title: "Quarks, Spacetime, and the Big Bang"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - about2.qmd
+      - about3.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    html-math-method: mathjax
+
+
+

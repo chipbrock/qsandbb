@@ -1,0 +1,5 @@
+---
+title: "About3 for testing non-rendering"
+---
+
+About this site again...testing doing all qmd rendering, but eliminating this one
