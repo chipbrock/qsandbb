@@ -20,7 +20,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - about2.qmd
+      - bio.qmd
       - about3.qmd
       - authoring.qmd
 

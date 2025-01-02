@@ -1,5 +1,5 @@
 ---
-title: "Short Bio"
+title: "bio"
 ---
 
 I am an experimental elementary particle physicist and a University Distinguished Professor at Michigan State University (MSU). I earned my B.S. in Electrical Engineering from Iowa State University in 1972. After a year in industry, I returned to academia, completing an M.S. in Physics and the Philosophy of Science at Northern Illinois University and a Ph.D. in Physics at Carnegie-Mellon University in 1980. Following two years as a postdoctoral researcher at the Fermi National Accelerator Laboratory, I joined the MSU Department of Physics and Astronomy in 1982, and in 2011, I was honored as a University Distinguished Professor.
