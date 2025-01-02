@@ -2,9 +2,9 @@
 title: "About QS&BB"
 ---
 
-I'm an experimental particle physicist who's devoted the last 20 years to teaching two home-grown courses to non-science university students at Michigan State University. The first is called *Quarks, Spacetime, and the Big Bang*---which sort of tells you the content, The second is *Navigating the Universe*, which is a history of physics and art for MSU honors students. 
+I’m an experimental particle physicist who’s spent the past 20 of my 42 faculty years teaching two home-grown courses to non-science students at Michigan State University. The first, *Quarks, Spacetime, and the Big Bang* (MSU ISP220), pretty much gives away its focus in the name. The second, *Navigating the Universe* (MSU ISP213), combines the history of physics and art, a course designed for MSU honors students.
 
-The blog to this site---**Quarks, Spacetime, and the Big Bang** (QS&BB)--- is a different way of teaching. In bite-sized chunks I bring some of the topics from these courses to the public and teach some of the topics of my 50 years of research at the Fermi National Accelerator Laboratory in Illinois and CERN's Large Hadron Collider in Geneva, Switzerland.
+The blog attached to this site, *Quarks, Spacetime, and the Big Bang* (QS&BB), is my way of teaching in a new way. Through bite-sized posts, I bring topics from these courses to the public, along with insights from my 50 years of research at Fermilab in Illinois and CERN’s Large Hadron Collider in Geneva, Switzerland.
 
 ## Education
 
@@ -12,13 +12,19 @@ Carnegie Mellon University | Pittsburgh, PA |
 Ph.D. in Physics | 1980
 
 Northern Illinois University | Dekalb, IL |
-M.S. in Physics and the Philosophy of Science | 1974
+M.S. in Physics and Philosophy of Science | 1975
 
 Iowa State University| Ames, IA
 B.S. Electrical Engineering| 1972
 
 ## Experience
+Driv-Lok, Inc. | Sales Engineer | 1972 - 1973
 
-Fermi National Accelerator Laboratory | Postdoctoral Researcher | 1980 - 1982
+Fermi National Accelerator Laboratory | Research Associate | 1980 - 1982
 
-Michigan State University | University Distinguished Professor | 1982 - present
+Michigan State University | Department of Physics and Astronomy | University Distinguished Professor | 1982 - present
+
+Michigan State University | Department of Physics and Astronomy | Chairperson | 1994 - 2001
+
+Arizona State University | Department of Physics | Adjunct Professor | 2019 - present
+
