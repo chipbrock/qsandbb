@@ -1,7 +1,9 @@
+title: "Quarks, Spacetime, and the Big Bang"
+#author: "Chip Brock"
 project:
   type: website
-  title: "Quarks, Spacetime, and the Big Bang"
-  render:
+  output-dir: docs
+render:
     - "*.qmd"
     - "!about3.qmd"
     #- about2.qmd
@@ -10,7 +12,7 @@ project:
     #- about2.qmd
 toc: true
 number-sections: true
-
+highlight-style: pygments
 website:
   title: "Quarks, Spacetime, and the Big Bang"
   navbar:
@@ -24,10 +26,12 @@ website:
 
 format:
   html:
+    code-fold: true
     theme: cosmo
     css: styles.css
     toc: true
     html-math-method: mathjax
-
+jupyter: python3
+reference-location: margin
 
 

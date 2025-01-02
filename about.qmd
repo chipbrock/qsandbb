@@ -1,5 +1,24 @@
 ---
-title: "About"
+title: "About QS&BB"
 ---
 
-About this site
+I'm an experimental particle physicist who's devoted the last 20 years to teaching two home-grown courses to non-science university students at Michigan State University. The first is called *Quarks, Spacetime, and the Big Bang*---which sort of tells you the content, The second is *Navigating the Universe*, which is a history of physics and art for MSU honors students. 
+
+The blog to this site---**Quarks, Spacetime, and the Big Bang** (QS&BB)--- is a different way of teaching. In bite-sized chunks I bring some of the topics from these courses to the public and teach some of the topics of my 50 years of research at the Fermi National Accelerator Laboratory in Illinois and CERN's Large Hadron Collider in Geneva, Switzerland.
+
+## Education
+
+Carnegie Mellon University | Pittsburgh, PA |
+Ph.D. in Physics | 1980
+
+Northern Illinois University | Dekalb, IL |
+M.S. in Physics and the Philosophy of Science | 1974
+
+Iowa State University| Ames, IA
+B.S. Electrical Engineering| 1972
+
+## Experience
+
+Fermi National Accelerator Laboratory | Postdoctoral Researcher | 1980 - 1982
+
+Michigan State University | University Distinguished Professor | 1982 - present

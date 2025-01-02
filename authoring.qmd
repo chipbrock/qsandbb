@@ -1,15 +1,6 @@
+
 ---
-title: "authoring"
-author: "Norah Jones"
-toc: true
-number-sections: true
-highlight-style: pygments
-format: 
-  html: 
-    code-fold: true
-    html-math-method: mathjax 
-jupyter: python3
-reference-location: margin
+title: "Authoring Page"
 ---
 
 ## Colors

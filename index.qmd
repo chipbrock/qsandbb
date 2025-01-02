@@ -1,8 +1,15 @@
 ---
-title: "Quarks, Spacetime, and the Big Bang"
+title: "Chip Brock"
+about:
+  template: jolla
+  image: media/chip_c.jpeg
+  #image-shape: round
+  image-width: 20em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/raymond-brock-47261919/
+    - text: Email
+      href: mailto:brockr@msu.edu
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
+I'm an experimental particle physicist at Michigan State University and have been privileged for 50 years to be supported by the U.S. public to do particle physics research. I'm grateful for that support and my way of paying you back is by teaching these subjects to non-science students and to now broaden my audience to you. 
