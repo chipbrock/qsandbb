@@ -17,7 +17,7 @@ about:
     - text: Google Scholar
       href: https://scholar.google.com/citations?user=vfLYgg8AAAAJ&hl=en
     - text: ORCID
-      href: https://www.facebook.com/chip.brock1
+      href: https://orcid.org/0000-0002-4556-9212
 ---
 
 I'm an experimental particle physicist at Michigan State University and I'm grateful for the U.S. public's 50 years of support for my research. My way of paying you back has been to teach these subjects---especially to non-science students---and now I've broadened my audience to you, beyond a closed lecture hall.
