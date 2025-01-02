@@ -10,6 +10,14 @@ about:
       href: https://www.linkedin.com/in/raymond-brock-47261919/
     - text: Email
       href: mailto:brockr@msu.edu
+    - text: Facebook
+      href: https://www.facebook.com/chip.brock1
+    - text: Bluesky
+      href: https://bsky.app/profile/chipbrock.bsky.social
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?user=vfLYgg8AAAAJ&hl=en
+    - text: ORCID
+      href: https://www.facebook.com/chip.brock1
 ---
 
-I'm an experimental particle physicist at Michigan State University and I'm grateful for the U.S. public's 50 years of support for my research. My way of paying you back has been to teaching these subjects---especially to non-science students---and to now I've broadened my audience to you, beyond a classroom.
+I'm an experimental particle physicist at Michigan State University and I'm grateful for the U.S. public's 50 years of support for my research. My way of paying you back has been to teach these subjects---especially to non-science students---and now I've broadened my audience to you, beyond a closed lecture hall.
