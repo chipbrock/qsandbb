@@ -1,5 +1,5 @@
 ---
-title: "About2"
+title: "Bio"
 ---
 
 About this site again...testing
