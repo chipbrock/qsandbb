@@ -17,12 +17,16 @@ website:
   title: "Quarks, Spacetime, and the Big Bang"
   navbar:
     right:
-      - href: index.qmd
-        text: Home
-      - about_me.qmd
-      - about_QS&BB.qmd
+      #- href: index.qmd
+      #  text: Home
+      - me.qmd
+      - QS&BB.qmd
+      - teaching.qmd
+      - research.qmd
+      - professional.qmd
+      - notebook.qmd
       #- about3.qmd
-      - authoring.qmd
+      #- authoring.qmd
 
 format:
   html:

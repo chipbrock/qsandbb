@@ -1,34 +1,29 @@
 ---
-title: "profession"
-author: "Chip Brock"
+title: "professional"
 ---
 
-I have served in a number of service roles in my profession, the American Physical Society, and in various reviewer/advisor roles to the Department of Energy, the National Science Foundation, the State of Michigan,various physics departments, and the American Physical Society.
+I’ve had the chance to take on a variety of service roles in my field, including with the American Physical Society, as well as serving as a reviewer and advisor for organizations like the Department of Energy, the National Science Foundation, the State of Michigan, and several physics departments.
 
-# chair, department of physics and astronomy, MSU
+# chair, department of physics and astronomy, Michigan State University
 
- I was Chair of the Department of Physics and Astronomy from 1992 through 2000. During that time we built the Biological and Physical Sciences Building on the MSU campus, the SOAR telescope in Chile, and incorporated the Abrams Planetarium into our department.
+ I served as Chair of the Department of Physics and Astronomy from 1992 to 2000. During that time, we accomplished some exciting projects, including building the Biological and Physical Sciences Building on the MSU campus, helping construct the SOAR telescope in Chile, and bringing the Abrams Planetarium into our department.
 
 # american physical society, division of particles and fields,
 
-I was privileged to have been the Chair of the Division of Particles and Fields of the American Physical Society. This is the professional society for high energy physics and was a four year commitment. My chair year was 2010, preceded by vice-chair, chair elect roles and followed by the past chair responsibility.
+I had the honor of serving as Chair of the Division of Particles and Fields (DPF) of the American Physical Society, my professional society for elementary particle physics. It was a four-year commitment, including roles as vice-chair, chair-elect, chair, and past chair. My year as chair was in 2010, and my goal was to solve a major transparency and "buy-in" problem in our decadal, national scientific planning effort. Our "Snowmass" process now directly connects community input to governmental advice.
 
 # US ATLAS IB Chair
 
-The US ATLAS Institutional Board is the organization of 700 physicists from 50 universities and national laboratories that constitute the US membership of the ATLAS Collaboration at the Large Hadron Collider at CERN. I was elected Chair and served from 2014 through 2015.
+From 2014 to 2015, I was the elected Chair of the US ATLAS Institutional Board, which represents the 700 physicists from 50 universities and national laboratories in the US who are part of the ATLAS Collaboration at CERN’s Large Hadron Collider.
 
 # co-chair of the Energy Frontier Subgroup of Snowmass2013
 
-Every decade or so the US Particle Physics community does a long study of the future scientific steps that the US should take. This "Snowmass Study" completed in 2013 I co-chaired the Energy Frontier Subgroup of that study with Michael Peskin of Stanford and SLAC.
+About once a decade, the US particle physics community undertakes a comprehensive study to chart the future of the field. For the 2013---inaugural--- Snowmass Study, I must have missed a meeting, since I found myself co-chairing the "Energy Frontier Subgroup" with Michael Peskin. The field just undertook the second in this now permanent process. 
 
 
+## professional service roles
 
-
-# professional service roles
-
-  I have had many opportunities to serve the particle physics community
-
-  ## elected positions
+### elected positions
 
   1988--1990; member, Fermilab Users Executive Committee
 
@@ -42,7 +37,7 @@ Every decade or so the US Particle Physics community does a long study of the fu
 
   2014--2015; Chair, US ATLAS Institutional Board.
 
-  ## appointed positions
+### appointed positions
 
   1980--1981; Co--leader (with Leon Lederman) of Arms Control and Disarmament Seminar Series
 
@@ -90,7 +85,7 @@ Every decade or so the US Particle Physics community does a long study of the fu
   2012-2013; Co-leader of the Energy Frontier Subbgroup of the US Particle Physics community's Study of the Future of Particle Physics, aka "Snowmass2013"
   2011--2015; member, Fermilab Program Advisory Committee
 
-  ## external department reviews
+### external department reviews
 
   Georgia Tech, 2006.  
   Florida State University, 2008.  

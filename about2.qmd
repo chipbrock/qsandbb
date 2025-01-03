@@ -1,5 +1,0 @@
----
-title: "Bio"
----
-
-About this site again...testing

@@ -1,5 +1,0 @@
----
-title: "About3"
----
-
-About this site again...testing doing all qmd rendering, but eliminating this one
