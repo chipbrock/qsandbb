@@ -142,7 +142,7 @@ You can find my publications in ADSABS as Brock, Raymond
 
 # teaching
 
-## ["quarks, spacetime, and the big bang,"](#)
+## "quarks, spacetime, and the big bang,"
 
 **isp220: MSU**
 
@@ -156,15 +156,15 @@ The Honors College at MSU requested a general educaiton course in 1999. At the t
 
 ## service and disciplinary courses
 
-My regular curricular teaching has been all over the map, from undergraduate service courses through graduate courses. These include recently: [group theory, relativistic quantum mechanics, relativistic quantum field theory, modern physics, undergraduate laboratory:](#) [PHY911, 852, 853, 215, 252](#)
+My regular curricular teaching has been all over the map, from undergraduate service courses through graduate courses. These include recently: group theory, relativistic quantum mechanics, relativistic quantum field theory, modern physics, undergraduate laboratory (PHY911, PHY852, PHY853, PHY215, PHY252).
 
 **teaching experiences**
 
-I have taught all over the curriculum at Michigan State University since 1982. This includes many semesters in the large lectures for physics with and without calculus. I have also taught many semesters in the graduate curriculum, mostly Particle Physics, Relativistic Quantum Mechanics, Relativisitic Quantum Fielt Theory, and Group Theory. I have also taught Modern Physics in the undergraduate curriculum.
+I have taught all over the curriculum at Michigan State University since 1982. This includes many semesters in the large lectures for physics with and without calculus. I have also taught many semesters in the graduate curriculum, mostly Particle Physics, Relativistic Quantum Mechanics, Relativistic Quantum Field Theory, and Group Theory. I have also taught Modern Physics in the undergraduate curriculum.
 
-- My recent emphasis is in the general education curriculum - at Michigan State, called "Integrative Studies."
+My recent emphasis is in the general education curriculum - at Michigan State, called "Integrative Studies."
 
-  ### teaching awards
+### teaching awards
 
 MSU Teacher Scholar Award, 1985
 
