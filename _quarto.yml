@@ -18,7 +18,7 @@ website:
   navbar:
     left:
       - me.qmd
-      - QS&BB.qmd
+      - QSBB.qmd
       - teaching.qmd
       - research.qmd
       - professional.qmd
