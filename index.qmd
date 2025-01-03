@@ -4,7 +4,7 @@ about:
   template: jolla
   image: media/chip_c.jpeg
   #image-shape: round
-  image-width: 20em
+  image-width: 21em
   links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/raymond-brock-47261919/

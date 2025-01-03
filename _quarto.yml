@@ -17,8 +17,6 @@ website:
   title: "Quarks, Spacetime, and the Big Bang"
   navbar:
     left:
-      #- href: index.qmd
-      #  text: Home
       - me.qmd
       - QS&BB.qmd
       - teaching.qmd
