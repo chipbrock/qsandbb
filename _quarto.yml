@@ -19,9 +19,9 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - bio.qmd
-      - about3.qmd
+      - about_me.qmd
+      - about_QS&BB.qmd
+      #- about3.qmd
       - authoring.qmd
 
 format:

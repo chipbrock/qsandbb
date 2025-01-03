@@ -16,5 +16,26 @@
   },
   "bio.qmd": {
     "bio.html": "018c0445"
+  },
+  "bio_research.qmd": {
+    "bio_research.html": "506e8b72"
+  },
+  "bio_teaching.qmd": {
+    "bio_teaching.html": "38fb988e"
+  },
+  "bio_profession.qmd": {
+    "bio_profession.html": "f23f256d"
+  },
+  "about-me.qmd": {
+    "about-me.html": "c70f76f3"
+  },
+  "about_qsandbb.qmd": {
+    "about_qsandbb.html": "29404d34"
+  },
+  "about_me.qmd": {
+    "about_me.html": "091c3f0b"
+  },
+  "about_QS&BB.qmd": {
+    "about_QS&BB.html": "cb8a532e"
   }
 }

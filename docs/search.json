@@ -88,12 +88,12 @@
     "href": "index.html",
     "title": "Chip Brock",
     "section": "",
-    "text": "I’m an experimental particle physicist at Michigan State University, and I’ve benefited from the U.S. public’s support for my research over the past 50 years. Teaching these topics—especially to non-science students—has been one way to give back, and now I’m bringing these ideas to a broader audience beyond the lecture hall."
+    "text": "I’m an experimental particle physicist at Michigan State University, and I’ve benefited from the U.S. public’s support for my research over the past 50 years. Teaching these topics—especially to non-science students—has been one way to give back, and now I’m bringing these ideas to a broader audience beyond the lecture hall.\nBTW, it’s confusing having two names.\nAll my life I’ve been “Chip,” although my driver’s license says “Raymond.” Before you ask, nobody claims to know where this started. Please note before being really proud of yourself: “Chip off the old Brock” is not new, it’s not funny anymore, and all of you think you were the first to invent it…"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "about QS&BB",
+    "title": "about",
     "section": "",
     "text": "I’m an experimental particle physicist who’s spent the past 20 of my 42 faculty years teaching two home-grown courses to non-science students at Michigan State University. The first, Quarks, Spacetime, and the Big Bang (MSU ISP220), pretty much gives away its focus in the name. The second, Navigating the Universe (MSU ISP213), combines the history of physics and art, a course designed for MSU honors students.\nThe blog attached to this site, Quarks, Spacetime, and the Big Bang (QS&BB), is my way of teaching in a new way. Through bite-sized posts, I bring topics from these courses to the public, along with insights from my 50 years of research at Fermilab in Illinois and CERN’s Large Hadron Collider in Geneva, Switzerland."
   },
@@ -114,14 +114,14 @@
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
-    "title": "about QS&BB",
+    "title": "about",
     "section": "1 education",
     "text": "1 education\nCarnegie Mellon University | Pittsburgh, PA | Ph.D. in Physics | 1980\nNorthern Illinois University | Dekalb, IL | M.S. in Physics and Philosophy of Science | 1975\nIowa State University| Ames, IA B.S. Electrical Engineering | 1972"
   },
   {
     "objectID": "about.html#experience",
     "href": "about.html#experience",
-    "title": "about QS&BB",
+    "title": "about",
     "section": "2 experience",
     "text": "2 experience\nDriv-Lok, Inc. | Sales Engineer | 1972 - 1973\nFermi National Accelerator Laboratory | Research Associate | 1980 - 1982\nMichigan State University | Department of Physics and Astronomy | University Distinguished Professor | 1982 - present\nMichigan State University | Department of Physics and Astronomy | Chairperson | 1994 - 2001\nArizona State University | Department of Physics | Adjunct Professor | 2019 - present"
   },
@@ -131,5 +131,243 @@
     "title": "bio",
     "section": "",
     "text": "I am an experimental elementary particle physicist and a University Distinguished Professor at Michigan State University (MSU). I earned my B.S. in Electrical Engineering from Iowa State University in 1972. After a year in industry, I returned to academia, completing an M.S. in Physics and the Philosophy of Science at Northern Illinois University and a Ph.D. in Physics at Carnegie-Mellon University in 1980. Following two years as a postdoctoral researcher at the Fermi National Accelerator Laboratory, I joined the MSU Department of Physics and Astronomy in 1982, and in 2011, I was honored as a University Distinguished Professor.\nAs Chair of the Department of Physics and Astronomy from 1994 to 2001, I oversaw the construction of a new department building, facilitated MSU’s involvement in the construction of the SOAR 4m telescope in Chile, and integrated the private Abrams Planetarium into the department. After stepping down as Chair in 2001, I returned to full-time research and teaching in particle physics.\nIn the 1980s, I served as spokesperson for Fermilab’s neutrino experiment E733 and have been a member of the Fermilab D0 collaboration since its early days. I’ve taken on leadership roles in significant measurements and the development of D0 apparatus components, including chairing the experiment’s Computing Policy Board and assembling an early grid Linux farm that generated 1 billion Monte Carlo events in the late 1990s.\nI am also a member of MSU’s LHC ATLAS group, where I was the first convenor of the Single Top Group and led the “Phase 0” “CMX” trigger electronics upgrade for the L1Calo system. Together with a colleague from the University of Michigan, I conceived and continue to direct the ATLAS “Tier 2” data center, funded through competitive awards.\nIn 2010, I served as Chair of the APS Division of Particles and Fields. Over the years, I’ve been a member of the DOE High Energy Physics Advisory Panel (HEPAP), the United States representative to the International Committee on Future Accelerators (ICFA), and served two terms on the Fermilab Physics Advisory Committee. I’ve also been a member of the Fermilab Research Alliance Board of Directors, the United States ATLAS Institutional Board Chair for two years, and co-convened the DPF Snowmass 2013 Energy Frontier study, which covered all aspects of particle physics.\nThroughout my career, I’ve taught across the undergraduate and graduate curricula, and in recent years, I’ve focused on teaching general education students. I developed two unique courses for non-science majors: one that intertwines the history of physics with the history of art and another exploring elementary particle physics and cosmology.\nI’ve authored or co-authored over 1,000 publications in experimental and phenomenological particle physics and have been continuously funded by the National Science Foundation since 1982. I’m a Fellow of the American Physical Society and have received two all-university awards from MSU for research and teaching.\nOutside of physics, I’m a lifelong baseball fan and have spent many years coaching high school baseball in East Lansing."
+  },
+  {
+    "objectID": "bio_research.html",
+    "href": "bio_research.html",
+    "title": "research",
+    "section": "",
+    "text": "I have been a member of the ATLAS collaboration since the mid-1990s. I convened the first “Single Top Quark” group and subsequently helped to form the ATLAS Great Lakes Tier 2 computing center with the University of Michigan. This “long baseline” computing center operates seamlessly between our two campuses serving the US ATLAS community along with 4 other Tier 2 centers. In the spring of 2014 we commissioned a $2M electronics project designed and built at MSU as an upgrade to the L1 calorimeter trigger. The boards take advantage of newer FPGA technologies and process data from the detector at 4x the Run 1 rate. They worked flawlessly through Run 2 of the LHC. I’m now working with a colleague to ramp up a “factory” in our labs to construct 20,000 small muon drift chamber tubes for the phase 3 upgrade of ATLAS.\n\n\n\nI was a charter member of the D0 collaboration which came into existence in 1983. During that time I’ve had 4 PhD students and convened and then co-convened the first W Mass group. I also was the co-convener of the Database, Datahandling, Datagrid group and chaired the Computing Policy Committee for many years. During our D0 years our group has built and upgraded the L1 Calorimeter trigger, the trigger framework and the 6 sided large scintillator “cap” around the whole detector.\n\n\n\nMy PhD degree was shared between the experimental and theoretical groups at Carnegie-Mellon University. My phenomenology work was in the production of heavy flavor in neutrino scattering as well as the production of strange particles in neutrino scattering. My first publication was a single-author Physical Review Letter, a feat I’ve not since replicated. I’ve subsequently published in the resummation of gluon emission in Drell-Yan production of muons and the NLO corrections to single top quark production in colliders. My training has allowed me to teach advanced particle physics, relativistic quantum mechanics, and relativistic quantum field theory, and to bring these subjects to the general education program.\n\n\nI have worked in electroweak and QCD physics in both deep ineleastic neutrino scattering experiments and large proton collider experiments.\n\n\n\n\nI am the author or co-author of more than 1000 publications in experimental and theoretical particle physics since 1975.\nYou can find my publications in ADSABS as Brock, Raymond ## research recognition - MSU Teacher Scholar Award, 1985 - MSU Distinguished Faculty Award, 2005 - MSU University Distinguished Faculty Award, 2011 - Fellow, American Physical Society, 1999"
+  },
+  {
+    "objectID": "bio_research.html#atlas-experiment-cern",
+    "href": "bio_research.html#atlas-experiment-cern",
+    "title": "research",
+    "section": "",
+    "text": "I have been a member of the ATLAS collaboration since the mid-1990s. I convened the first “Single Top Quark” group and subsequently helped to form the ATLAS Great Lakes Tier 2 computing center with the University of Michigan. This “long baseline” computing center operates seamlessly between our two campuses serving the US ATLAS community along with 4 other Tier 2 centers. In the spring of 2014 we commissioned a $2M electronics project designed and built at MSU as an upgrade to the L1 calorimeter trigger. The boards take advantage of newer FPGA technologies and process data from the detector at 4x the Run 1 rate. They worked flawlessly through Run 2 of the LHC. I’m now working with a colleague to ramp up a “factory” in our labs to construct 20,000 small muon drift chamber tubes for the phase 3 upgrade of ATLAS."
+  },
+  {
+    "objectID": "bio_research.html#d0-experiment-fermi-national-accelerator-laboratory",
+    "href": "bio_research.html#d0-experiment-fermi-national-accelerator-laboratory",
+    "title": "research",
+    "section": "",
+    "text": "I was a charter member of the D0 collaboration which came into existence in 1983. During that time I’ve had 4 PhD students and convened and then co-convened the first W Mass group. I also was the co-convener of the Database, Datahandling, Datagrid group and chaired the Computing Policy Committee for many years. During our D0 years our group has built and upgraded the L1 Calorimeter trigger, the trigger framework and the 6 sided large scintillator “cap” around the whole detector."
+  },
+  {
+    "objectID": "bio_research.html#phenomenology",
+    "href": "bio_research.html#phenomenology",
+    "title": "research",
+    "section": "",
+    "text": "My PhD degree was shared between the experimental and theoretical groups at Carnegie-Mellon University. My phenomenology work was in the production of heavy flavor in neutrino scattering as well as the production of strange particles in neutrino scattering. My first publication was a single-author Physical Review Letter, a feat I’ve not since replicated. I’ve subsequently published in the resummation of gluon emission in Drell-Yan production of muons and the NLO corrections to single top quark production in colliders. My training has allowed me to teach advanced particle physics, relativistic quantum mechanics, and relativistic quantum field theory, and to bring these subjects to the general education program.\n\n\nI have worked in electroweak and QCD physics in both deep ineleastic neutrino scattering experiments and large proton collider experiments."
+  },
+  {
+    "objectID": "bio_teaching.html",
+    "href": "bio_teaching.html",
+    "title": "teaching",
+    "section": "",
+    "text": "isp220: MSU\nParticle Physics is a subject of interest to many people, in part because of coverage in the media, but also because of the esoteric nature of quarks, relativity, quantum mechanics, and the connections with cosmology. In this course I present an overview of both fields for general education students who, incidentally, pay for our work through their taxes. The emphasis is on story-telling and elementary mathematics as a language to assist the narrative of history and biography.\n\n\nisp213H: MSU\nThe Honors College at MSU requested a general educaiton course in 1999. At the time I was chair of the department and assigned the course to myself…and then stepped down as chair. The course is an intellectual history of physics and art, with an emphasis on how we represent our world and how our approaches to representation have evolved over millennia. The course is a writing-intensive experience for students and was well-received for the 8 years that I taught it. I plan to return to it, alternating with isp220, above.\n\n\n\n\nMy regular curricular teaching has been all over the map, from undergraduate service courses through graduate courses. These include recently: group theory, relativistic quantum mechanics, relativistic quantum field theory, modern physics, undergraduate laboratory: PHY911, 852, 853, 215, 252\n\nteaching experiences\nI have taught all over the curriculum at Michigan State University since 1982. This includes many semesters in the large lectures for physics with and without calculus. I have also taught many semesters in the graduate curriculum, mostly Particle Physics, Relativistic Quantum Mechanics, Relativisitic Quantum Fielt Theory, and Group Theory. I have also taught Modern Physics in the undergraduate curriculum.\nMy recent emphasis is in the general education curriculum - at Michigan State, called “Integrative Studies.”\n\n\nMSU Teacher Scholar Award, 1985\nMSU Distinguished Faculty Award, 2004\nBest Graduate Instructor (voted on by graduate students), 1993\nOsgood Award for Undergraduate Teaching, 2005"
+  },
+  {
+    "objectID": "bio_teaching.html#isp220-msu",
+    "href": "bio_teaching.html#isp220-msu",
+    "title": "teaching",
+    "section": "",
+    "text": "east lansing, mi\nParticle Physics is a subject of interest to many people, in part because of coverage in the media, but also because of the esoteric nature of quarks, relativity, quantum mechanics, and the connections with cosmology. In this course I present an overview of both fields for general education students who, incidentally, pay for our work through their taxes. The emphasis is on story-telling and elementary mathematics as a language to assist the narrative of history and biography."
+  },
+  {
+    "objectID": "bio_teaching.html#isp213h-msu",
+    "href": "bio_teaching.html#isp213h-msu",
+    "title": "teaching",
+    "section": "",
+    "text": "east lansing, mi\nThe Honors College at MSU requested a general educaiton course in 1999. At the time I was chair of the department and assigned the course to myself…and then stepped down as chair. The course is an intellectual history of physics and art, with an emphasis on how we represent our world and how our approaches to representation have evolved over millennia. The course is a writing-intensive experience for students and was well-received for the 8 years that I taught it. I plan to return to it, alternating with isp220, above."
+  },
+  {
+    "objectID": "bio_teaching.html#service-and-disciplinary-courses",
+    "href": "bio_teaching.html#service-and-disciplinary-courses",
+    "title": "teaching",
+    "section": "",
+    "text": "My regular curricular teaching has been all over the map, from undergraduate service courses through graduate courses. These include recently: group theory, relativistic quantum mechanics, relativistic quantum field theory, modern physics, undergraduate laboratory: PHY911, 852, 853, 215, 252\n\nteaching experiences\nI have taught all over the curriculum at Michigan State University since 1982. This includes many semesters in the large lectures for physics with and without calculus. I have also taught many semesters in the graduate curriculum, mostly Particle Physics, Relativistic Quantum Mechanics, Relativisitic Quantum Fielt Theory, and Group Theory. I have also taught Modern Physics in the undergraduate curriculum.\nMy recent emphasis is in the general education curriculum - at Michigan State, called “Integrative Studies.”\n\n\nMSU Teacher Scholar Award, 1985\nMSU Distinguished Faculty Award, 2004\nBest Graduate Instructor (voted on by graduate students), 1993\nOsgood Award for Undergraduate Teaching, 2005"
+  },
+  {
+    "objectID": "bio_profession.html",
+    "href": "bio_profession.html",
+    "title": "profession",
+    "section": "",
+    "text": "I have served in a number of service roles in my profession, the American Physical Society, and in various reviewer/advisor roles to the Department of Energy, the National Science Foundation, the State of Michigan,various physics departments, and the American Physical Society.\n\n1 chair, department of physics and astronomy, MSU\nI was Chair of the Department of Physics and Astronomy from 1992 through 2000. During that time we built the Biological and Physical Sciences Building on the MSU campus, the SOAR telescope in Chile, and incorporated the Abrams Planetarium into our department.\n\n\n2 american physical society, division of particles and fields,\nI was privileged to have been the Chair of the Division of Particles and Fields of the American Physical Society. This is the professional society for high energy physics and was a four year commitment. My chair year was 2010, preceded by vice-chair, chair elect roles and followed by the past chair responsibility.\n\n\n3 US ATLAS IB Chair\nThe US ATLAS Institutional Board is the organization of 700 physicists from 50 universities and national laboratories that constitute the US membership of the ATLAS Collaboration at the Large Hadron Collider at CERN. I was elected Chair and served from 2014 through 2015.\n\n\n4 co-chair of the Energy Frontier Subgroup of Snowmass2013\nEvery decade or so the US Particle Physics community does a long study of the future scientific steps that the US should take. This “Snowmass Study” completed in 2013 I co-chaired the Energy Frontier Subgroup of that study with Michael Peskin of Stanford and SLAC.\n\n\n5 professional service roles\nI have had many opportunities to serve the particle physics community\n## elected positions\n1988–1990; member, Fermilab Users Executive Committee\n1989–1990; Chairman, Fermilab Users Executive Committee\n1998–2000; member, Fermilab Users Executive Committee\n2008–2011; Vice Chair, Chair-Elect, Chair, and Past-Chair, Division of Particles and Fields, American Physical Society.\n2012–2013; Deputy Chair, US ATLAS Institutional Board.\n2014–2015; Chair, US ATLAS Institutional Board.\n## appointed positions\n1980–1981; Co–leader (with Leon Lederman) of Arms Control and Disarmament Seminar Series\n1983; member, Fermilab Computer Coordinating Committee\n1988–1989; Physicist on an independent panel appointed by the Governor of Michigan to study the radiological and toxilogical effects of the SSC in Michigan.\n1991; member, Search Committee for the Director of Fermilab (following the retirement of Leon Lederman)\n1991–1995; member, Fermilab Program Advisory Committee\n1991; member, first Fermilab Neutrino Oscillation Panel ad hoc advisory panel to FNAL Director)\n1994; Chairman, second Fermilab Neutrino Oscillation Panel ad hoc advisory panel to FNAL Director)\n1991–1994; member, Los Alamos Meson Physics Facility Physics Advisory Committee\n1992–1995; Special Assistant to the Fermilab Director\n1994–1995; Committee on Long Term Planning, Division of Particles and Fields, American Physical Society.\n1997; Member of the Department of Energy Site visit team to the Stanford Linear Accelerator Laboratory.\n1997–1998; Nominating Committee for the APS Division of Particles and Fields Panofsky Prize.\n1998; Committee for Review of Academic Tenure, American Physical Society.\n2001-current; US-European Working Group to organize VLHC activities.\n2002-2005; University Representative to the DOE High Energy Advisory Panel (HEPAP).\n2003 (March); I led the University Team in the first-ever “Committee of Visitor”’ review of the Department of Energy Office of High Energy Physics.\n2004-5; I co-chaired a task force to understand the physicist resources in the U.S. for the remainder of the decade. This involved a survey of every NSF and DOE grant and every experiment HEP experiment in the world.\n2005; Vice-chair, APS DPF Nominating Committee.\n2006; Chair, APS DPF Nominating Committee.\n2007; Member of the HEPAP Subpanel: “University Grants Program Subpanel”\n2010; Ex Officio member of HEPAP\n2010-2013; U.S. at-large representative to “ICFA”’ the International Committee on Future Accelerators\n2012-2013; Co-leader of the Energy Frontier Subbgroup of the US Particle Physics community’s Study of the Future of Particle Physics, aka “Snowmass2013” 2011–2015; member, Fermilab Program Advisory Committee\n## external department reviews\nGeorgia Tech, 2006.\nFlorida State University, 2008.\nUniversity of Massachusetts, 2010. University of Indiana, 2016."
+  },
+  {
+    "objectID": "bio_profession.html#us-atlas-ib-chair",
+    "href": "bio_profession.html#us-atlas-ib-chair",
+    "title": "Professional",
+    "section": "",
+    "text": "east lansing, mi\nThe US ATLAS Institutional Board is the organization of 700 physicists from 50 universities and national laboratories that constitute the US membership of the ATLAS Collaboration at the Large Hadron Collider at CERN. I was elected Chair and served from 2014 through 2015."
+  },
+  {
+    "objectID": "bio_profession.html#co-chair-of-the-energy-frontier-subgroup-of-snowmass2013",
+    "href": "bio_profession.html#co-chair-of-the-energy-frontier-subgroup-of-snowmass2013",
+    "title": "Professional",
+    "section": "",
+    "text": "east lansing, mi\nEvery decade or so the US Particle Physics community does a long study of the future scientific steps that the US should take. This “Snowmass Study” completed in 2013 I co-chaired the Energy Frontier Subgroup of that study with Michael Peskin of Stanford and SLAC."
+  },
+  {
+    "objectID": "bio_profession.html#american-physical-society",
+    "href": "bio_profession.html#american-physical-society",
+    "title": "Professional",
+    "section": "",
+    "text": "east lansing, mi\nI was privileged to have been the Chair of the Division of Particles and Fields of the American Physical Society. This is the professional society for high energy physics and was a four year commitment. My chair year was 2010, preceded by vice-chair, chair elect roles and followed by the past chair responsibility."
+  },
+  {
+    "objectID": "bio_profession.html#chair-department-of-physics-and-astronomy-msu",
+    "href": "bio_profession.html#chair-department-of-physics-and-astronomy-msu",
+    "title": "Profession",
+    "section": "3.1 chair, department of physics and astronomy, MSU",
+    "text": "3.1 chair, department of physics and astronomy, MSU\nof the Department of Physics and Astronomy from 1992 through 2000. During that time we built the Biological and Physical Sciences Building on the MSU campus and the SOAR telescope in Chile.\n\n3.2 professional service roles\nI have had many opportunities to serve the particle physics community\n3.3 elected positions\n1988–1990; member, Fermilab Users Executive Committee\n1989–1990; Chairman, Fermilab Users Executive Committee\n1998–2000; member, Fermilab Users Executive Committee\n2008–2011; Vice Chair, Chair-Elect, Chair, and Past-Chair, Division of Particles and Fields, American Physical Society.\n2012–2013; Deputy Chair, US ATLAS Institutional Board.\n2014–2015; Chair, US ATLAS Institutional Board.\n3.4 appointed positions\n1980–1981; Co–leader (with Leon Lederman) of Arms Control and Disarmament Seminar Series\n1983; member, Fermilab Computer Coordinating Committee\n1988–1989; Physicist on an independent panel appointed by the Governor of Michigan to study the radiological and toxilogical effects of the SSC in Michigan.\n1991; member, Search Committee for the Director of Fermilab (following the retirement of Leon Lederman)\n1991–1995; member, Fermilab Program Advisory Committee\n1991; member, first Fermilab Neutrino Oscillation Panel ad hoc advisory panel to FNAL Director)\n1994; Chairman, second Fermilab Neutrino Oscillation Panel ad hoc advisory panel to FNAL Director)\n1991–1994; member, Los Alamos Meson Physics Facility Physics Advisory Committee\n1992–1995; Special Assistant to the Fermilab Director\n1994–1995; Committee on Long Term Planning, Division of Particles and Fields, American Physical Society.\n1997; Member of the Department of Energy Site visit team to the Stanford Linear Accelerator Laboratory.\n1997–1998; Nominating Committee for the APS Division of Particles and Fields Panofsky Prize.\n1998; Committee for Review of Academic Tenure, American Physical Society.\n2001-current; US-European Working Group to organize VLHC activities.\n2002-2005; University Representative to the DOE High Energy Advisory Panel (HEPAP).\n2003 (March); I led the University Team in the first-ever “Committee of Visitor”’ review of the Department of Energy Office of High Energy Physics.\n2004-5; I co-chaired a task force to understand the physicist resources in the U.S. for the remainder of the decade. This involved a survey of every NSF and DOE grant and every experiment HEP experiment in the world.\n2005; Vice-chair, APS DPF Nominating Committee.\n2006; Chair, APS DPF Nominating Committee.\n2007; Member of the HEPAP Subpanel: “University Grants Program Subpanel”\n2010; Ex Officio member of HEPAP\n2010-2013; U.S. at-large representative to “ICFA”’ the International Committee on Future Accelerators\n2012-2013; Co-leader of the Energy Frontier Subbgroup of the US Particle Physics community’s Study of the Future of Particle Physics, aka “Snowmass2013”\n2011–2015; member, Fermilab Program Advisory Committee\n3.5 external department reviews\nGeorgia Tech, 2006.\nFlorida State University, 2008.\nUniversity of Massachusetts, 2010. University of Indiana, 2016."
+  },
+  {
+    "objectID": "bio_profession.html#other-professional-responsibilities",
+    "href": "bio_profession.html#other-professional-responsibilities",
+    "title": "Professional",
+    "section": "",
+    "text": "east lansing, mi\nI have served in a number of service roles in my profession, the American Physical Society, and in various reviewer/advisor roles to the Department of Energy, the National Science Foundation, the State of Michigan,various physics departments, and the American Physical Society.\n\n\nI have had many opportunities to serve the particle physics community\n\n1988–1990; member, Fermilab Users Executive Committee\n1989–1990; Chairman, Fermilab Users Executive Committee\n1998–2000; member, Fermilab Users Executive Committee\n2008–2011; Vice Chair, Chair-Elect, Chair, and Past-Chair, Division of Particles and Fields, American Physical Society.\n2012–2013; Deputy Chair, US ATLAS Institutional Board.\n2014–2015; Chair, US ATLAS Institutional Board.\n\n1980–1981; Co–leader (with Leon Lederman) of Arms Control and Disarmament Seminar Series\n1983; member, Fermilab Computer Coordinating Committee\n1988–1989; Physicist on an independent panel appointed by the Governor of Michigan to study the radiological and toxilogical effects of the SSC in Michigan.\n1991; member, Search Committee for the Director of Fermilab (following the retirement of Leon Lederman)\n1991–1995; member, Fermilab Program Advisory Committee\n1991; member, first Fermilab Neutrino Oscillation Panel ad hoc advisory panel to FNAL Director)\n1994; Chairman, second Fermilab Neutrino Oscillation Panel ad hoc advisory panel to FNAL Director)\n1991–1994; member, Los Alamos Meson Physics Facility Physics Advisory Committee\n1992–1995; Special Assistant to the Fermilab Director\n1994–1995; Committee on Long Term Planning, Division of Particles and Fields, American Physical Society.\n1997; Member of the Department of Energy Site visit team to the Stanford Linear Accelerator Laboratory.\n1997–1998; Nominating Committee for the APS Division of Particles and Fields Panofsky Prize.\n1998; Committee for Review of Academic Tenure, American Physical Society.\n2001-current; US-European Working Group to organize VLHC activities.\n2002-2005; University Representative to the DOE High Energy Advisory Panel (HEPAP).\n2003 (March); I led the University Team in the first-ever “Committee of Visitor”’ review of the Department of Energy Office of High Energy Physics.\n2004-5; I co-chaired a task force to understand the physicist resources in the U.S. for the remainder of the decade. This involved a survey of every NSF and DOE grant and every experiment HEP experiment in the world.\n2005; Vice-chair, APS DPF Nominating Committee.\n2006; Chair, APS DPF Nominating Committee.\n2007; Member of the HEPAP Subpanel: “University Grants Program Subpanel”\n2010; Ex Officio member of HEPAP\n2010-2013; U.S. at-large representative to “ICFA”’ the International Committee on Future Accelerators\n2012-2013; Co-leader of the Energy Frontier Subbgroup of the US Particle Physics community’s Study of the Future of Particle Physics, aka “Snowmass2013”\n2011–2015; member, Fermilab Program Advisory Committee\n\nGeorgia Tech, 2006.\nFlorida State University, 2008.\nUniversity of Massachusetts, 2010. University of Indiana, 2016."
+  },
+  {
+    "objectID": "about-me.html",
+    "href": "about-me.html",
+    "title": "about me",
+    "section": "",
+    "text": "1 professional experience\nI have been a professor in the Physics and Astronomy Department since 1982. Prior to that I was a post doc at the Fermi National Accelerator Laboratory, graduate student at Carnegie-Mellon University, and engineer in private industry.\n\n\n2 education & training\nMy bachelor’s degree is in Electrical Engineering from Iowa State University. I switched fields after a period in private industry and received an MS in Physics and Philosophy of Science at Northern Illinois University, and then received my Ph.D. degree from Carnegie-Mellon University in Theoretical and Experimental Elementary Particle Physics.\nLike many scientists, my inspiration came from a dedicated high school science teacher. Mine was Walter Hauswald at Sycamore High School. He let me help in his class preparation and inspired me to read outside of class about quantum mechanics. I had him three years for all of my high school physical science courses and I dedicated my PhD thesis to him.\n\n\n3 personal\nBorn: August 2, 1950 (Oak Park, IL) Married: Janet Peterkin, 2 children (Terry and Kimberly) Citizenship: U.S."
+  },
+  {
+    "objectID": "about_qsandbb.html",
+    "href": "about_qsandbb.html",
+    "title": "about qs&bb",
+    "section": "",
+    "text": "This site is called Quarks, Spacetime, and the Big Bang (aka QS&BB), which is an umbrella phrase that covers all of my research in elementary particle physics and the last 20 years of my teaching which has been for non-science students at Michigan State University.\nThe site, QS&BB, is a continuation of that teaching and is a repackaging of my courses’ content from classical and contemporary topics in relativity, quantum mechanics, particle physics, and cosmology. Like the courses, I’ve prepared this for a non-specialist audience (is that you?) and I hope you’ll enjoy the stories, and the pedagogy and learn something new with each post. The two home-grown courses are:\n\nQuarks, Spacetime, and the Big Bang (MSU ISP220), which pretty much gives away its focus in the name.\nNavigating the Universe (MSU ISP213), a chronological history of physics and art, a course designed for MSU honors students.\n\nSo the blog attached to QS&BB is my way of teaching in a new way. I’ll bring topics from my courses to the public, along with insights from my 50 years of research at Fermilab in Illinois and CERN’s Large Hadron Collider in Geneva, Switzerland."
+  },
+  {
+    "objectID": "about_qsandbb.html#education",
+    "href": "about_qsandbb.html#education",
+    "title": "about qs&bb",
+    "section": "1 education",
+    "text": "1 education\nCarnegie Mellon University | Pittsburgh, PA | Ph.D. in Physics | 1980\nNorthern Illinois University | Dekalb, IL | M.S. in Physics and Philosophy of Science | 1975\nIowa State University| Ames, IA B.S. Electrical Engineering | 1972"
+  },
+  {
+    "objectID": "about_qsandbb.html#experience",
+    "href": "about_qsandbb.html#experience",
+    "title": "about qs&bb",
+    "section": "2 experience",
+    "text": "2 experience\nDriv-Lok, Inc. | Sales Engineer | 1972 - 1973\nFermi National Accelerator Laboratory | Research Associate | 1980 - 1982\nMichigan State University | Department of Physics and Astronomy | University Distinguished Professor | 1982 - present\nMichigan State University | Department of Physics and Astronomy | Chairperson | 1994 - 2001\nArizona State University | Department of Physics | Adjunct Professor | 2019 - present"
+  },
+  {
+    "objectID": "about_me.html",
+    "href": "about_me.html",
+    "title": "about me",
+    "section": "",
+    "text": "I have been a professor in the Physics and Astronomy Department since 1982. Prior to that I was a post doc at the Fermi National Accelerator Laboratory, graduate student at Carnegie-Mellon University, and engineer in private industry."
+  },
+  {
+    "objectID": "about_me.html#atlas-experiment-cern",
+    "href": "about_me.html#atlas-experiment-cern",
+    "title": "about me",
+    "section": "5.1 ATLAS experiment CERN",
+    "text": "5.1 ATLAS experiment CERN\nI have been a member of the ATLAS collaboration since the mid-1990s. I convened the first “Single Top Quark” group and subsequently helped to form the ATLAS Great Lakes Tier 2 computing center with the University of Michigan. This “long baseline” computing center operates seamlessly between our two campuses serving the US ATLAS community along with 4 other Tier 2 centers. In the spring of 2014 we commissioned a $2M electronics project designed and built at MSU as an upgrade to the L1 calorimeter trigger. The boards take advantage of newer FPGA technologies and process data from the detector at 4x the Run 1 rate. They worked flawlessly through Run 2 of the LHC. I’m now working with a colleague to ramp up a “factory” in our labs to construct 20,000 small muon drift chamber tubes for the phase 3 upgrade of ATLAS."
+  },
+  {
+    "objectID": "about_me.html#d0-experiment-fermi-national-accelerator-laboratory",
+    "href": "about_me.html#d0-experiment-fermi-national-accelerator-laboratory",
+    "title": "about me",
+    "section": "5.2 D0 experiment fermi national accelerator laboratory",
+    "text": "5.2 D0 experiment fermi national accelerator laboratory\nI was a charter member of the D0 collaboration which came into existence in 1983. During that time I’ve had 4 PhD students and convened and then co-convened the first W Mass group. I also was the co-convener of the Database, Datahandling, Datagrid group and chaired the Computing Policy Committee for many years. During our D0 years our group has built and upgraded the L1 Calorimeter trigger, the trigger framework and the 6 sided large scintillator “cap” around the whole detector."
+  },
+  {
+    "objectID": "about_me.html#phenomenology",
+    "href": "about_me.html#phenomenology",
+    "title": "about me",
+    "section": "5.3 phenomenology",
+    "text": "5.3 phenomenology\nMy PhD degree was shared between the experimental and theoretical groups at Carnegie-Mellon University. My phenomenology work was in the production of heavy flavor in neutrino scattering as well as the production of strange particles in neutrino scattering. My first publication was a single-author Physical Review Letter, a feat I’ve not since replicated. I’ve subsequently published in the resummation of gluon emission in Drell-Yan production of muons and the NLO corrections to single top quark production in colliders. My training has allowed me to teach advanced particle physics, relativistic quantum mechanics, and relativistic quantum field theory, and to bring these subjects to the general education program."
+  },
+  {
+    "objectID": "about_me.html#publications",
+    "href": "about_me.html#publications",
+    "title": "about me",
+    "section": "5.4 publications",
+    "text": "5.4 publications\nI am the author or co-author of more than 1000 publications in experimental and theoretical particle physics since 1975.\nYou can find my publications in ADSABS as Brock, Raymond ## research recognition - MSU Teacher Scholar Award, 1985 - MSU Distinguished Faculty Award, 2005 - MSU University Distinguished Faculty Award, 2011 - Fellow, American Physical Society, 1999"
+  },
+  {
+    "objectID": "bio_research.html#publications",
+    "href": "bio_research.html#publications",
+    "title": "research",
+    "section": "",
+    "text": "I am the author or co-author of more than 1000 publications in experimental and theoretical particle physics since 1975.\nYou can find my publications in ADSABS as Brock, Raymond ## research recognition - MSU Teacher Scholar Award, 1985 - MSU Distinguished Faculty Award, 2005 - MSU University Distinguished Faculty Award, 2011 - Fellow, American Physical Society, 1999"
+  },
+  {
+    "objectID": "about_me.html#chair-department-of-physics-and-astronomy-msu",
+    "href": "about_me.html#chair-department-of-physics-and-astronomy-msu",
+    "title": "about me",
+    "section": "4.1 chair, department of physics and astronomy, MSU",
+    "text": "4.1 chair, department of physics and astronomy, MSU\nI was Chair of the Department of Physics and Astronomy from 1992 through 2000. During that time we built the Biological and Physical Sciences Building on the MSU campus, the SOAR telescope in Chile, and incorporated the Abrams Planetarium into our department."
+  },
+  {
+    "objectID": "about_me.html#american-physical-society-division-of-particles-and-fields",
+    "href": "about_me.html#american-physical-society-division-of-particles-and-fields",
+    "title": "about me",
+    "section": "4.2 american physical society, division of particles and fields,",
+    "text": "4.2 american physical society, division of particles and fields,\nI was privileged to have been the Chair of the Division of Particles and Fields of the American Physical Society. This is the professional society for high energy physics and was a four year commitment. My chair year was 2010, preceded by vice-chair, chair elect roles and followed by the past chair responsibility."
+  },
+  {
+    "objectID": "about_me.html#us-atlas-ib-chair",
+    "href": "about_me.html#us-atlas-ib-chair",
+    "title": "about me",
+    "section": "4.3 US ATLAS IB Chair",
+    "text": "4.3 US ATLAS IB Chair\nThe US ATLAS Institutional Board is the organization of 700 physicists from 50 universities and national laboratories that constitute the US membership of the ATLAS Collaboration at the Large Hadron Collider at CERN. I was elected Chair and served from 2014 through 2015."
+  },
+  {
+    "objectID": "about_me.html#co-chair-of-the-energy-frontier-subgroup-of-snowmass2013",
+    "href": "about_me.html#co-chair-of-the-energy-frontier-subgroup-of-snowmass2013",
+    "title": "about me",
+    "section": "4.4 co-chair of the Energy Frontier Subgroup of Snowmass2013",
+    "text": "4.4 co-chair of the Energy Frontier Subgroup of Snowmass2013\nEvery decade or so the US Particle Physics community does a long study of the future scientific steps that the US should take. This “Snowmass Study” completed in 2013 I co-chaired the Energy Frontier Subgroup of that study with Michael Peskin of Stanford and SLAC."
+  },
+  {
+    "objectID": "about_me.html#professional-service-roles",
+    "href": "about_me.html#professional-service-roles",
+    "title": "about me",
+    "section": "4.5 professional service roles",
+    "text": "4.5 professional service roles\nI have had many opportunities to serve the particle physics community\n### elected positions\n1988–1990; member, Fermilab Users Executive Committee\n1989–1990; Chairman, Fermilab Users Executive Committee\n1998–2000; member, Fermilab Users Executive Committee\n2008–2011; Vice Chair, Chair-Elect, Chair, and Past-Chair, Division of Particles and Fields, American Physical Society.\n2012–2013; Deputy Chair, US ATLAS Institutional Board.\n2014–2015; Chair, US ATLAS Institutional Board.\n### appointed positions\n1980–1981; Co–leader (with Leon Lederman) of Arms Control and Disarmament Seminar Series\n1983; member, Fermilab Computer Coordinating Committee\n1988–1989; Physicist on an independent panel appointed by the Governor of Michigan to study the radiological and toxilogical effects of the SSC in Michigan.\n1991; member, Search Committee for the Director of Fermilab (following the retirement of Leon Lederman)\n1991–1995; member, Fermilab Program Advisory Committee\n1991; member, first Fermilab Neutrino Oscillation Panel ad hoc advisory panel to FNAL Director)\n1994; Chairman, second Fermilab Neutrino Oscillation Panel ad hoc advisory panel to FNAL Director)\n1991–1994; member, Los Alamos Meson Physics Facility Physics Advisory Committee\n1992–1995; Special Assistant to the Fermilab Director\n1994–1995; Committee on Long Term Planning, Division of Particles and Fields, American Physical Society.\n1997; Member of the Department of Energy Site visit team to the Stanford Linear Accelerator Laboratory.\n1997–1998; Nominating Committee for the APS Division of Particles and Fields Panofsky Prize.\n1998; Committee for Review of Academic Tenure, American Physical Society.\n2001-current; US-European Working Group to organize VLHC activities.\n2002-2005; University Representative to the DOE High Energy Advisory Panel (HEPAP).\n2003 (March); I led the University Team in the first-ever “Committee of Visitor”’ review of the Department of Energy Office of High Energy Physics.\n2004-5; I co-chaired a task force to understand the physicist resources in the U.S. for the remainder of the decade. This involved a survey of every NSF and DOE grant and every experiment HEP experiment in the world.\n2005; Vice-chair, APS DPF Nominating Committee.\n2006; Chair, APS DPF Nominating Committee.\n2007; Member of the HEPAP Subpanel: “University Grants Program Subpanel”\n2010; Ex Officio member of HEPAP\n2010-2013; U.S. at-large representative to “ICFA”’ the International Committee on Future Accelerators\n2012-2013; Co-leader of the Energy Frontier Subbgroup of the US Particle Physics community’s Study of the Future of Particle Physics, aka “Snowmass2013” 2011–2015; member, Fermilab Program Advisory Committee\n### external department reviews\nGeorgia Tech, 2006.\nFlorida State University, 2008.\nUniversity of Massachusetts, 2010. University of Indiana, 2016."
+  },
+  {
+    "objectID": "about_me.html#chair-department-of-physics-and-astronomy-michigan-state-university",
+    "href": "about_me.html#chair-department-of-physics-and-astronomy-michigan-state-university",
+    "title": "about me",
+    "section": "4.1 chair, department of physics and astronomy, Michigan State University",
+    "text": "4.1 chair, department of physics and astronomy, Michigan State University\nI was Chair of the Department of Physics and Astronomy from 1992 through 2000. During that time we built the Biological and Physical Sciences Building on the MSU campus, the SOAR telescope in Chile, and incorporated the Abrams Planetarium into our department."
+  },
+  {
+    "objectID": "about_me.html#quarks-spacetime-and-the-big-bang",
+    "href": "about_me.html#quarks-spacetime-and-the-big-bang",
+    "title": "about me",
+    "section": "6.1 “quarks, spacetime, and the big bang,”",
+    "text": "6.1 “quarks, spacetime, and the big bang,”\nisp220: MSU\nParticle Physics is a subject of interest to many people, in part because of coverage in the media, but also because of the esoteric nature of quarks, relativity, quantum mechanics, and the connections with cosmology. In this course I present an overview of both fields for general education students who, incidentally, pay for our work through their taxes. The emphasis is on story-telling and elementary mathematics as a language to assist the narrative of history and biography.\n\n6.1.1 “navigating the universe,”\nisp213H: MSU\nThe Honors College at MSU requested a general educaiton course in 1999. At the time I was chair of the department and assigned the course to myself…and then stepped down as chair. The course is an intellectual history of physics and art, with an emphasis on how we represent our world and how our approaches to representation have evolved over millennia. The course is a writing-intensive experience for students and was well-received for the 8 years that I taught it. I plan to return to it, alternating with isp220, above."
+  },
+  {
+    "objectID": "about_me.html#service-and-disciplinary-courses",
+    "href": "about_me.html#service-and-disciplinary-courses",
+    "title": "about me",
+    "section": "6.2 service and disciplinary courses",
+    "text": "6.2 service and disciplinary courses\nMy regular curricular teaching has been all over the map, from undergraduate service courses through graduate courses. These include recently: group theory, relativistic quantum mechanics, relativistic quantum field theory, modern physics, undergraduate laboratory: PHY911, 852, 853, 215, 252\nteaching experiences\nI have taught all over the curriculum at Michigan State University since 1982. This includes many semesters in the large lectures for physics with and without calculus. I have also taught many semesters in the graduate curriculum, mostly Particle Physics, Relativistic Quantum Mechanics, Relativisitic Quantum Fielt Theory, and Group Theory. I have also taught Modern Physics in the undergraduate curriculum.\n\nMy recent emphasis is in the general education curriculum - at Michigan State, called “Integrative Studies.”\n6.2.1 teaching awards\n\nMSU Teacher Scholar Award, 1985\nMSU Distinguished Faculty Award, 2004\nBest Graduate Instructor (voted on by graduate students), 1993\nOsgood Award for Undergraduate Teaching, 2005"
+  },
+  {
+    "objectID": "bio_teaching.html#quarks-spacetime-and-the-big-bang",
+    "href": "bio_teaching.html#quarks-spacetime-and-the-big-bang",
+    "title": "teaching",
+    "section": "",
+    "text": "isp220: MSU\nParticle Physics is a subject of interest to many people, in part because of coverage in the media, but also because of the esoteric nature of quarks, relativity, quantum mechanics, and the connections with cosmology. In this course I present an overview of both fields for general education students who, incidentally, pay for our work through their taxes. The emphasis is on story-telling and elementary mathematics as a language to assist the narrative of history and biography.\n\n\nisp213H: MSU\nThe Honors College at MSU requested a general educaiton course in 1999. At the time I was chair of the department and assigned the course to myself…and then stepped down as chair. The course is an intellectual history of physics and art, with an emphasis on how we represent our world and how our approaches to representation have evolved over millennia. The course is a writing-intensive experience for students and was well-received for the 8 years that I taught it. I plan to return to it, alternating with isp220, above."
+  },
+  {
+    "objectID": "about_QS&BB.html",
+    "href": "about_QS&BB.html",
+    "title": "about QS&BB",
+    "section": "",
+    "text": "This site is called Quarks, Spacetime, and the Big Bang (aka QS&BB), which is an umbrella phrase that covers all of my research in elementary particle physics and the last 20 years of my teaching which has been for non-science students at Michigan State University.\nThe site, QS&BB, is a continuation of that teaching and is a repackaging of my courses’ content from classical and contemporary topics in relativity, quantum mechanics, particle physics, and cosmology. Like the courses, I’ve prepared this for a non-specialist audience (is that you?) and I hope you’ll enjoy the stories, and the pedagogy and learn something new with each post. The two home-grown courses are:\n\nQuarks, Spacetime, and the Big Bang (MSU ISP220), which pretty much gives away its focus in the name.\nNavigating the Universe (MSU ISP213), a chronological history of physics and art, a course designed for MSU honors students.\n\nSo the blog attached to QS&BB is my way of teaching in a new way. I’ll bring topics from my courses to the public, along with insights from my 50 years of research at Fermilab in Illinois and CERN’s Large Hadron Collider in Geneva, Switzerland."
   }
 ]

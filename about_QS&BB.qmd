@@ -1,0 +1,13 @@
+---
+title: "about QS&BB"
+---
+
+This site is called *Quarks, Spacetime, and the Big Bang* (aka QS&BB), which is an umbrella phrase that covers all of my research in  elementary particle physics and the last 20 years of my teaching which has been for non-science students at Michigan State University. 
+
+The site, QS&BB, is a continuation of that teaching and is a repackaging of my courses' content from classical and contemporary topics in relativity, quantum mechanics, particle physics, and cosmology. Like the courses, I've prepared this for a non-specialist audience (is that you?) and I hope you'll enjoy the stories, and the pedagogy and learn something new with each post. The two home-grown courses are:
+
+- *Quarks, Spacetime, and the Big Bang* (MSU ISP220), which pretty much gives away its focus in the name.
+-  *Navigating the Universe* (MSU ISP213), a chronological history of physics and art, a course designed for MSU honors students.
+
+So the blog attached to QS&BB is my way of teaching in a new way.  I'll bring topics from my courses to the public, along with insights from my 50 years of research at Fermilab in Illinois and CERN’s Large Hadron Collider in Geneva, Switzerland.
+
