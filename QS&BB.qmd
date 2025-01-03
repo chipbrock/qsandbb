@@ -1,5 +1,5 @@
 ---
-title: "about QS&BB"
+title: "QS&BB"
 ---
 
 This site is called *Quarks, Spacetime, and the Big Bang* (aka QS&BB), which is an umbrella phrase that covers all of my research in  elementary particle physics and the last 20 years of my teaching which has been for non-science students at Michigan State University. 
