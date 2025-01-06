@@ -1,0 +1,49 @@
+title: "Quarks, Spacetime, and the Big Bang"
+#author: "Chip Brock"
+project:
+  type: website
+  output-dir: docs
+render:
+    - "*.qmd"
+    - "!about3.qmd"
+    #- about2.qmd
+    #- index.qmd
+    #- about.qmd
+    #- about2.qmd
+toc: true
+number-sections: true
+highlight-style: pygments
+website:
+  title: "Quarks, Spacetime, and the Big Bang"
+  navbar:
+    right:
+      - text: about me
+        menu:
+          - me-in-2-seconds.qmd
+          - CV.qmd
+          - teaching.qmd
+          - research.qmd
+          - professional.qmd
+      #- me.qmd
+      - QSBB.qmd
+      #- teaching.qmd
+      #- research.qmd
+      #- professional.qmd
+      - text: "class text"
+        href: https://qstbb.pa.msu.edu/storage/ISP220_fall2020/QS&BB2020/intro.html
+      - stories.qmd
+    
+      #- about3.qmd
+      #- authoring.qmd
+
+format:
+  html:
+    code-fold: true
+    theme: cosmo
+    css: styles.css
+    toc: true
+    html-math-method: mathjax
+jupyter: python3
+reference-location: margin
+
+

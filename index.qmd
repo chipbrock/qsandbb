@@ -1,0 +1,28 @@
+---
+title: "Chip Brock"
+about:
+  template: jolla
+  image: media/chip_c.jpeg
+  #image-shape: round
+  image-width: 21em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/raymond-brock-47261919/
+    - text: Email
+      href: mailto:brockr@msu.edu
+    - text: Facebook
+      href: https://www.facebook.com/chip.brock1
+    - text: Bluesky
+      href: https://bsky.app/profile/chipbrock.bsky.social
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?user=vfLYgg8AAAAJ&hl=en
+    - text: ORCiD
+      href: https://orcid.org/0000-0002-4556-9212
+---
+
+I’m an experimental particle physicist at Michigan State University, and I’ve benefited from the U.S. public’s support for my research over the past 50 years. Teaching these topics—especially to non-science students—has been one way to give back, and now I’m bringing these ideas to a broader audience beyond the lecture hall.
+
+BTW, it's confusing having two names.
+
+ 
+All my life I've been "Chip," although my driver's license says "Raymond." Before you ask, nobody claims to know where this started. Please note before being really proud of yourself: "Chip off the old Brock" is not new, it's not funny anymore, and all of you think you were the first to invent it...

@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../_jupyter_quarto"
+		},
+		{
+			"name": "meds_example_site",
+			"path": "../_jupyter_quarto/meds_example_site"
+		}
+	],
+	"settings": {}
+}

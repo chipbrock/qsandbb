@@ -1,0 +1,33 @@
+---
+title: "stories"
+listing: 
+  contents: posts/**/*.qmd # this name must match the name of the folder you created in step #1; here, all Quarto docs in the `posts` directory will be included on your listing page
+  type: default # or `default` or `table`; each type has its own set of yaml options to include
+  sort: "date desc" # can also sort on more than one field
+  fields: [date, title, reading-time, description, categories]
+  categories: true # allows you to sort posts by assigned categories 
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+title-block-banner: false
+---
+:::: {.columns}
+
+::: {.column width="40%"}
+# Series {-}
+
+##### [ggplot2-series](ggplot-series.html) {-}
+This series contains a great deal of tips, tricks and packages 
+that you can use to level up your ggplot game.
+
+##### [some_other-series](some_other-series.html) {-}
+This series contains a great deal of tips, tricks and packages 
+that you can use to level up your ggplot game.
+:::
+
+::: {.column width="60%"}
+# Categories {-}
+some description of the themes
+:::
+
+:::: 

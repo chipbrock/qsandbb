@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarks, Spacetime, and the Big Bang",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about2.html",
+    "href": "about2.html",
+    "title": "About2",
+    "section": "",
+    "text": "About this site again…testing"
+  },
+  {
+    "objectID": "about3.html",
+    "href": "about3.html",
+    "title": "About3 for testing non-rendering",
+    "section": "",
+    "text": "About this site again…testing doing all qmd rendering, but eliminating this one"
+  },
+  {
+    "objectID": "authoring.html",
+    "href": "authoring.html",
+    "title": "authoring",
+    "section": "",
+    "text": "Red\nGreen\nBlue"
+  },
+  {
+    "objectID": "authoring.html#colors",
+    "href": "authoring.html#colors",
+    "title": "authoring",
+    "section": "",
+    "text": "Red\nGreen\nBlue"
+  },
+  {
+    "objectID": "authoring.html#shapes",
+    "href": "authoring.html#shapes",
+    "title": "authoring",
+    "section": "2 Shapes",
+    "text": "2 Shapes\n\nSquare\nCircle\nTriangle"
+  },
+  {
+    "objectID": "authoring.html#overview",
+    "href": "authoring.html#overview",
+    "title": "authoring",
+    "section": "3 Overview",
+    "text": "3 Overview"
+  },
+  {
+    "objectID": "authoring.html#overview-1",
+    "href": "authoring.html#overview-1",
+    "title": "authoring",
+    "section": "4 Overview",
+    "text": "4 Overview\nSee Figure 1 in Section 5 for a demonstration of a simple plot.\nSee Equation 1 to better understand standard deviation."
+  },
+  {
+    "objectID": "authoring.html#sec-plot",
+    "href": "authoring.html#sec-plot",
+    "title": "authoring",
+    "section": "5 Plot",
+    "text": "5 Plot\n\n\nCode\nimport matplotlib.pyplot as plt\nplt.plot([1,23,2,4])\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: Simple Plot"
+  },
+  {
+    "objectID": "authoring.html#sec-equation",
+    "href": "authoring.html#sec-equation",
+    "title": "authoring",
+    "section": "6 Equation",
+    "text": "6 Equation\n\\[\ns = \\sqrt{\\frac{1}{N-1} \\sum_{i=1}^N (x_i - \\overline{x})^2}\n\\tag{1}\\]\nKnuth says always be literate [@knuth1984].\n\n\nCode\n1 + 1\n\n\n2"
+  },
+  {
+    "objectID": "authoring.html#textures",
+    "href": "authoring.html#textures",
+    "title": "authoring",
+    "section": "7 Textures",
+    "text": "7 Textures\n\nSmooth\nBumpy\nFuzzy\n\nEinstein’s theory of special relatively that expresses the equivalence of mass and energy: \\(E = mc^{2}\\) \\[F=ma\\]\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important."
+  },
+  {
+    "objectID": "authoring.html#placing-colorbars",
+    "href": "authoring.html#placing-colorbars",
+    "title": "authoring",
+    "section": "8 Placing Colorbars",
+    "text": "8 Placing Colorbars\nColorbars indicate the quantitative extent of image data. Placing in a figure is non-trivial because room needs to be made for them. The simplest case is just attaching a colorbar to each axes:1.\n1 See the Matplotlib Gallery to explore colorbars further\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nfig, axs = plt.subplots(2, 2)\nfig.set_size_inches(20, 8)\ncmaps = ['RdBu_r', 'viridis']\nfor col in range(2):\n    for row in range(2):\n        ax = axs[row, col]\n        pcm = ax.pcolormesh(\n          np.random.random((20, 20)) * (col + 1),\n          cmap=cmaps[col]\n        )\n        fig.colorbar(pcm, ax=ax)\nplt.show()"
+  },
+  {
+    "objectID": "authoring.html#references",
+    "href": "authoring.html#references",
+    "title": "authoring",
+    "section": "9 References",
+    "text": "9 References"
+  }
+]
