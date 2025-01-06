@@ -29,8 +29,8 @@ website:
       #- teaching.qmd
       #- research.qmd
       #- professional.qmd
-      - text: "class text"
-        href: https://qstbb.pa.msu.edu/storage/ISP220_fall2020/QS&BB2020/intro.html
+      #- text: "class text"
+      #  href: https://qstbb.pa.msu.edu/storage/ISP220_fall2020/QS&BB2020/intro.html
       - stories.qmd
     
       #- about3.qmd
