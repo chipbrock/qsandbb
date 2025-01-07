@@ -26,6 +26,7 @@ website:
           - professional.qmd
       #- me.qmd
       - QSBB.qmd
+      - stories.qmd
       #- teaching.qmd
       #- research.qmd
       #- professional.qmd
