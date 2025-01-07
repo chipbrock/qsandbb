@@ -16,18 +16,21 @@ title-block-banner: false
 ::: {.column width="40%"}
 # Series {-}
 
-##### [ggplot2-series](ggplot-series.html) {-}
+<!-- ##### [ggplot2-series](ggplot-series.html) {-}
 This series contains a great deal of tips, tricks and packages 
-that you can use to level up your ggplot game.
+that you can use to level up your ggplot game. -->
 
-##### [some_other-series](some_other-series.html) {-}
-This series contains a great deal of tips, tricks and packages 
-that you can use to level up your ggplot game.
+##### [SERIES-particle_biographies](SERIES-particle_biographies.html) {-}
+Particles were invented or discovered.
+
+##### [SERIES-particle_physics_tools](SERIES-particle_physics_tools.html) {-}
+Feynman Diagrams and particle detectors
 :::
 
 ::: {.column width="60%"}
-# Categories {-}
-some description of the themes
+#  . {-}
+##### [SERIES-particle_physics_tools](SERIES-particle_physics_tools.html) {-}
+How to draw Feynman Diagrams.
 :::
 
 :::: 

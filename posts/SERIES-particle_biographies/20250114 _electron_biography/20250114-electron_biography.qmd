@@ -1,0 +1,14 @@
+---
+title: "Electrons"
+author: "Chip Brock"
+description: "The Story of Electrons"
+date: "today"
+categories: [particles, particle_physics] # self-defined categories
+image: chip.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+fig-cap-location: margin
+---
+
+# Electrons, Biography
+
+the story of electrons

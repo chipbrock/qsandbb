@@ -1,0 +1,12 @@
+---
+title: "Particle Detectors, 1"
+author: "Chip Brock"
+description: "Ionization detectors"
+date: "today"
+categories: [detectors, particles] # self-defined categories
+image: chip.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+fig-cap-location: margin
+---
+
+Particle Detectors

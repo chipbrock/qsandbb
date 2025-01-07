@@ -1,0 +1,12 @@
+---
+title: "Feynman Diagrams, 1"
+author: "Chip Brock"
+description: "An introduction to Feynman Diagrams"
+date: 10-24-2022
+categories: [feynman_diagrams, test] # self-defined categories
+image: chip.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+fig-cap-location: margin
+---
+
+This is the first post on Feynman Diagrams. 
