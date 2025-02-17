@@ -1,0 +1,17 @@
+---
+title: "Series: Experiment Stories" 	# the title of the first Series A1 page
+listing:
+  contents: posts/SERIES-experiment_stories 	# the folder that contains the Series posts
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, reading-time, description]
+page-layout: full
+title-block-banner: true
+sidebar:
+  contents: auto
+---
+
+Every experiment is a story or a collection of stories. Here are some important ones.

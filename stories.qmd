@@ -9,28 +9,32 @@ listing:
   sort-ui: true
   filter-ui: true
 page-layout: full
-title-block-banner: false
+title-block-banner: A9A9A9
 ---
+The title of the site is the title of a course I taught for non-science students at Michigan State. My plan is to "rebroadcast" the content of Quarks, Spacetime, and the Big Bang to a bigger audience. What exists here now is a shell.
+
 :::: {.columns}
+::: {.column width="50%"}
+##### [SERIES: particle biographies](SERIES-particle_biographies.html) {-}
+Particles, invented or discovered.
 
-::: {.column width="40%"}
-# Series {-}
+##### [SERIES: people biographies](SERIES-people_biographies.html) {-}
+People
 
-<!-- ##### [ggplot2-series](ggplot-series.html) {-}
-This series contains a great deal of tips, tricks and packages 
-that you can use to level up your ggplot game. -->
-
-##### [SERIES-particle_biographies](SERIES-particle_biographies.html) {-}
-Particles were invented or discovered.
-
-##### [SERIES-particle_physics_tools](SERIES-particle_physics_tools.html) {-}
-Feynman Diagrams and particle detectors
+##### [SERIES: math refresher](SERIES-math_refresher.html) {-}
+From review to new.
 :::
 
-::: {.column width="60%"}
-#  . {-}
-##### [SERIES-particle_physics_tools](SERIES-particle_physics_tools.html) {-}
-How to draw Feynman Diagrams.
+::: {.column width="50%"}
+
+##### [SERIES: particle physics tools](SERIES-particle_physics_tools.html) {-}
+Feynman Diagrams & detectors
+
+##### [SERIES: experiment stories](SERIES-experiment_stories.html) {-}
+Experiments
+
+##### [SERIES: musings](SERIES-mustings.html) {-}
+Thoughts
 :::
 
 :::: 

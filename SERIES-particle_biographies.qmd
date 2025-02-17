@@ -11,3 +11,5 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
+
+This is a SERIES collection of the biographies of particles---whether invented or discovered. 

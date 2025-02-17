@@ -32,6 +32,15 @@ website:
       #- professional.qmd
       #- about3.qmd
       #- authoring.qmd
+  sidebar: 
+    - id: id-feynman_diagrams
+      title: "cheese"
+      style: "docked"
+      background: light
+    - id: id-particle_bio
+      title: "particles"
+      style: "docked"
+      background: light
 
 format:
   html:
@@ -41,5 +50,4 @@ format:
     toc: true
     html-math-method: mathjax
 reference-location: margin
-
 
