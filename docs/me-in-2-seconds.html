@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-87e10319fa95cd767c9f8cc5c7c0c073.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -162,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 <p>I’m a “University Distinguished Professor” in the Physics and Astronomy Department at MSU, and on the MSU faculty since 1982. Before that, I was a postdoc at Fermilab, a graduate student at Northern Illinois University and then Carnegie Mellon University (Ph.D., Physics). These days, I also serve as an Adjunct Professor of Physics at Arizona State University.</p>
 <p>My bachelor’s degree is in Electrical Engineering from Iowa State University, but I switched gears after working in private industry for a short while. I went on to earn an MS in Physics and Philosophy of Science from Northern Illinois University and then completed my Ph.D.&nbsp;at Carnegie Mellon University, focusing on both theoretical and experimental elementary particle physics.</p>
 <p>Like many scientists, I owe my inspiration to a great high school science teacher. For me, that was Walter Hauswald at Sycamore High School. He let me help with class prep and encouraged me to explore topics like quantum mechanics outside of class. I was lucky to have him for all three years of my high school physical science courses, and I even dedicated my Ph.D.&nbsp;thesis to him.</p>
-<p>My family is important to me. My wife and I have been married for more than 50 years and have two grown children, Kimberly and Terry who is married to Ashleigh who gave us our grandtwins, Emma and Hannah.</p>
+<p>My family is important to me. Janet and I have been married for more than 50 years and immensely enjoy our two grown kids and grandtwins.</p>
 
 
 
@@ -249,8 +249,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -361,7 +359,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
