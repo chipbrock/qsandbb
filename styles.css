@@ -3,7 +3,7 @@
   font-size: 2.1rem;
 }
 #quarto-document-content p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 /* Increase font size for the list of posts and descriptions under ## Posts */
@@ -20,7 +20,7 @@ ol {
 /* trying to fake the appearance of the index page */
 .custom-intro,
 .custom-intro p {
-  font-size: 1.1rem !important;
+  font-size: 1.2rem !important;
   font-family: Helvetica, Arial, sans-serif !important;
   color: rgba(0, 0, 0, 0.45) !important;
   line-height: 1.6 !important;
@@ -41,6 +41,7 @@ ol {
   vertical-align: middle;
 }
 */
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
@@ -84,6 +85,14 @@ a {
 a:hover {
   color: #4563A7 !important;
 }
+
+/*.site-logo {
+  max-height: 60px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+*/
 
 /* logo */
 .navbar-brand {
