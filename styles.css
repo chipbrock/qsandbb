@@ -104,6 +104,17 @@ a:hover {
 /* Reduce space above blog title block on index pages */
 .quarto-title-block .title {
   margin-top: 0.2rem !important;
+  font-size: 2rem;
+}
+
+div.listing-description {
+  font-size: 1.0rem;
+  margin-top: 0.3rem;
+}
+div.description {
+  font-size: 1.15rem;
+  margin-top: 1rem;
+  color: #444;
 }
 
 /* Tighten up spacing on blog index pages */
