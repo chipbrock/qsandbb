@@ -85,7 +85,11 @@ a:hover {
   color: #4563A7 !important;
 }
 
-
+/* logo */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
 /* messing with the vertical space */
 
 /* Reduce space above blog title block on index pages */
