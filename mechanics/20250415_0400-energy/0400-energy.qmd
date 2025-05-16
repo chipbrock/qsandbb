@@ -1,0 +1,23 @@
+---
+title: "4.00 energy"
+categories: [Mechanics]
+description: "energy post content"
+draft: true
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Mechanics</a> › <strong>energy</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 15, 2025
+</div>
+
+---
+
+Write your content here.
+
+---
+::: {.post-nav}
+← [Previous: 3.00 collisions](../20250415_0300-collisions/0300-collisions.html)
+:::

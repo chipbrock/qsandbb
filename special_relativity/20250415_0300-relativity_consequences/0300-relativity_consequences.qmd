@@ -1,0 +1,23 @@
+---
+title: "3.00 Relativity consequences"
+categories: [Special_relativity]
+description: "Relativity consequences post content"
+draft: true
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Special_relativity</a> › <strong>Relativity consequences</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 15, 2025
+</div>
+
+---
+
+Write your content here.
+
+---
+::: {.post-nav}
+← [Previous: 2.00 Relativity postulates](../20250415_0200-relativity_postulates/0200-relativity_postulates.html) | [Next: 4.00 Relativitiy and energy](../20250415_0400-relativitiy_and_energy/0400-relativitiy_and_energy.html)
+:::

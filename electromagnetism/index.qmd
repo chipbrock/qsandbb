@@ -1,0 +1,27 @@
+---
+title: Electromagnetism
+sidebar: electromagnetism
+format:
+  html:
+    toc: true
+    toc-location: right
+    number-sections: true
+author: Chip Brock
+date: '2025-04-01T01:40:45'
+categories: [electromagnetism]
+draft: true
+---
+
+# Electromagnetism Topics
+
+## Overview
+
+Introductory content for Electromagnetism.
+
+## Posts
+
+- [1.00 charges and magnets](20250415_0100-charges_and_magnets/0100-charges_and_magnets.qmd)
+- [2.00 Faraday’s experiments](20250415_0200-faradays_experiments/0200-faradays_experiments.qmd)
+- [3.00 Faraday’s fields](20250415_0300-faradays_fields/0300-faradays_fields.qmd)
+- [4.00 Maxwell’s fields](20250415_0400-maxwells_fields/0400-maxwells_fields.qmd)
+

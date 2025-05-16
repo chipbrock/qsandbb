@@ -1,0 +1,23 @@
+---
+title: "2.00 Faraday’s experiments"
+categories: [Electromagnetism]
+description: "Faraday’s experiments post content"
+draft: true
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Electromagnetism</a> › <strong>Faraday’s experiments</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 15, 2025
+</div>
+
+---
+
+Write your content here.
+
+---
+::: {.post-nav}
+← [Previous: 1.00 charges and magnets](../20250415_0100-charges_and_magnets/0100-charges_and_magnets.html) | [Next: 3.00 Faraday’s fields](../20250415_0300-faradays_fields/0300-faradays_fields.html)
+:::

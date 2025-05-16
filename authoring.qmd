@@ -1,6 +1,7 @@
 
 ---
 title: "Authoring Page"
+draft: true
 ---
 
 ## Colors

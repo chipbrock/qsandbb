@@ -1,0 +1,43 @@
+---
+title: Feynman Diagrams
+#sidebar: feynman-diagrams
+listing: 
+  contents: 
+    - ./**/*.qmd
+  type: default
+  sort: "title desc" # can also sort on more than one field
+  fields: [title, reading-time, description, categories]
+  categories: true # allows you to sort posts by assigned categories 
+  sort-ui: true
+  filter-ui: true
+format:
+  html:
+    toc: true
+    toc-location: right
+    number-sections: true
+#author: Chip Brocks
+#date: '2025-04-01T01:40:45'
+categories: [feynman_diagrams]
+page-layout: full
+title-block-banner: A9A9A9
+draft: true
+---
+
+# Feynman Diagrams Topics
+
+## Overview
+
+Introductory content for Feynman Diagrams.
+
+## Posts
+
+- [1.00 what is a particle interaction](20250413_0100-what_is_a_particle_interaction/0100-what_is_a_particle_interaction.qmd)
+- [2.00 what is a feynman diagram](20250413_0200-what_is_a_feynman_diagram/0200-what_is_a_feynman_diagram.qmd)
+
+- [3.00 two kinds of diagrams](20250413_0300-two_kinds_of_diagrams/0300-two_kinds_of_diagrams.qmd)
+- [4.00 some relativity ideas](20250413_0400-some_relativity_ideas/0400-some_relativity_ideas.qmd)
+
+- [5.00 a primitive diagram](20250413_0500-a_primitive_diagram/0500-a_primitive_diagram.qmd)
+
+
+

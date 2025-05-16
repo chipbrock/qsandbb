@@ -1,0 +1,119 @@
+---
+title: "2.00 Relativity postulates"
+categories: [Special_relativity]
+description: "Relativity postulates post content"
+draft: true
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Special_relativity</a> › <strong>Relativity postulates</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 15, 2025
+</div>
+
+---
+
+Write your content here.
+
+---
+::: {.post-nav}
+← [Previous: 1.00 Before relativity](../20250415_0100-before_relativity/0100-before_relativity.html) | [Next: 3.00 Relativity consequences](../20250415_0300-relativity_consequences/0300-relativity_consequences.html)
+:::
+---
+title: Special relativity
+sidebar: special-relativity
+format:
+  html:
+    toc: true
+    toc-location: right
+    number-sections: true
+author: Chip Brock
+date: '2025-04-01T01:40:45'
+categories: [special_relativity]
+draft: true
+---
+
+# Special Relativity Topics
+
+## Overview
+
+Introductory content for Special Relativity.
+
+## Posts
+
+- [1.00 Before relativity](20250415_0100-before_relativity/0100-before_relativity.qmd)
+- [2.00 Relativity postulates](20250415_0200-relativity_postulates/0200-relativity_postulates.qmd)
+- [3.00 Relativity consequences](20250415_0300-relativity_consequences/0300-relativity_consequences.qmd)
+- [4.00 Relativitiy and energy](20250415_0400-relativitiy_and_energy/0400-relativitiy_and_energy.qmd)
+
+---
+title: "1.00 Before relativity"
+categories: [Special_relativity]
+description: "Before relativity post content"
+draft: true
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Special_relativity</a> › <strong>Before relativity</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 15, 2025
+</div>
+
+---
+
+Write your content here.
+
+---
+::: {.post-nav}
+[Next: 2.00 Relativity postulates](../20250415_0200-relativity_postulates/0200-relativity_postulates.html)
+:::
+---
+title: "3.00 Relativity consequences"
+categories: [Special_relativity]
+description: "Relativity consequences post content"
+draft: true
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Special_relativity</a> › <strong>Relativity consequences</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 15, 2025
+</div>
+
+---
+
+Write your content here.
+
+---
+::: {.post-nav}
+← [Previous: 2.00 Relativity postulates](../20250415_0200-relativity_postulates/0200-relativity_postulates.html) | [Next: 4.00 Relativitiy and energy](../20250415_0400-relativitiy_and_energy/0400-relativitiy_and_energy.html)
+:::
+---
+title: "4.00 Relativitiy and energy"
+categories: [Special_relativity]
+description: "Relativitiy and energy post content"
+draft: true
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Special_relativity</a> › <strong>Relativitiy and energy</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 15, 2025
+</div>
+
+---
+
+Write your content here.
+
+---
+::: {.post-nav}
+← [Previous: 3.00 Relativity consequences](../20250415_0300-relativity_consequences/0300-relativity_consequences.html)
+:::

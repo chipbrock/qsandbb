@@ -1,0 +1,217 @@
+<div id="glowscript" class="glowscript">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" href="https://www.glowscript.org/css/redmond/2.1/jquery-ui.custom.css" rel="stylesheet" />
+<link type="text/css" href="https://www.glowscript.org/css/ide.css" rel="stylesheet" />
+<script type="text/javascript" src="https://www.glowscript.org/lib/jquery/2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.glowscript.org/lib/jquery/2.1/jquery-ui.custom.min.js"></script>
+<script type="text/javascript" src="https://www.glowscript.org/package/glow.3.2.min.js"></script>
+<script type="text/javascript" src="https://www.glowscript.org/package/RSrun.3.2.min.js"></script>
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+// START JAVASCRIPT
+;(function() {;
+var ρσ_modules = {};
+var running, v1_now, v2_now, collision_done;
+ρσ_modules.pythonize = {};
+
+(function(){
+    function strings() {
+        var string_funcs, exclude, name;
+        string_funcs = set("capitalize strip lstrip rstrip islower isupper isspace lower upper swapcase center count endswith startswith find rfind index rindex format join ljust rjust partition rpartition replace split rsplit splitlines zfill".split(" "));
+        if (!arguments.length) {
+            exclude = (function(){
+                var s = ρσ_set();
+                s.jsset.add("split");
+                s.jsset.add("replace");
+                return s;
+            })();
+        } else if (arguments[0]) {
+            exclude = Array.prototype.slice.call(arguments);
+        } else {
+            exclude = null;
+        }
+        if (exclude) {
+            string_funcs = string_funcs.difference(set(exclude));
+        }
+        var ρσ_Iter0 = string_funcs;
+        ρσ_Iter0 = ((typeof ρσ_Iter0[Symbol.iterator] === "function") ? (ρσ_Iter0 instanceof Map ? ρσ_Iter0.keys() : ρσ_Iter0) : Object.keys(ρσ_Iter0));
+        for (var ρσ_Index0 of ρσ_Iter0) {
+            name = ρσ_Index0;
+            (ρσ_expr_temp = String.prototype)[(typeof name === "number" && name < 0) ? ρσ_expr_temp.length + name : name] = (ρσ_expr_temp = ρσ_str.prototype)[(typeof name === "number" && name < 0) ? ρσ_expr_temp.length + name : name];
+        }
+    };
+    if (!strings.__module__) Object.defineProperties(strings, {
+        __module__ : {value: "pythonize"}
+    });
+
+    ρσ_modules.pythonize.strings = strings;
+})();
+async function __main__() {
+"use strict";
+    var display = canvas;
+    var scene = canvas();
+
+    function round(num, n=0) {return Number(num.toFixed(n))}
+
+    var version, print, arange, __name__, type, ρσ_ls, mass_ratio, v1, v2, x1_init, x2_init, r1, r2, beam_color, target_color, ball1, ball2, m1, m2, v1_now, v2_now, dt, collision_done, running, ρσ_unpack, v1f, v2f, summary_text, run_button;
+    version = ρσ_list_decorate([ "3.2", "glowscript" ]);
+    Array.prototype['+'] = function(r) {return this.concat(r)}
+    Array.prototype['*'] = function(r) {return __array_times_number(this, r)}
+    window.__GSlang = "vpython";
+    print = GSprint;
+    arange = range;
+    __name__ = "__main__";
+    type = pytype;
+    var strings = ρσ_modules.pythonize.strings;
+
+    strings();
+    "5";
+    mass_ratio = .5;
+    "6";
+    v1 = 2;
+    "7";
+    v2 = 1["-u"]()["*"](3);
+    "8";
+    x1_init = 1["-u"]()["*"](10);
+    "9";
+    x2_init = 0;
+    "10";
+    r1 = .4;
+    "11";
+    r2 = .4;
+    "14";
+    beam_color = vector(218["/"](255), 97["/"](255), 54["/"](255));
+    "15";
+    target_color = vector(66["/"](255), 86["/"](255), 162["/"](255));
+    "18";
+    scene.width = 800;
+    "19";
+    scene.height = 400;
+    "20";
+    scene.background = color.white;
+    "21";
+    scene.range = 12;
+    "22";
+    scene.title = "1D Elastic Collision with Run/Reset";
+    "25";
+    ball1 = ρσ_interpolate_kwargs.call(this, sphere, [ρσ_desugar_kwargs({pos: vector(x1_init, 0, 0), radius: r1, color: beam_color})]);
+    "26";
+    ball2 = ρσ_interpolate_kwargs.call(this, sphere, [ρσ_desugar_kwargs({pos: vector(x2_init, 0, 0), radius: r2, color: target_color})]);
+    "29";
+    m1 = mass_ratio;
+    "30";
+    m2 = 1;
+    "31";
+    v1_now = v1;
+    "32";
+    v2_now = v2;
+    "33";
+    dt = .01;
+    "34";
+    collision_done = false;
+    "35";
+    running = false;
+    "37";
+    async function compute_final_velocities(m1, m2, v1, v2) {
+        var ρσ_ls, v1f, v2f;
+        "38";
+        v1f = m1["-"](1["*"](m2))["/"](m1["+"](m2))["*"](v1)["+"](2["*"](m2)["/"](m1["+"](m2))["*"](v2));
+        "39";
+        v2f = 2["*"](m1)["/"](m1["+"](m2))["*"](v1)["+"](m2["-"](1["*"](m1))["/"](m1["+"](m2))["*"](v2));
+        "40";
+        return [v1f, v2f];
+    };
+    if (!compute_final_velocities.__argnames__) Object.defineProperties(compute_final_velocities, {
+        __argnames__ : {value: ["m1", "m2", "v1", "v2"]},
+        __module__ : {value: null}
+    });
+
+    "42";
+    ρσ_unpack = (await compute_final_velocities(m1, m2, v1, v2));
+ρσ_unpack = ρσ_unpack_asarray(2, ρσ_unpack);
+    v1f = ρσ_unpack[0];
+    v2f = ρσ_unpack[1];
+    "55";
+    summary_text = "\nElastic Collision Summary:\n\nInitial:\n  m₁/m₂ = "["+"](ρσ_str.format("{:.2f}", mass_ratio))["+"]("\n  v₁ = ")["+"](ρσ_str.format("{:.2f}", v1))["+"](", v₂ = ")["+"](ρσ_str.format("{:.2f}", v2))["+"]("\n\nFinal:\n  v₁′ = ")["+"](ρσ_str.format("{:.2f}", v1f))["+"]("\n  v₂′ = ")["+"](ρσ_str.format("{:.2f}", v2f))["+"]("\n");
+    "56";
+    ρσ_interpolate_kwargs.call(this, label, [ρσ_desugar_kwargs({pos: vector(1["-u"]()["*"](11), 1["-u"]()["*"](2.5), 0), text: summary_text, height: 12, box: false, align: "left", color: color.black})]);
+    "60";
+    async function run_action(btn) {
+        "61";
+        "62";
+        running = true;
+        "63";
+        btn.text = "Running...";
+    };
+    if (!run_action.__argnames__) Object.defineProperties(run_action, {
+        __argnames__ : {value: ["btn"]},
+        __module__ : {value: null}
+    });
+
+    "65";
+    async function reset_action() {
+        "66";
+        "67";
+        ball1.pos = vector(x1_init, 0, 0);
+        "68";
+        ball2.pos = vector(x2_init, 0, 0);
+        "69";
+        v1_now = v1;
+        "70";
+        v2_now = v2;
+        "71";
+        collision_done = false;
+        "72";
+        running = false;
+        "73";
+        run_button.text = "Run";
+    };
+    if (!reset_action.__module__) Object.defineProperties(reset_action, {
+        __module__ : {value: null}
+    });
+
+    "75";
+    run_button = ρσ_interpolate_kwargs.call(this, button, [ρσ_desugar_kwargs({text: "Run", bind: run_action})]);
+    "76";
+    ρσ_interpolate_kwargs.call(this, button, [ρσ_desugar_kwargs({text: "Reset", bind: reset_action})]);
+    "79";
+    while (true) {
+        "80";
+        (await rate(200));
+        "81";
+        if (!running) {
+            "82";
+            continue;
+        }
+        "84";
+        ball1.pos.x=ball1.pos.x["+"](v1_now["*"](dt));
+        "85";
+        ball2.pos.x=ball2.pos.x["+"](v2_now["*"](dt));
+        "87";
+        if (!collision_done && abs(ball1.pos.x["-"](1["*"](ball2.pos.x)))["<="](r1["+"](r2))) {
+            "88";
+            ρσ_unpack = (await compute_final_velocities(m1, m2, v1_now, v2_now));
+ρσ_unpack = ρσ_unpack_asarray(2, ρσ_unpack);
+            v1_now = ρσ_unpack[0];
+            v2_now = ρσ_unpack[1];
+            "89";
+            collision_done = true;
+            "91";
+        }
+        if (abs(ball1.pos.x)[">"](12) || abs(ball2.pos.x)[">"](12)) {
+            "92";
+            running = false;
+            "93";
+            run_button.text = "Run";
+        }
+    }
+};
+if (!__main__.__module__) Object.defineProperties(__main__, {
+    __module__ : {value: null}
+});
+
+;$(function(){ window.__context = { glowscript_container: $("#glowscript").removeAttr("id") }; __main__() })})()
+// END JAVASCRIPT
+
+//--><!]]></script>
+</div>

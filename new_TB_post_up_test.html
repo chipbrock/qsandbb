@@ -1,0 +1,20 @@
+cat <<EOF>
+  "$POST_PATH" --- title: "$TITLE" image: "logo_orange_words.png" categories:
+  [$CATEGORY] description: "$DESCRIPTION" draft: false ---
+
+  <div class="breadcrumb">
+    <a href="../../stories.html">Stories</a> >
+    <a href="../index.qmd">TOC $CATEGORY</a> > <strong>$TITLE</strong>
+  </div>
+
+  <div style="font-size: 0.85em; color: #555; margin-top: 0.5em">
+    Author: Chip Brock · Published: $(date +"%B %d, %Y")
+  </div>
+
+  ::: {.post-nav} ← [Previous: TITLE](../YYYYMMDD_placeholder/placeholder.qmd) |
+  [Next: TITLE](../YYYYMMDD_placeholder/placeholder.qmd) ::: --- :::
+  {.column-margin} ![](logo_orange_words.png){ width=120px } ::: Watch this
+  space. --- ::: {.post-nav} ← [Previous:
+  TITLE](../YYYYMMDD_placeholder/placeholder.qmd) | [Next:
+  TITLE](../YYYYMMDD_placeholder/placeholder.qmd) ::: EOF
+</EOF>

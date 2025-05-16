@@ -1,0 +1,125 @@
+---
+title: "4.00 proof"
+image: "bsquirell.png"
+categories: [NOS, draft]
+description: "ℹ️ **README:** proof post content"
+draft: false
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Nos</a> > <strong>proof</strong>
+</div>
+::: {.post-nav}
+👈 [Previous: 3.00 truth](../20250514_0300-truth/0300-truth.html) | [Next: 5.00 models](../20250514_0500-models/0500-models.html) 👉
+:::
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: May 14, 2025
+</div>
+
+---
+
+::: {.column-margin}
+![](bsquirell.png){ width=100% }
+:::
+
+## Theories cannot be proven.
+
+“Just the facts, Ma’am.” An iconic catch-phrase uttered by Detective Joe Friday on the 1950’s crime show, *Dragnet*. Everyone knows what a fact is, right? Well it’s a fact that Joe Friday never said that line in the TV program, but ask anyone over the age of 60 and chances are that they will agree that it’s a fact that Detective Friday uttered that line in every episode. But he didn’t. That’s an urban myth born of a popular 1953 spoof of the program, *Little Blue Riding Hood*. Google it and listen (it’s only 3 minutes).
+
+"Fact" is another one of those words. You might want to say that science consists of facts arranged in order to support or define theories...or just collect data or artifacts. There’s an assumption built into that sentiment: on the one hand there are facts about the world and on the other hand, there are opinions about the world and science works hard to separate the two…and reserve “facts” as the fuel for theories and guard against opinion from influencing that process. That’s the case. But like Law, this burden given to “fact” sometimes assigns to it the responsibility of being a “true thing.” But even in everyday life, let alone in nearly every crime novel ever written, facts depend on *evidence* and evidence is a set of informed observations. And observations change, they evolve, or they can be mistaken.
+
+A plausible-sounding, if simplified cartoon of the scientific method might be: evidence $\to$ facts $\to$ Laws. But if Laws are not forever, where in this chain does uncertainty sneak in? Obviously, it’s that evidence and facts are not permanent. It was a fact that the evidence pointed to the fact that all objects move slower than the speed of light, but when the evidence appeared to change we were prepared to dispute the theory and so Relativity as a Law in the Florida-sense didn’t fit. 
+
+More appropriate is a chain that goes like: evidence $\to$ facts $\to$ theories. And then depending on the accumulation of the evidence that justify the facts, we have theories we trust a lot and theories we’re just beginning to get to know. But since evidence is contingent, facts are contingent, and so theories are contingent. Any or all can change and it takes a professional scientist to know when to pull the plug on any one of them.
+
+
+## It is not possible to prove a theory.
+
+Okay, if you’re with me this far, you’re tentatively prepared to go along with the idea that indeed, it’s theories all the way down. Our theories are supported by facts which in turn are justified by evidence. But if the established facts support the theory, doesn’t that “prove” it?
+
+> **Wait.** Doesn’t that just take us back to Laws as “proven theories”? 
+>
+> **Glad you asked.** That sounds like a word-game, but it’s more. Can there every be enough evidence? 
+
+### Frogs and Squirrels: Proof
+
+My impression of the *normal* use of “prove" — and yours, I’ll bet—implies something that’s final and beyond question. Its everyday usage probably comes from memories of mathematical proofs, which are iron-clad processes of reaching a conclusion through a series of **deductions** from a set of premises. Look at this figure:
+
+syllogysm.png *If the words were not enough, a Venn diagram should make it unavoidably clear: C is all within A, so Socrates is mortal. Can’t get any more confident of the conclusion than this!*
+
+The blue figure represents all men who are Socrates, the green circle represents all people who are men, and the red circle represents all mortals who are men. It’s logically impossible to claim that this diagram would allow any Socrates to not also be mortal.
+
+This is the essence of one of the simplest forms of deductive reasoning called the *syllogism*. It was Aristotle’s invention and his favorite and this is his example which is as obvious today as it was for Aristotle’s students and friends. Even if it’s not written in ancient Greek! Here it is in its formal layout:
+
+- All men are mortal.
+- Socrates is a man.
+- Therefore, Socrates is mortal.
+
+The power of this is not about Socrates, but the general nature of the form of the argument. It’s mathematical in nature. Do you remember the "transitive property" of arithmetic? If $A = B$ and $B=C$ then $A=C$? This is precisely the same story about Socrates but dressed up to look like middle school math without any reference to a gadfly philosopher or the species of men. Within the tight little universe of the assertions and the conclusion, there is no room for dispute in a deductive argument: Socrates can be nothing but mortal, $A$ cannot be anything but $C$.
+
+Since deduction is how you go from one point to the next in a proof, it’s easy to see why “proof” carries a heavy responsibility and that’s the problem with using the word “proof” in a scientific context.
+
+Rene Descartes in the 17th century was the paradigm deduction champion at the beginning of modern western philosophy and tried to take that method into physics (which was called natural philosophy). Newton was at first a fan, but then changed his tune.
+
+Do you learn anything new from a deductive proof? In going from premises to conclusion nothing entered the process that wasn’t already there to begin with, so the conclusion seems to be "inside" of the premises all along! This was so important to Plato, that he decided that one already knows mathematics and that you are actually remembering things in a deductive proof that you already knew. You’d just forgotten.
+
+Just to be perverse, here’s another syllogism of exactly the same form as the previous one:
+
+- All frogs are coffee pots.
+- This animal is a frog.
+- Therefore, this animal is a coffee pot.
+
+This has exactly the same validity as the Socrates example—it fits the Venn diagram. But nobody would accuse a frog of being a kitchen appliance. Obviously, the viability of the premises in a deductive argument makes the whole thing sensible...or nonsense. Dare I ask, is it a fact that frogs are coffee pots? If it were so, then the syllogism is not only formally correct, but also leads to a reasonable conclusion about green amphibians.
+
+Does science work this way? There was a time in the 17th and 18th century—the "Scientific Revolution" time—when marvels were being unearthed and thousands of years-old puzzles were being explained. The successes were so impressive that it came to be appreciated that maybe this new invention of science must be taking us directly to nature’s truths. We now know that science is not that clean.
+
+Before I moved to East Lansing I’d seen lots of squirrels in my life. They were all brown and I had created a Theory of Squirrels in my brain that said, "All squirrels are brown." Indeed, I would have said that it was a fact that squirrels are brown and that fact was justified by my many observations of squirrels, all of which were brown. That’s lots of squirrels.
+
+Imagine my surprise in 1980 when I saw hundreds of black squirrels in my new Michigan town. My justification took a turn for the worse. My theory of squirrels was defeated. (Luckily I’d not announced a Law of Squirrels!) I later learned that the black squirrel had been intentionally brought to the Michigan State campus in the 1950s and obviously spread to town. So if I’d moved to Michigan in the 1940’s my theory of squirrels would have received continued justification.
+
+I was reminded that reasoning by induction is risky and that facts can change.
+
+Remember **induction**? It’s “the other” form of reasoning where you observe a pattern or some process over and over—maybe under controlled (scientific?) conditions—and then abstract from those observations to a general statement of fact. The facts are a statement of what I know up until now, but my theory is a framework that permits me to predict the future. You can imagine that for the first 30 years of my life I was constantly uttering: 
+
+“There’s a brown squirrel. 
+
+There’s another brown squirrel. 
+
+There’s another brown squirrel. 
+
+There’s another brown squirrel. 
+
+There’s another brown squirrel.”
+
+In my 20’s maybe: “It is a fact that my observed squirrels are all brown.”
+
+Then, triumphantly, “My theory of squirrels is that all squirrels are brown.”
+
+That’s induction. But a theory that comes from induction is subject to modification or even rejection since only a single instance can disappoint. (By the way, I’d insist that every observation of a brown squirrel was factual! I was justified in every observation that brownness was what that squirrel presented to me.
+
+Certainly there’s a lot of induction in science. In fact Galileo’s contemporary and correspondent Francis Bacon enthusiastically built a case for science based on induction—at about the same time that Descartes did the same thing for deduction. Both have their uses today. A mathematical physicist is likely to be deducing consequences of theories and models, an experimental physicist is likely to be inductively drawing conclusions from patterns in data, while that same experimental physicist is likely to be using deduction in the process of debugging malfunctioning equipment, and an electrical engineer or scientist designing digital electronic circuits will be deeply immersed in the individual components in a circuit that explicitly uses deductive logic.
+
+So one logical size doesn’t fit all, but it’s even more interesting. A case can be made that the process that’s closest to a recognizable science is the form of reasoning called **abduction** which is more like what a detective does, at least in fiction. One *reasons to the most likely conclusion*. You do this all the time:
+
+>Suppose your car won’t start. There are a thousand reasons why that be the case: it could be fairies, it could be an evil spell, it could be a prank from your roommate (who’s always a pain), it could be that your battery is old and you listened to the radio last night after shutting off the engine, it could be that you’re out of gas. Because of a variety of experiences you’ve had regarding mystical creatures, magic, the fact that your roommate is out of town, how batteries are rumored to work, and that you’d filled your tank the day before would cause you to *abduct* to the conclusion that your battery is probably discharged because of its age. Abduction is the most recognizable form of reasoning that scientists generally engage in. It involves expertise, it is not iron-clad (you could have a leak in your gas tank), and it’s not based on a string of observations like brown squirrels.
+
+<p class="pullquote"  markdown="1">
+Was Sherlock Holmes the Master of Deduction? Nope. He was the Master of Abduction.
+</p>
+
+
+Can you imagine that it’s hard to be sure? Absolutely, without a shadow of a doubt, sure about something that’s discovered in nature? We cannot be. The assumption about frogs and coffee pots might have come from an abductive process, and a chain of deductive logic might lead you to a conclusion that you’d like to declare is a true statement about nature. But we’d have been wrong.
+
+We’ll see below that what we test are models of nature. The consequences of a model are deductive in that the chain of reasoning leads from assumptions to what should happen in the future—a prediction. It’s those pesky assumptions that make the whole process contingent and impermanent: no absolute truth and certainly no proof. I’ll leave you with this:
+
+- Particles cannot go faster than the speed of light.
+- Neutrinos are particles.
+- Neutrinos cannot go faster than the speed of light.
+
+Had we taken that first premise to be indisputable—true forever and ever and beyond questioning—then we would not have taken the Opera claim seriously. But that’s not how science works and not what the community did. We worked hard to find evidence that the first premise was not a fact (that maybe it was a black squirrel). We’re now more trusting of the conclusion about the speed of light which wouldn’t have occurred without that nervous year.
+
+---
+::: {.post-nav}
+👈 [Previous: 3.00 truth](../20250514_0300-truth/0300-truth.html) | [Next: 5.00 models](../20250514_0500-models/0500-models.html) 👉
+:::

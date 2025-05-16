@@ -1,5 +1,6 @@
 ---
 title: "professional"
+draft: false
 ---
 
 I’ve had the chance to take on a variety of service roles in my field, including with the American Physical Society, as well as serving as a reviewer and advisor for organizations like the Department of Energy, the National Science Foundation, the State of Michigan, and several physics departments.

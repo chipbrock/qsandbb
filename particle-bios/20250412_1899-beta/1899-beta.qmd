@@ -1,0 +1,26 @@
+---
+title: "beta"
+# date: 2025-04-12
+categories: [Particle Bios, draft]
+description: "beta post content"
+draft: true
+---
+
+# beta
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> › <a href="../index.qmd">TOC Particle Bios</a> › <strong>beta</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 12, 2025
+</div>
+
+---
+
+Watch this space.
+
+---
+::: {.post-nav}
+← [Previous: 1881 electron](../20250412_1881-electron/1881-electron.html) | [Next: 1899 alpha](../20250412_1899-alpha/1899-alpha.html)
+:::

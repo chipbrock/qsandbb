@@ -1,0 +1,23 @@
+---
+title: "1937 muon"
+categories: [Particle Bios, draft]
+description: "muon post content"
+draft: true
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Particle Bios</a> › <strong>muon</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 13, 2025
+</div>
+
+---
+
+Watch this space.
+
+---
+::: {.post-nav}
+← [Previous: 1930 electron neutrino](../20250413_1930-electron_neutrino/1930-electron_neutrino.html)
+:::

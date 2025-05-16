@@ -1,0 +1,23 @@
+---
+title: "1930 electron neutrino"
+categories: [Particle Bios, draft]
+description: "electron neutrino post content"
+draft: true
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Particle Bios</a> › <strong>electron neutrino</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 13, 2025
+</div>
+
+---
+
+Watch this space.
+
+---
+::: {.post-nav}
+← [Previous: 1928 positron](../20250413_1928-positron/1928-positron.html) | [Next: 1937 muon](../20250413_1937-muon/1937-muon.html)
+:::

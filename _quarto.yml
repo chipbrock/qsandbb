@@ -1,38 +1,75 @@
 title: "Quarks, Spacetime, and the Big Bang"
 #author: "Chip Brock"
+from: markdown+emoji
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
 render:
-    - "*.qmd"
-    - "!about3.qmd"
-    #- about2.qmd
-    #- index.qmd
-    #- about.qmd
-    #- about2.qmd
+  - "*.qmd"
+  - "!about3.qmd"
+  #- about2.qmd
+  #- index.qmd
+  #- about.qmd
+  #- about2.qmd
 toc: true
 number-sections: true
 highlight-style: pygments
 website:
-  title: "Quarks, Spacetime, and the Big Bang"
+  draft-mode: unlinked
+  #title: "Quarks, Spacetime, and the Big Bang"
+  title: "<img src='/images/logo_orange_words.png' class='site-logo'/> Quarks, Spacetime, and the Big Bang"
+  page-navigation: true
+  back-to-top-navigation: true
   navbar:
     right:
-      - text: about me
-        menu:
-          - me-in-2-seconds.qmd
-          - CV.qmd
-          - teaching.qmd
-          - research.qmd
-          - professional.qmd
+      - text: 👉 start
+        href: QSBB.qmd
+      - text: recent
+        href: stories.qmd
+      #- text: about me
+      #  menu:
+      #    - me-in-2-seconds.qmd
+      #    - CV.qmd
+      #    - teaching.qmd
+      #   - research.qmd
+      #    - professional.qmd
       #- me.qmd
-      - QSBB.qmd
-      - stories.qmd
+      #- QSBB.qmd
+      #- text: then here
+      #  href: once_upon.qmd
+      #- text: sandbox
+      #  href: sandbox.qmd
+      - text: theory?
+        href: trigger.qmd
+      - text: musings
+        href: musings/index.qmd
+      - text: topics
+        menu:
+          - text: Nature of Science
+            href: NOS/index.qmd
+          #- text: All Stories
+          #  href: stories.qmd
+          - text: words
+            href: Words/index.qmd
+          #- text: interesting posts
+          #  href: posts/index.qmd
+          - text: Particle Bios
+            href: particle-bios/index.qmd
+          - text: Feynman Diagrams
+            href: feynman-diagrams/index.qmd
+          - text: Math Review
+            href: math/index.qmd
+          - text: words
+            href: Words/index.qmd
+          # - text: Musings
+          #   href: musings/index.qmd
+      #- stories.qmd
       #- teaching.qmd
       #- research.qmd
       #- professional.qmd
       #- about3.qmd
       #- authoring.qmd
-  sidebar: 
+  sidebar:
     - id: id-feynman_diagrams
       title: "cheese"
       style: "docked"
@@ -47,7 +84,12 @@ format:
     code-fold: true
     theme: cosmo
     css: styles.css
+    mainfont: "EB Garamond, Georgia, serif"
     toc: true
+    reading-time: true
     html-math-method: mathjax
-reference-location: margin
-
+    mathjax:
+      options:
+        chtml:
+          scale: 0.8 # or try 0.85 to reduce more
+#reference-location: margin

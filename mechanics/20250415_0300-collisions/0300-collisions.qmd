@@ -1,0 +1,23 @@
+---
+title: "3.00 collisions"
+categories: [Mechanics]
+description: "collisions post content"
+draft: true
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Mechanics</a> › <strong>collisions</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 15, 2025
+</div>
+
+---
+
+Write your content here.
+
+---
+::: {.post-nav}
+← [Previous: 2.00 momentum and force](../20250415_0200-momentum_and_force/0200-momentum_and_force.html) | [Next: 4.00 energy](../20250415_0400-energy/0400-energy.html)
+:::

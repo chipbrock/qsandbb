@@ -1,5 +1,6 @@
 ---
 title: "teaching"
+draft: false
 ---
 
 Since 1982, I’ve had the opportunity to teach across the entire physics curriculum at Michigan State University. This includes many semesters of large introductory physics lectures, both with and without calculus. At the graduate level, I’ve focused on courses like Particle Physics, Relativistic Quantum Mechanics, Relativistic Quantum Field Theory, and Group Theory. I’ve also enjoyed teaching Modern Physics in the undergraduate curriculum.

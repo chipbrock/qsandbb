@@ -4,7 +4,7 @@ about:
   template: jolla
   image: media/chip_c.jpeg
   #image-shape: round
-  image-width: 21em
+  image-width: 10em
   links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/raymond-brock-47261919/
@@ -18,11 +18,16 @@ about:
       href: https://scholar.google.com/citations?user=vfLYgg8AAAAJ&hl=en
     - text: ORCiD
       href: https://orcid.org/0000-0002-4556-9212
+      
+draft: false
 ---
 
-I’m an experimental particle physicist at Michigan State University, and I’ve benefited from the U.S. public’s support for my research over the past 50 years. Teaching these topics—especially to non-science students—has been one way to give back, and now I’m bringing these ideas to a broader audience beyond the lecture hall.
+<br>
 
-BTW, it's confusing having two names.
+<div class="custom-intro">
+  I’m an experimental particle physicist at Michigan State University and have done my research at [MSU](https://pa.msu.edu/high-energy-physics/index.aspx), [Fermilab](https://www.fnal.gov), [Argonne National Laboratory](https://www.anl.gov), and [CERN](https://home.cern). I specialize in teaching modern physics to non-science students and this blog brings that content to an audience beyond my lecture hall.
+<br><br>Our stories range from descriptive to sophisticated and regardless of your background, you can learn with me. Start with the tab  ☝️ called... “start" and you’ll get the lay of the QS&amp;BB land.
+</div>
 
- 
-All my life I've been "Chip," although my driver's license says "Raymond." Before you ask, nobody claims to know where this started. Please note before being really proud of yourself: "Chip off the old Brock" is not new, it's not funny anymore, and all of you think you were the first to invent it...
+
+| [me in 2 seconds](./me-in-2-seconds.qmd) | [Curriculum Vitae](./CV.qmd) | [teaching](./teaching.qmd) | [research](./research.qmd) | [professional](./professional.qmd) 

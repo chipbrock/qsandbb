@@ -1,0 +1,22 @@
+/* Set page background */
+body {
+  background-color: pink !important;
+}
+
+/* Let the main site container stretch fully */
+main.content {
+  max-width: none !important;
+  width: 100% !important;
+  padding: 1em;
+  border: 3px solid red;
+  margin: 0 auto;
+}
+
+/* Target the about content area inside the Jolla layout */
+div.about-contents {
+  max-width: none !important;
+  width: 100% !important;
+  border: 2px dashed blue;
+  background-color: #ffeeee;
+  padding: 2em;
+}

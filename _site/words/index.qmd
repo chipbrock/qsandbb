@@ -1,0 +1,32 @@
+---
+title: Words
+#sidebar: Words
+listing: 
+  contents: 
+    - ./**/*.qmd
+  type: default
+  sort: "title desc" # can also sort on more than one field
+  fields: [title, reading-time, description, categories]
+  categories: true # allows you to sort posts by assigned categories 
+  sort-ui: true
+  filter-ui: true
+format:
+  html:
+    toc: true
+    toc-location: right
+    number-sections: true
+#author: Chip Brocks
+#date: '2025-04-01T01:40:45'
+categories: [words]
+page-layout: full
+title-block-banner: A9A9A9
+draft: true
+---
+
+:information_source: README. This is a glossary of words that might not be famliar to you...yet.
+
+---
+
+## experiment
+
+An experiment might mean different things in subfields of physics. The most common is an intentional manipulation of nature by assembling apparatus to set up a condition and then measure and record the response to that condition. In astronomy, manipulation of nature isn't possible, but the conditions and the response are driven by the assembly of an observing platform designed for a particular purpose. A telescope can be looking at visible light, but also other wavelenths like microwaves, infrared waves, radio waves, ultraviolet rays, and even particles. In computing I think some would refer to simulation of physical processes as an experiment. 
