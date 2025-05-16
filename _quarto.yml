@@ -3,7 +3,7 @@ title: "Quarks, Spacetime, and the Big Bang"
 from: markdown+emoji
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 render:
   - "*.qmd"
   - "!about3.qmd"
