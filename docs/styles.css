@@ -385,7 +385,7 @@ body h6,
 /* Force blockquote font size and family */
 main blockquote, 
 main blockquote p {
-  font-size: 1.1rem !important;
+  font-size: 1.2rem !important;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-style: normal !important;
   line-height: 1.6;
