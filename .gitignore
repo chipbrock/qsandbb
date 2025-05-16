@@ -1,1 +1,8 @@
 /.quarto/
+.venv/
+.quarto/
+_site/
+_output/
+.Rhistory
+.RData
+.DS_Store
