@@ -7,7 +7,8 @@
       "/NOS/20250514_0300-truth/0300-truth.html",
       "/NOS/20250514_0400-proof/0400-proof.html",
       "/NOS/20250514_0500-models/0500-models.html",
-      "/NOS/20250514_0600-reality/0600-reality.html"
+      "/NOS/20250514_0600-reality/0600-reality.html",
+      "/musings/index.html"
     ]
   },
   {
@@ -15,11 +16,11 @@
     "items": []
   },
   {
-    "listing": "/musings/index.html",
+    "listing": "/feynman-diagrams/index.html",
     "items": []
   },
   {
-    "listing": "/particle-bios/index.html",
+    "listing": "/words/index.html",
     "items": []
   },
   {
@@ -34,11 +35,11 @@
     ]
   },
   {
-    "listing": "/words/index.html",
+    "listing": "/particle-bios/index.html",
     "items": []
   },
   {
-    "listing": "/feynman-diagrams/index.html",
+    "listing": "/musings/index.html",
     "items": []
   }
 ]
