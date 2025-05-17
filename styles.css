@@ -162,6 +162,10 @@ main.content {
 .navbar-title {
   font-size: 1.75rem; /* Increase this value as needed */
 }
+/* Increase font size of navbar items */
+.navbar .navbar-nav .nav-link {
+  font-size: 1.2rem;  /* adjust to taste */
+}
 /* menu logo size */
 .navbar-title .site-logo {
   height: 4em !important;

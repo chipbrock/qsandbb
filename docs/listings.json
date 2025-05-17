@@ -11,19 +11,15 @@
     ]
   },
   {
-    "listing": "/ggplot-series.html",
+    "listing": "/math/index.html",
     "items": []
   },
   {
-    "listing": "/feynman-diagrams/index.html",
+    "listing": "/musings/index.html",
     "items": []
   },
   {
-    "listing": "/words/index.html",
-    "items": []
-  },
-  {
-    "listing": "/posts/index.html",
+    "listing": "/particle-bios/index.html",
     "items": []
   },
   {
@@ -38,15 +34,11 @@
     ]
   },
   {
-    "listing": "/particle-bios/index.html",
+    "listing": "/words/index.html",
     "items": []
   },
   {
-    "listing": "/musings/index.html",
-    "items": []
-  },
-  {
-    "listing": "/math/index.html",
+    "listing": "/feynman-diagrams/index.html",
     "items": []
   }
 ]
