@@ -23,7 +23,7 @@ title-block-banner: A9A9A9
 draft: true
 ---
 
-:information_source: README. Science is a big subject with an often misunderstood vocabulary and practices. Words matter and everyday phrases are often coopted into scientific parlance and that can lead to trouble. Also the outcomes, goals, and realistic expectation of science are complicated and even subfield-dependent. This is a section that's my take on many of these topics and how I've taught them.
+:information_source: README. Science is a big subject with an often misunderstood vocabulary and practices. Words matter and everyday phrases are often coopted into scientific parlance and that can lead to trouble. Also the outcomes, goals, and realistic expectation of science are complicated and even subfield-dependent. NOS stands for "Nature of Science" and here you'll get my take on many of these topics and how I've taught them.
 
 ## Posts
 
@@ -33,5 +33,4 @@ draft: true
 - [4.00 proof](20250514_0400-proof/0400-proof.qmd)
 - [5.00 models](20250514_0500-models/0500-models.qmd)
 - [6.00 reality](20250514_0600-reality/0600-reality.qmd)
-
 

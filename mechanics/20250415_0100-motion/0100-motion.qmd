@@ -1,8 +1,8 @@
 ---
 title: "1.00 motion"
-categories: [Mechanics]
+categories: [Mechanics, physics]
 description: "motion post content"
-draft: true
+draft: false
 ---
 
 <div class="breadcrumb">
@@ -15,7 +15,7 @@ Author: Chip Brock · Published: April 15, 2025
 
 ---
 
-Write your content here.
+This is the first of three outlines of some basic physics ideas so that I can refer to them in other posts. If you'd like more, including history and examples, then visit https://qstbb.pa.msu.edu/storage/ISP220_fall2020/QS&BB2020/intro.html for a textbook-level presentation.
 
 ---
 ::: {.post-nav}

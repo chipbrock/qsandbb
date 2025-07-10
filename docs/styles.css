@@ -3,129 +3,30 @@
   font-size: 2.1rem;
 }
 #quarto-document-content p {
-  font-size: 1.3rem;
-  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-}
-/* Increase font size for the list of posts and descriptions under ## Posts */
-main ul {
   font-size: 1.2rem;
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main ul {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  margin-left: 1.8rem; /* or try 1em, 2rem, etc. */
+  color: rgba(0, 0, 0, 0.6) !important;
 }
 ol {
-  font-size: 1.2rem; /* or 1.3rem or whatever you like */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.3rem; /* or 1.3rem or whatever you like */
+  margin-left: 1.8rem; /* or try 1em, 2rem, etc. */
+  color: rgba(0, 0, 0, 0.6) !important;
 }
-/* Widen text block under image on the about page */
-.about-contents {
-  max-width: 800px; /* Increase this if needed */
-}
-/* trying to fake the appearance of the index page */
-.custom-intro,
-.custom-intro p {
-  font-size: 1.15rem !important;
-  font-family: Helvetica, Arial, sans-serif !important;
-  color: rgba(0, 0, 0, 0.45) !important;
-  line-height: 1.6 !important;
-}
-.custom-intro a {
-  color: rgba(0, 0, 0, 0.45) !important;
-  text-decoration: underline;
-}
-/*.site-logo {
-  height: 10em;
+
+
+/* menu logo size */
+.navbar-title .site-logo {
+  height: 4em !important;
   vertical-align: middle;
   margin-right: 0.4em;
-}*/
-/* Make the Quarto site logo bigger 
-.navbar .site-logo {
-  height: 10px; /* Adjust size as needed 
-  margin-right: 2.5rem;
-  vertical-align: middle;
 }
-*/
-
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
-  font-size: 1.2rem;
-  color: rgba(0, 0, 0, 0.45) !important;
-}
-/* Optional: control font sizes individually */
-body h1 {
-	font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
-  font-size: 1.55rem !important;
-     color: #4563A7 !important;
-
-}
-body h2 {
-	font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
-  font-size: 1.3rem !important;
-     color: #4563A7 !important;
-}
-body h3 {
-    font-size: 1.25rem !important;
-    	font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
-  color: rgba(0, 0, 0, 0.45) !important;
-}
-body h4 {
-  font-size: 0.5rem !important;
-}
-body h5 {
-  font-size: 1.3rem !important;
-}
-body h6 {
-  font-size: 1.1rem !important;
-}
-
-.quarto-title-block .title {
-  font-size: 1.75rem;
-}
-/*a {
-  color: #eb5724 !important;
-}
-
-a:hover {
-  color: #4563A7 !important;
-}*/
-a {
-  color: #4563A7 !important;
-}
-
-a:hover {
-  color: #eb5724 !important;
-}
-/* Change font family and size for all callout content */
-/* Font and size for callout body text */
-.callout-body,
-.callout-body p {
-  font-size: 1.2rem !important;
-  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
-  /*font-family: "EB Garamond", Georgia, serif !important;*/
-}
-
-/* Optional: Adjust just the paragraph tags inside */
-.callout-body p {
-  margin-top: 1.0em;
-  margin-bottom: 0.5em;
-  color: rgba(0,    0,    0, 0.48); /* Change text color */
-}
-.callout-title-container {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  font-size: 1.3rem !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.5px;
-}
-
-
-.callout-icon::before {
-  vertical-align: middle;     /* Ensures alignment with title */
-}
-
-/*.site-logo {
-  max-height: 60px;
-  height: auto;
-  vertical-align: middle;
-  margin-right: 10px;
-}
-*/
 
 /* logo */
 .navbar-brand {
@@ -136,122 +37,70 @@ a:hover {
 .navbar-brand:hover {
   color: #4563A7 !important;
 }
-
-
-/* messing with the vertical space */
-
-/* Reduce space above blog title block on index pages */
-.quarto-title-block .title {
-  margin-top: 0.2rem !important;
-  font-size: 2rem;
+.navbar-title {
+  font-size: 1.2rem; /* Increase this value as needed */
+  font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
 }
 
-div.listing-description {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  font-size: 1.0rem;
-  margin-top: 0.3rem;
-}
-div.description {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  font-size: 1.15rem;
-  margin-top: 1rem;
-  color: #444;
-}
 
-/* Tighten up spacing on blog index pages */
-.quarto-listing-container,
-.listing-title-block {
-  padding-top: 100% !important;
-  width: 100% !important;
-  margin-top: 0rem !important;
+#quarto-document-content p {
+  font-size: 1.3rem;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
+/* Increase font size for the list of posts and descriptions under ## Posts */
+main ul {
+  font-size: 1.2rem;
+}
+body h1 {
+	font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
+  font-size: 1.9rem !important;
+ /*    color: #4563A7 !important;*/
 
-/* Reduce spacing below title */
-.quarto-title-block .description {
-  margin-bottom: 0.2rem !important;
 }
-.quarto-title-block .quarto-title-banner {
-  padding: 0.15rem 0;
+/*-- this makes the heading h2 blue */
+body h2 {
+	font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
+  font-size: 1.5rem !important;
+/*     color: #4563A7 !important;*/
 }
-/* Reduce margin above the main content area */
-main.content {
-  margin-top: 0.5rem;
+body h3 {
+    font-size: 1.3rem !important;
+    	font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
+/*  color: rgba(0, 0, 0, 0.45) !important; */
 }
-
-/* Tighten spacing on top of the first heading */
-main.content h1:first-of-type {
-  margin-top: 0.3rem;
+body h4 {
+  font-size: 0.5rem !important;
 }
-#TOC,
-div.sidebar.margin-sidebar {
-  margin-top: -0.5rem !important;
-  padding-top: 0 !important;
+body h5 {
+  font-size: 1.3rem !important;
 }
-div.quarto-title-block.default .quarto-title-banner {
-  padding-top: -0.3rem !important;
-  padding-bottom: 0.5rem !important;
-}
-main.content {
-  padding-top: 0rem !important;
-  margin-top: -1rem !important;
+body h6 {
+  font-size: 1.1rem !important;
 }
 /* vertical spacing for the title of posts */
 .quarto-title h1.title {
   margin-top: 1.2rem !important;
   padding-top: 0rem !important;
 }
-.navbar-title {
-  font-size: 1.75rem; /* Increase this value as needed */
-}
-/* Increase font size of navbar items */
-.navbar .navbar-nav .nav-link {
-  font-size: 1.1rem;  /* adjust to taste */
-  color: #ff6600 !important; /* or any color you want */
-}
-.nav-link :hover {
-  color: #4563A7 !important;
-}
-/* menu logo size */
-.navbar-title .site-logo {
-  height: 4em !important;
-  vertical-align: middle;
-  margin-right: 0.4em;
-}
-/*.navbar .navbar-title img.site-logo {
-  border: 2px solid green;
-}*/
 
-body.stories-index div.quarto-listing .listing-image img {
-  max-width: 10px;
-  height: auto;
-  border-radius: 4px;
-}
-div.quarto-listing .listing-image img {
-  border: 8px solid red !important;
-}
-.thumbnail-image {
-  width: 10px;
-  height: auto;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-}
-/*body {
-  background-color: pink;
-}*/
+
 /* Targets the thumbnail images on listing pages */
 .quarto-post .thumbnail-image {
-  width: 190px !important;
+  width: 70% !important;
   height: auto;
+  flex-basis: 30%;
   border-radius: 6px;
   border: 1px solid #ccc;
 }
+
+
 /* tables */
 .centered-table {
   margin-left: auto;
   margin-right: auto;
   border-collapse: collapse;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.5rem;
   border: none;
 }
 
@@ -260,58 +109,13 @@ div.quarto-listing .listing-image img {
   border: none !important;
   padding: 0.2em 0.5em; /* adjust padding as needed */
 }
-.category-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  font-size: 1.2rem;
-  margin: 1.5rem auto;
-  text-align: center;
-  max-width: 80%;
-}
-
-.category-links a {
-  color: #DB7237;
-  text-decoration: underline;
-}
-
-.category-links a:hover {
-  color: darkred;
-}
-.link-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5em;
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-.link-grid a {
-  text-decoration: none;
-  color: inherit;
-  padding: 0.3em 0.6em;
-}
-
-
-.category-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /*gap: 1em 2em;*/
-  justify-items: center;
-  text-align: center;
-  font-size: 1.rem;
-  max-width: 90rem;
-  margin: 2em auto;
-  /*background: #f9f9f9; /* TEMP to verify it's working */
-}
 
 .custom-table {
   margin: 2em auto;
   border-collapse: collapse;
   text-align: center;
-  font-size: 1.3rem;
+  font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
+  font-size: 1.rem;
   max-width: 120rem;
 }
 
@@ -320,10 +124,6 @@ div.quarto-listing .listing-image img {
   border: none;
 }
 
-.column-margin p,
-.column-margin figcaption {
-  text-align: center;
-}
 .margin-figure {
   display: block;
   margin-left: auto;
@@ -333,124 +133,52 @@ div.quarto-listing .listing-image img {
 }
 
 .margin-figure p {
-  font-style: italic;
+   font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
   font-size: 0.9em;
   margin-top: 0.3em;
 }
-/* styles.css */
-.quarto-listing-container {
-  max-width: 1200px; /* or try 100% */
-  margin: auto;
-}
-.page-columns {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-/* Widen the main listing container */
-.page-columns .content {
-  max-width: 100% !important;
-  width: 100% !important;
-}
-body.stories-index .quarto-listing-container {
-  max-width: 90%;
-  margin: 0 auto;
-}
-/* Make main post listing wider and sidebar narrower */
-body.stories-index .quarto-grid {
-  grid-template-columns: 3fr 1fr !important; /* default is closer to 2fr 1fr */
+
+/* Smaller titles in listings */
+.quarto-listing-title {
+  font-size: 1.8rem;  /* or 90%, or whatever you like */
 }
 
-.quarto-listing-default .body {
-  width: 75%; /* Adjust as needed */
+/*.callout.callout-style-default .callout-body {
+  font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
+  font-size: 0.8rem;
+}*/
+
+
+
+/* Listing title (e.g. post headline) */
+.listing-title {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 1.5em !important;
+  color: #333333 !important;
 }
 
-/* Alternative approach if the above doesn't work */
+/* Listing description (summary or excerpt) */
 .listing-description {
-  flex: 1 1 auto !important;
-}
-/* Make thumbnail area flexible */
-.thumbnail {
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: center;  /* vertically center if side-by-side */
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 1.em !important;
+  color: #666666 !important;
 }
 
-/* Allow image to scale down */
-.thumbnail img,
-.thumbnail-img {
-  width: auto;
-  max-width: 120px;
-  height: auto;
-  object-fit: contain;
+/* Shared font and size */
+.small-links a {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 0.85em !important;
+  text-decoration: none;
 }
 
-/* Optional: shrink container width for listings */
-.listing-item {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
-.mjx-chtml {
-  font-size: 50%; /* Change to whatever size you want */
-}
-.MathJax {
-    font-size: 100% !important;
-    position: relative; top: -2.6px;
-}
-/*.no-row-height.column-margin .column-container p {
-  text-align: left !important;
-  font-size: 85%;
-}
-div.column-margin div.column-container div[id^="fn"] p {
-  font-size: 85% !important;
-  text-align: left !important;
-  margin-left: 0 !important;
-}
-/* Force left justification and smaller size in margin footnotes 
-.column-margin .column-container > div[id^="fn"] > p {
-  font-size: 85% !important;
-  text-align: left !important;
-  line-height: 1.3;
-  margin: 0;
-}*/
-/* Customize the footnote content */
-.footnotes ol li p {
-  font-family: 'Geogrotesque Trial', sans-serif !important;
-  font-size: 1.0em; /* Adjust font size */
-  color: #666; /* Change text color */
-}
-.footnotes p {
-  font-family: 'Geogrotesque Trial', sans-serif !important;
-  font-size: 0.8em; /* Adjust font size */
-  color: #666; /* Change text color */
-}
-.footnote-ref {
-  font-family: 'Geogrotesque Trial', sans-serif !important;
-  font-size: 1em; /* Adjust font size */
-  color: #56A0D3; /* Change text color */
-  font-weight: 500;
-}
-/*body h1, 
-body h2, 
-body h3, 
-body h4, 
-body h5, 
-body h6,
-.quarto-title-block .title,
-.listing-title,
-.quarto-title h1.title {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-}*/
-/* Force blockquote font size and family */
-main blockquote, 
-main blockquote p {
-  font-size: 1.2rem !important;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  font-style: normal !important;
-  line-height: 1.6;
-  color: rgba(51,  51,  51, 0.66);
+/* Shrink thumbnail column */
+div.quarto-post .thumbnail {
+  flex-basis: 20% !important;  /* was 30% */
 }
 
+/* Expand the body (text) column accordingly */
+div.quarto-post .body {
+  flex-basis: 65% !important;  /* was 45% */
+}
 
 

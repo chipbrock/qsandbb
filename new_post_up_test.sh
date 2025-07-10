@@ -42,8 +42,9 @@ cp ../logo_orange_words.png "$DIRNAME/logo_orange_words.png"
 cat <<EOF > "$DIRNAME/$POSTFILE"
 ---
 title: "$TITLE_WITH_NUM"
+date: "DATE"
 image: "logo_orange_words.png"
-categories: [$CATEGORY_LABEL, draft]
+categories: [$CATEGORY_LABEL, drafting]
 description: "ℹ️ **README:** $TITLE_DISPLAY post content"
 draft: true
 ---

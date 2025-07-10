@@ -1,9 +1,10 @@
 ---
 title: "4.00 proof"
+date: 2025-07-07  # (your last edit date)
 image: "bsquirell.png"
-categories: [NOS, draft]
+categories: [NOS, drafting]
 description: "ℹ️ **README:** proof post content"
-draft: false
+draft: true
 ---
 
 <div class="breadcrumb">

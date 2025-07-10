@@ -1,9 +1,10 @@
 ---
 title: "3.00 facts and truth"
 image: "Friday.png"
-categories: [NOS, draft]
-description: "ℹ️ **README:** 'Fact' is another one of those words. You might want to say that science consists of facts arranged in order to support or define theories...or just collect data or artifacts. There’s an assumption built into that sentiment: on the one hand there are facts about the world and on the other hand, there are opinions about the world and science works hard to separate the two…and reserve 'facts' as the fuel for theories and guard against opinion from influencing that process."
-draft: false
+date: 2025-07-07  # (your last edit date)
+categories: [NOS, drafting]
+description: "ℹ️ **README:** You might want to say that science consists of facts. I wouldn't."
+draft: true
 ---
 
 <div class="breadcrumb">
@@ -30,3 +31,5 @@ Watch this space.
 ::: {.post-nav}
 👈 [Previous: 2.00 knowledge](../20250514_0200-knowledge/0200-knowledge.html) | [Next: 4.00 proof](../20250514_0400-proof/0400-proof.html) 👉
 :::
+
+arranged in order to support or define theories...or just collect data or artifacts. There’s an assumption built into that sentiment: on the one hand there are facts about the world and on the other hand, there are opinions about the world and science works hard to separate the two…and reserve 'facts' as the fuel for theories and guard against opinion from influencing that process.

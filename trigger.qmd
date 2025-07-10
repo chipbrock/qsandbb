@@ -9,13 +9,13 @@ draft: false
 
 ## ℹ️ README:
 
-<br>"It's only a theory" is a phrase wrong enough to make a grown physicist cry. Theories, laws, facts, proof, truth are all related verses in a compliated song and while we scientists know what we mean...it's confusing. You see, we've got two problems: we use language and we're human. Scientists converse in everyday terms. Like normal people. But while we use normal words in real life, some of them are different in scientific life.  
+<br>"It's only a theory" is a phrase wrong enough to make a grown physicist cry. Theories, laws, facts, proof, truth are all related verses in a compliated song and while we scientists know what we mean...it's confusing. Scientists converse in everyday terms. Like normal people. But while we use normal words in real life, some of them are different in scientific life.  
 
-As for crying? Years ago I was triggered by a long argument in the state of Florida.
+As for the crying? Years ago I was triggered by a long argument in the state of Florida. 
 
 :::
 
-Around 2008 the Florida State Board of Education was grappling with their grade of "F" in a national review of science education. And, of course instructions to teachers on how to teach evolution was a major issue. A few states insisted on teaching creationism, or the cloak-and-dagger idea of "Intelligent Design," along side of, or in place of actual science.
+Around 2008 the Florida State Board of Education was grappling with their  "F" grade in a national review of science education. And, predictably instructions to teachers on how to teach evolution was a major issue. A few states insisted on teaching creationism, or the cloak-and-dagger idea of "Intelligent Design," along side of, or in place of actual science.
 
 So after many, many hearings, reports, testimony from Nobel laureats, and very public disputes, The fuss was resolved by mandating that whenever evolution was mentioned, it was to be referred to as the **Theory** of Evolution. By contrast, whenever Newton’s rule regarding gravity was used, it was to be called Newton’s **Law** of Gravitation. Law, good. Theory? Notsomuch. Remembering this story is why I have on my unhappy face right now.[^law]
 
@@ -29,23 +29,26 @@ The obvious implication of the Florida stalemate is that somehow a theory is les
 
 [^nos]: The Nature of Science is a term of art in some parts of science education research. Everyone has a slightly different take on the "NOS" and I have mine.
 
-Just to be clear...it is after all my blog 😎 ... I will not use the word "Law" when I describe scientific ideas.
+Just to be clear...it is after all my blog 😎 ... I'll not use the word "Law" when I describe scientific ideas.
 
 > **Wait.** What about Newton’s Laws of motion? <br><br>
 > **Glad you asked.**  I will talk about historical scientific ideas which got labeled as "Law" but I'll use "law." So: Newton's Second <u>law</u>. Just to make the point, that law is not always correct since it was superceded by Einstein's Theory of Special Relativity. Some "Law"! See that modern use: It's universally the *Theory of Relativity*, not Law of Relativity,
 
 There are other words and phrases that deserve a scientific explanation and here are seven of them. Follow the links for more discussion. Please!
 
-1. There are no Scientific Laws. <a href="./musings/20250502_0100-laws/0100-laws.qmd" target="_blank">laws</a> 
-2. Scientific knowledge is a unique and reliable kind of knowledge. <a href="././musings/20250502_0200-knowledge/0200-knowledge.html" target="_blank">knowledge</a>
-3. Facts change and there is no scientific Truth.
-4. Theories cannot be proven.
-5. It is not possible to test a theory. We test models.
-6. There is a reality “out there” and our understanding of it continuously improves.
+1. There are no Scientific Laws.  <a href="./NOS/20250514_0100-laws/0100-laws.html" target="_blank">laws</a>
+2. Scientific knowledge is a unique and reliable kind of knowledge. <a href="./NOS/20250514_0200-knowledge/0200-knowledge.html" target="_blank">knowledge</a>
+3. Facts change and there is no scientific Truth.<a href="./NOS/20250514_0300-truth/0300-truth.html" target="_blank">truth</a>
+4. Theories cannot be proven.<a href="./NOS/20250514_0400-proof/0400-proof.html" target="_blank">proof</a>
+5. It is not possible to test a theory. We test models.<a href="./NOS/20250514_0500-models/0500-models.html" target="_blank">models</a>
+6. There is a reality “out there” and our understanding of it continuously improves.<a href="./NOS/20250514_0600-reality/0600-reality.html" target="_blank">reality</a>
 7. Science is what scientists do.
 
-Squirming yet? I'll speak to each of these in separate posts which will be tagged "NOS" so you can find them. Here, I'll just skim.
+Squirming yet? I'll speak to each of these in separate posts which will be tagged "NOS" so you can find them.
 
+::: {.callout-tip  icon=false}
+🔐 Science by yourself and only in your head is not professional science. That is, science is public and how we communicate is through scientific statements. So really when one is evaluating the believability of a scientific idea...what you're really evaluating is a set of statements about that idea. In everyday life, I might toss off a thought casually, without preparation or much analysis. You know, like in a normal conversation. But a scientific statement isn't like that. It's considered, it's carefully put together, it's thoughtful and meaningful. A scientific statement can be a sentence, or a whole book. The point is that a scientific statement has structure and is composed according to professional expectations.
+:::
 
 
 ## It is not possible to test a theory. We test models.

@@ -1,9 +1,10 @@
 ---
 title: "6.00 reality"
+date: 2025-07-07  # (your last edit date)
 image: "logo_orange_words.png"
-categories: [NOS, draft]
+categories: [NOS, drafting]
 description: "ℹ️ **README:** reality post content"
-draft: false
+draft: true
 ---
 
 <div class="breadcrumb">

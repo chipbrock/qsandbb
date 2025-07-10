@@ -21,11 +21,13 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   navbar:
-    right:
-      - text: 👉 start
+    left:
+      - text: 👉 start here
         href: QSBB.qmd
-      - text: recent
-        href: stories.qmd
+      - text: 👉 then here
+        href: once_upon.qmd
+      - text: 📖 blog
+        href: blog.qmd
       #- text: about me
       #  menu:
       #    - me-in-2-seconds.qmd
@@ -35,22 +37,18 @@ website:
       #    - professional.qmd
       #- me.qmd
       #- QSBB.qmd
-      #- text: then here
-      #  href: once_upon.qmd
-      #- text: sandbox
-      #  href: sandbox.qmd
-      - text: theory?
+      #- text: sandbox_working
+      #  href: sandbox_working.qmd
+      - text: 🗑️ just a theory?
         href: trigger.qmd
-      - text: musings
-        href: musings/index.qmd
+      #- text: 📜 musings
+      #  href: musings/index.qmd
       - text: topics
         menu:
-          - text: Nature of Science
+          - text: Nature of Science (NOS)
             href: NOS/index.qmd
           #- text: All Stories
           #  href: stories.qmd
-          - text: words
-            href: Words/index.qmd
           #- text: interesting posts
           #  href: posts/index.qmd
           - text: Particle Bios
@@ -82,8 +80,13 @@ website:
 format:
   html:
     code-fold: true
-    theme: cosmo
+    theme:
+      light: simplex
+      dark: darkly
+    toggle: true  
     css: styles.css
+    grid: 
+      body-width: 900px
     mainfont: "EB Garamond, Georgia, serif"
     toc: true
     reading-time: true

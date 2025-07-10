@@ -17,15 +17,17 @@ format:
     number-sections: true
 author: Chip Brock
 date: '2025-04-01T01:40:45'
-categories: [musings, philosophy, science]
+categories: [musings, science]
 page-layout: full
 title-block-banner: A9A9A9
-draft: true
+draft: false
 ---
 
 :information_source: README. Science is a big subject with an often misunderstood vocabulary and practices. Words matter and everyday phrases are often coopted into scientific parlance and that can lead to trouble. Also the outcomes, goals, and realistic expectation of science are complicated and even subfield-dependent. This is a section that's my take on many of these topics and how I've taught them.
 
 ## Posts
+
+- [1.00 Academic science](20250517_0100-academic_science/0100-academic_science.qmd)
 
 
 

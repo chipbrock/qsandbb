@@ -1,8 +1,9 @@
 ---
 title: "5.00 models"
+date: 2025-07-07  # (your last edit date)
 image: "model.png"
-categories: [NOS, draft]
-description: "ℹ️ **README:** I've thought about this a lot. We have an idea of what a theory is, but do we directly test a theory? I don't think so. I think we make models following the rules and suggestions of a theory and we then test the model. I'll try to explain why. Beware that this may be controversial...it's my idea that may not have occurred to others unless they've been condemned to this dual life that I have of both a scientific and philosophical education. It's a living, but it's not easy."
+categories: [NOS, drafting]
+description: "ℹ️ **README:** We test models, not theories."
 draft: false
 ---
 
@@ -26,6 +27,8 @@ Author: Chip Brock · Published: May 14, 2025
 ## It is not possible to test a theory. We test models.
 
 I’ve discarded Laws and truth and proof and so it’s time to confront the idea of a theory and how we can trust one or not. “What is a theory,” is a valid question.
+
+I've thought about this a lot. We have an idea of what a theory is, but do we directly test a theory? I don't think so. I think we make models following the rules and suggestions of a theory and we then **we test the model**. I'll try to explain why. Beware that this may be controversial...it's my idea that may not have occurred to others unless they've been condemned to this dual life that I have of both a scientific and philosophical education. It's a living, but it's not easy.
 
 ### Planes, Trains, and Automobiles: Models
 
