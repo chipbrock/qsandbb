@@ -1,0 +1,32 @@
+---
+title: "All Posts"
+id: stories-index
+listing: 
+  contents: 
+    - NOS/**/*.qmd
+    - musings/**/*.qmd
+    - feynman-diagrams/**/*.qmd
+    - particle-bios/**/*.qmd
+  type: default #
+  sort: "date desc" # can also sort on more than one field
+  fields: [image, date, title, reading-time, description, categories]
+  categories: true # allows you to sort posts by assigned categories 
+  sort-ui: true
+  filter-ui: false
+listing-body-limit: 30  # number of words from post body
+page-layout: full
+title-block-banner: A9A9A9
+class: stories-index
+
+draft: false
+---
+
+
+::: {.centered-table}
+| \| [Feynman Diagrams Tutorial](./feynman-diagrams/index.html) |  [Particle Biographies](./particle-bios/index.html) | [People](./math/index.html) |
+| \| [Particle Detectors](./math/index.html)| [Experiment Biographies](./math/index.html) |
+| \|  [NOS](./NOS/index.html) | [Science Musings](./math/index.html) | [Philosophy](./math/index.html) | [History](./math/index.html) |
+| \| [Math Refresher](./math/index.html) | [mechanics](./mechanics/index.html) | [electromagnetism](./electromagnetism/index.html) | [special_relativity](./special_relativity/index.html) | 
+
+<br>
+

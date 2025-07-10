@@ -1,0 +1,80 @@
+/* css styles */
+.article-style p {
+  font-size: 2.1rem;
+}
+#quarto-document-content p {
+  font-size: 1.3rem;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+/* Increase font size for the list of posts and descriptions under ## Posts */
+main ul {
+  font-size: 1.2rem;
+}
+ol {
+  font-size: 1.2rem; /* or 1.3rem or whatever you like */
+}
+/* Widen text block under image on the about page */
+.about-contents {
+  max-width: 800px; /* Increase this if needed */
+}
+/* trying to fake the appearance of the index page */
+.custom-intro,
+.custom-intro p {
+  font-size: 1.15rem !important;
+  font-family: Helvetica, Arial, sans-serif !important;
+  color: rgba(0, 0, 0, 0.45) !important;
+  line-height: 1.6 !important;
+}
+.custom-intro a {
+  color: rgba(0, 0, 0, 0.45) !important;
+  text-decoration: underline;
+}
+/*.site-logo {
+  height: 10em;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}*/
+/* Make the Quarto site logo bigger 
+.navbar .site-logo {
+  height: 10px; /* Adjust size as needed 
+  margin-right: 2.5rem;
+  vertical-align: middle;
+}
+*/
+
+
+/* h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.45) !important;
+}
+/* Optional: control font sizes individually */
+body h1 {
+	font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
+  font-size: 1.55rem !important;
+     color: #4563A7 !important;
+
+}
+body h2 {
+	font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
+  font-size: 1.3rem !important;
+     color: #4563A7 !important;
+}
+body h3 {
+    font-size: 1.25rem !important;
+    	font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.45) !important;
+}
+body h4 {
+  font-size: 0.5rem !important;
+}
+body h5 {
+  font-size: 1.3rem !important;
+}
+body h6 {
+  font-size: 1.1rem !important;
+}
+
+
+
+
