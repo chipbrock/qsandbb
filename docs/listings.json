@@ -14,7 +14,13 @@
   },
   {
     "listing": "/feynman-diagrams/index.html",
-    "items": []
+    "items": [
+      "/feynman-diagrams/20250413_0500-a_primitive_diagram/0500-a_primitive_diagram.html",
+      "/feynman-diagrams/20250413_0400-some_relativity_ideas/0400-some_relativity_ideas.html",
+      "/feynman-diagrams/20250413_0300-two_kinds_of_diagrams/0300-two_kinds_of_diagrams.html",
+      "/feynman-diagrams/20250413_0200-what_is_a_feynman_diagram/0200-what_is_a_feynman_diagram.html",
+      "/feynman-diagrams/20250413_0100-what_is_a_particle_interaction/0100-what_is_a_particle_interaction.html"
+    ]
   },
   {
     "listing": "/words/index.html",

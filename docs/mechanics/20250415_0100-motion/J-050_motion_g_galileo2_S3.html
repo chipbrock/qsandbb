@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Chip Brock">
+<meta name="dcterms.date" content="2025-07-12">
+<meta name="description" content="Here we’ll do enough about motion to serve our physics stories. The word for how things move is ‘kinematics’ which says nothing about why things move and this post is a bit about kinematics.">
 
-<title>All Posts –  Quarks, Spacetime, and the Big Bang</title>
+<title>Motion, 1 –  Quarks, Spacetime, and the Big Bang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e508f83e6cc6ae7fcf892157b80b52e4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-fdbf0f28e20667e750fd5713a8479fa9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e508f83e6cc6ae7fcf892157b80b52e4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-fdbf0f28e20667e750fd5713a8479fa9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,41 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background: A9A9A9;
-      }
-</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -136,18 +102,18 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><img src="./images/logo_orange_words.png" class="site-logo"> Quarks, Spacetime, and the Big Bang</span>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title"><img src="../../images/logo_orange_words.png" class="site-logo"> Quarks, Spacetime, and the Big Bang</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -157,19 +123,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./QSBB.html"> 
+    <a class="nav-link" href="../../QSBB.html"> 
 <span class="menu-text">👉 start here</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./once_upon.html"> 
+    <a class="nav-link" href="../../once_upon.html"> 
 <span class="menu-text">👉 then here</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./trigger.html"> 
+    <a class="nav-link" href="../../trigger.html"> 
 <span class="menu-text">🗑️ just a theory?</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">📖 blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -178,11 +144,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-topics">    
         <li>
-    <a class="dropdown-item" href="./NOS/index.html">
+    <a class="dropdown-item" href="../../NOS/index.html">
  <span class="dropdown-text">Nature of Science (NOS)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./particle-bios/index.html">
+    <a class="dropdown-item" href="../../particle-bios/index.html">
  <span class="dropdown-text">Particle Bios</span></a>
   </li>  
         <li>
@@ -190,11 +156,11 @@ window.Quarto = {
  <span class="dropdown-text">Feynman Diagrams</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./math/index.html">
+    <a class="dropdown-item" href="../../math/index.html">
  <span class="dropdown-text">Math Review</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Words/index.qmd">
+    <a class="dropdown-item" href="../../Words/index.qmd">
  <span class="dropdown-text">words</span></a>
   </li>  
     </ul>
@@ -208,215 +174,180 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">All Posts</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Tk9T">NOS <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZHJhZnRpbmc=">drafting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bXVzaW5ncw==">musings <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGhpbG9zb3BoeQ==">philosophy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c2NpZW5jZQ==">science <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#getting-from-here-to-there-at-constant-speed" id="toc-getting-from-here-to-there-at-constant-speed" class="nav-link active" data-scroll-target="#getting-from-here-to-there-at-constant-speed"><span class="header-section-number">1</span> Getting From Here to There: At Constant Speed</a>
+  <ul class="collapse">
+  <li><a href="#speed-in-modern-terms" id="toc-speed-in-modern-terms" class="nav-link" data-scroll-target="#speed-in-modern-terms"><span class="header-section-number">1.1</span> Speed in Modern Terms</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Motion, 1</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">motion</div>
+    <div class="quarto-category">test</div>
+  </div>
+  </div>
 
-
-
-
-<div class="centered-table">
-<div class="line-block">| <a href="./feynman-diagrams/index.html">Feynman Diagrams Tutorial</a> | <a href="./particle-bios/index.html">Particle Biographies</a> | <a href="./math/index.html">People</a> |<br>
-| <a href="./math/index.html">Particle Detectors</a>| <a href="./math/index.html">Experiment Biographies</a> |<br>
-| <a href="./NOS/index.html">NOS</a> | <a href="./math/index.html">Science Musings</a> | <a href="./math/index.html">Philosophy</a> | <a href="./math/index.html">History</a> |<br>
-| <a href="./math/index.html">Math Refresher</a> | <a href="./mechanics/index.html">mechanics</a> | <a href="./electromagnetism/index.html">electromagnetism</a> | <a href="./special_relativity/index.html">special_relativity</a> |</div>
-<p><br></p>
-
-
-
-</div>
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-     </select>
+<div>
+  <div class="description">
+    Here we’ll do enough about motion to serve our physics stories. The word for how things move is ‘kinematics’ which says nothing about why things move and this post is a bit about kinematics.
   </div>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Tk9TJTJDcGhpbG9zb3BoeQ==" data-listing-date-sort="1751947200000" data-listing-file-modified-sort="1752179502000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1728">
-<div class="thumbnail">
-<p><a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external"></a></p><a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external">
-<p><img loading="lazy" src="./NOS/20250514_0100-laws/screenshot_3483.png" class="thumbnail-image"></p>
-</a><p><a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external">1.00 laws</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Tk9T'); return false;">
-NOS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cGhpbG9zb3BoeQ=='); return false;">
-philosophy
-</div>
-</div>
-<div class="listing-description">
-<a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external">‘It’s not just a good idea, it’s the law.’ was the 1970’s highway sign. A law you can disobey. But a Scientific Law? That’s supposed to be certain. If a statement about the natural world isn’t a ‘law’ then it’s often thought to be just second-rate. Nope. There aren’t any Scientific Laws!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external">
-<div class="listing-date">
-Jul 8, 2025
-</div>
-<div class="listing-reading-time">
-9 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Tk9TJTJDcGhpbG9zb3BoeQ==" data-listing-date-sort="1751860800000" data-listing-file-modified-sort="1752080089000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1076">
-<div class="thumbnail">
-<p><a href="./NOS/20250514_0200-knowledge/0200-knowledge.html" class="no-external"></a></p><a href="./NOS/20250514_0200-knowledge/0200-knowledge.html" class="no-external">
-<p><img loading="lazy" src="./NOS/20250514_0200-knowledge/iStock_000006766990Small.png" class="thumbnail-image"></p>
-</a><p><a href="./NOS/20250514_0200-knowledge/0200-knowledge.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./NOS/20250514_0200-knowledge/0200-knowledge.html" class="no-external">2.00 knowledge</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./NOS/20250514_0200-knowledge/0200-knowledge.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Tk9T'); return false;">
-NOS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cGhpbG9zb3BoeQ=='); return false;">
-philosophy
-</div>
-</div>
-<div class="listing-description">
-<a href="./NOS/20250514_0200-knowledge/0200-knowledge.html" class="no-external">Scientific and everyday knowledge seem different…but it’s actually hard to say why. Isn’t it interesting? It’s an old problem.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./NOS/20250514_0200-knowledge/0200-knowledge.html" class="no-external">
-<div class="listing-date">
-Jul 7, 2025
-</div>
-<div class="listing-reading-time">
-6 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Tk9TJTJDZHJhZnRpbmc=" data-listing-date-sort="1751860800000" data-listing-file-modified-sort="1752080137000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1861">
-<div class="thumbnail">
-<p><a href="./NOS/20250514_0500-models/0500-models.html" class="no-external"></a></p><a href="./NOS/20250514_0500-models/0500-models.html" class="no-external">
-<p><img loading="lazy" src="./NOS/20250514_0500-models/model.png" class="thumbnail-image"></p>
-</a><p><a href="./NOS/20250514_0500-models/0500-models.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./NOS/20250514_0500-models/0500-models.html" class="no-external">5.00 models</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./NOS/20250514_0500-models/0500-models.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Tk9T'); return false;">
-NOS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZHJhZnRpbmc='); return false;">
-drafting
-</div>
-</div>
-<div class="listing-description">
-<a href="./NOS/20250514_0500-models/0500-models.html" class="no-external">ℹ️ <strong>README:</strong> We test models, not theories.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./NOS/20250514_0500-models/0500-models.html" class="no-external">
-<div class="listing-date">
-Jul 7, 2025
-</div>
-<div class="listing-reading-time">
-10 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="bXVzaW5ncyUyQ3NjaWVuY2U=" data-listing-date-sort="1743486045000" data-listing-file-modified-sort="1747519151000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
-<div class="thumbnail">
-<p><a href="./musings/index.html" class="no-external"></a></p><a href="./musings/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./musings/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./musings/index.html" class="no-external">Musings</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./musings/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('bXVzaW5ncw=='); return false;">
-musings
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('c2NpZW5jZQ=='); return false;">
-science
-</div>
-</div>
-<div class="listing-description">
-<a href="./musings/index.html" class="no-external"><span class="emoji" data-emoji="information_source">ℹ️</span> README. Science is a big subject with an often misunderstood vocabulary and practices. Words matter and everyday phrases are often coopted into scientific parlance and…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./musings/index.html" class="no-external">
-<div class="listing-date">
-Apr 1, 2025
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Chip Brock </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 12, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="getting-from-here-to-there-at-constant-speed" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="getting-from-here-to-there-at-constant-speed"><span class="header-section-number">1</span> Getting From Here to There: At Constant Speed</h2>
+<p>Motion is both the easiest and the hardest concept in physics and so much of what comes for us will constantly stretch at ideas about what motion is and how we can describe it. So we need to start at the beginning. Because: &gt;<strong>motion: it’s everywhere</strong><br> &gt;Almost everything in physics boils down to: motion. (Even boiling.)</p>
+<p>You’ve been dropping things since you were a toddler and you learned the hard way that if you drop something from a high place it was more likely to break than from a low height. You learned that the harder you throw a ball, the faster it will leave your hand, the more damage it can do to a window, and the farther it will go before landing—and that it always comes down.</p>
+<ol type="1">
+<li>If time doesn’t march on, we’ve not moved. But what is time? “Tubby…paused. ‘Time,’ he added slowly – ’time is what keeps everything from happening at once…” <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> We’ll see time take on a new meaning.</li>
+<li>The final frontier, Space, is either “just there” or it’s a relationship among extended objects. If all of the things in the universe disappeared, is there space left over? That’s an old, contentious issue and maybe was finally solved by Einstein.</li>
+<li>What’s the difference between space and time? In “speed” they are just two sides of the same coin, or two sides of the same ratio. But don’t you usually think of them as different things? One’s not more important than the other is it? Eventually, we’ll let Einstein chime in here.</li>
+<li>Particular speeds seem to be important. Mr.&nbsp;Galileo taught us about one and James Clerk Maxwell and Albert Einstein taught us about another. (There he is again.)</li>
+</ol>
+<p>From that simple word-equation, so sensible and so obvious, I’ve hinted at at least five complications. We have learned to ask simple questions and discover that they sometimes lead to important and surprising directions.</p>
+<blockquote class="blockquote">
+<p><strong>motion: it’s everywhere</strong><br> Almost everything in physics boils down to: motion. (Even boiling.)</p>
+</blockquote>
+<p>Whether it’s runners on a track, the cosmic rays piercing us all the time, orbiting planets, electrons in a wire, electromagnetic waves, quark wavefunctions inside a proton, electrons and holes in a semiconductor, or the stretching of spacetime itself. Everything is about “motion.”</p>
+<p>These first lessons on the physics of my grandparents’ generation will establish the language and tools that we’ll need in order to pursue the more exotic forms of motion and we’ll become skilled at manipulating concepts (and their attendant symbols) like velocity, kinetic energy, mass, momentum, and force. Each of these terms has a sixteenth to nineteenth century origin, but each has managed to keep up with the times as layer upon layer of subtlety is discovered about each of them as we dig deeper and discover more.</p>
+<p>But at its most basic, our physics will be all about how to get from <em>here</em> to <em> there</em> and from <em> then</em> to <em> now</em>, and to be able to explain how that happened and predict what will come next.</p>
+<section id="speed-in-modern-terms" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="speed-in-modern-terms"><span class="header-section-number">1.1</span> Speed in Modern Terms</h3>
+<p>Let’s make this more compact by inserting customary symbols to get rid of the English words. Here are some grammar rules in QS&amp;BB:</p>
+<ul>
+<li><p>We’ll limit ourselves almost exclusively to motion in one dimension in space.</p></li>
+<li><p>We’ll use the symbol <span class="math inline">\(v\)</span> for speed (because customarily, we’ll speak of “velocity”…more about this below).</p></li>
+<li><p>We’ll use the symbol <span class="math inline">\(x\)</span> for distance in one dimension, regardless of which direction it points.</p></li>
+<li><p>We’ll use the symbol <span class="math inline">\(t\)</span> for time and almost always presume that we set our clocks so that the beginning time of any interval is <span class="math inline">\(t_0=0\)</span>.</p></li>
+<li><p>Oh, and we’ll use the subscript <span class="math inline">\(\text{ }_{0}\)</span> to indicate the beginning of some time or location interval—” <span class="math inline">\(t_0\)</span>” or ” <span class="math inline">\(x_0\)</span> ”—in a sequence of events.</p></li>
+<li><p>We’ll use the Greek symbol Delta, <span class="math inline">\(\Delta\)</span> to mean “change of”…this will come up a lot.</p></li>
+</ul>
+<p>See. You already know a lot about motion. Let’s go “up north.”</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>```kwwkulro ./../_images/motion/michigan.png</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>name: michigan</td>
+</tr>
+<tr class="even">
+<td>align: center</td>
+</tr>
+</tbody>
+</table>
+<p>How to get ‘to the bridge’ from Comerica Park.</p>
+<pre><code>
+You see the various towns along the way and in this trip we'll be abstract in a couple of ways. That curvy line following the actual roads we'll pretend is just straight so we could define a coordate system with $x$ following the SE to NW path and in which $x=0$ is at Comerica Park. The second way we could abstract this scenario is to imagine that we're so good at the controls that we can drive at a constant 60 mph the whole way---no stopping, no slowing down or speeding up.
+
+If our copilot got our her watch and wrote down the time that we breezed through Saginaw, Grayling, and when we got to the bridge she could create a graph which would look like this.
+
+```{figure} ./../_images/motion/mackinac.png
+---
+width: 350px
+name: mackinac
+align: center
+---
+Sights along the way up I75 from Detroit to 'the bridge.'</code></pre>
+<p>It’s a lot easier to use numbers rather than names and clock times so let’s replace the names of the towns with their distances from the beginning and use decimal hours on the horizontal axis starting at the 4 o’clock point which we have the freedom to define to be <span class="math inline">\(t_0 = 0\)</span>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>```kwwkulro ./../_images/motion/bridge_a.png</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>width: 350px</td>
+</tr>
+<tr class="even">
+<td>name: bridge_a</td>
+</tr>
+<tr class="odd">
+<td>align: center</td>
+</tr>
+</tbody>
+</table>
+<p>A real physics graph of our trip of the distance as a function of time.</p>
+<pre><code>
+That straight line in the distance plot is a familiar thing and we'll model that in Lesson 5. But there's a lot there. If we carefully made this plot before we left, then if asked, we could say how long it will take us to get to Grayling.
+
+**Question!** So, how long will it take to get to Grayling at a constant 60 mph?
+
+**Glad you asked.** I just follow the $y$ axis to the right from the 200 mi point until I hit the line and then read down from there and get: about three and a quarter hours.
+
+**Good job!**
+
+**Question!** The fact that the line of distance versus time is straight means what?
+
+**Glad you asked.** No matter where we are on the graph (on the road!), the rate at which distance increases is the same anywhere along the way. From the park to Saginaw, it's $100$ miles/about $1.7$ hours which is about $59~$mph. From Saginaw to Grayling is $(200-100)/(3.3-1.7) = 100/1.6 = 63~$mph. The whole trip is $300/5=60~$ mph. I get the same thing everywhere.
+
+So the straight line of distance versus time for a trip means that the speed is constnat.
+
+**Good job!**
+
+Now I don't know about you, but I can't drive precisely at 60 mph for 10 minutes, let alone for 5 hours. So here's a more realistic image of what the distance versus time relation might be.
+
+```{figure} ./../_images/motion/mackinac_real.png
+---
+width: 350px
+name: mackinac_real
+align: center
+---
+(a) A more realistic (?) trip as the distance varies with time. V is Vanderbilt, Michigan where the speed trap is. (b) What does the speed look like?</code></pre>
+<p>Here the dark line is meant to represent a more realistic journey with the light gray line showing the originally ideal, constant velocity trip. Notice that we start slow and speed up and then at Saginaw we stop for dinner: the distance is unchanged for almost an hour until point S2 when we start up again. And boy, do we ever. We fly through Grayling G) on to Vanderbilt (V) and then more slowly, get to the bridge.</p>
+
+
+</section>
+</section>
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>This is often attributed to Einstein, Woody Allen, and John Wheeler! It actually comes from Ray Cummings’ short story <em>The Time Professor</em> from 1921. Stick with me. You’ll learn all sorts of odd facts.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
