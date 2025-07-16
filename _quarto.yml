@@ -26,6 +26,8 @@ website:
         href: QSBB.qmd
       - text: 👉 then here
         href: once_upon.qmd
+      - text: 🗑️ just a theory?
+        href: trigger.qmd
       - text: 📖 blog
         href: blog.qmd
       #- text: about me
@@ -39,8 +41,7 @@ website:
       #- QSBB.qmd
       #- text: sandbox_working
       #  href: sandbox_working.qmd
-      - text: 🗑️ just a theory?
-        href: trigger.qmd
+
       #- text: 📜 musings
       #  href: musings/index.qmd
       - text: topics
@@ -54,7 +55,7 @@ website:
           - text: Particle Bios
             href: particle-bios/index.qmd
           - text: Feynman Diagrams
-            href: feynman-diagrams/index.qmd
+            href: https://chipbrock.github.io/FeynmanDiagramsEveryone/
           - text: Math Review
             href: math/index.qmd
           - text: words
