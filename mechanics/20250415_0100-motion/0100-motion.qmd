@@ -21,3 +21,4 @@ This is the first of three outlines of some basic physics ideas so that I can re
 ::: {.post-nav}
 [Next: 2.00 momentum and force](../20250415_0200-momentum_and_force/0200-momentum_and_force.html)
 :::
+
