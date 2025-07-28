@@ -27,6 +27,12 @@ Author: Chip Brock · Published: May 14, 2025
 ![](screenshot_3483.png){ width=120px }
 :::
 
+::: {.callout-warning  icon=false}
+🫵 This will make more sense if you've read my Florida story [only a theory](./../../trigger.qmd) warning!
+:::
+
+[1.00 laws](20250514_0100-laws/0100-laws.qmd)
+
 # Turtles: Theories and Laws
 
 Here’s an oft-told story about turtles as the bedrock on which the universe is built. It's a story with legs: in arguing his plurality opinion in Rapanos v. United States (a dispute over wetlands and the scope of the Clean Water Act, the jurisdiction of the Army Corps of Engineers, and Environmental Protection Agency), Justice Antony Scalia criticized Justice Kennedy’s argument in a footnote:
