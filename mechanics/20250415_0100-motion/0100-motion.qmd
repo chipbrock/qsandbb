@@ -1,7 +1,10 @@
 ---
-title: "1.00 motion"
-categories: [Mechanics, physics]
-description: "motion post content"
+title: "1.00 Motion, Speed, and Acceleration"
+number-sections: true
+date: 2025-08-24# (your last edit date)
+image: "screenshot_3666.png"
+categories: [Mechanics, physics, velocity]
+description: "Scientific and everyday knowledge seem different...but it's actually hard to say why. Isn't it interesting? It's an old problem."
 draft: false
 ---
 
@@ -10,14 +13,361 @@ draft: false
 </div>
 
 <div style="font-size:0.85em; color:#555; margin-top:0.5em;">
-Author: Chip Brock · Published: April 15, 2025
+Author: Chip Brock · Drafted: April 15, 2025
 </div>
 
 ---
 
-This is the first of three outlines of some basic physics ideas so that I can refer to them in other posts. If you'd like more, including history and examples, then visit https://qstbb.pa.msu.edu/storage/ISP220_fall2020/QS&BB2020/intro.html for a textbook-level presentation.
+::: {.column-margin}
+![](screenshot_3666.png){ width=100% }
+:::
+
+
+
+This is the first of three outlines of some basic physics ideas so that I can refer to them in other posts. If you'd like more, including history and examples, then visit [full textbook](https://qstbb.pa.msu.edu/storage/ISP220_fall2020/QS&BB2020/intro.html) for a textbook-level presentation.
+
+
+
+## Take aways:
+
+::: {.callout-tip  icon=false}
+🔐 
+Bottom line sections with stuff to remember in this chapter:
+
+* average speed @sec-averagespeed
+
+* spacespace and spacetime diagrams @sec-spacetimediagrams
+
+* the set of equations for 1-dimensional motion @sec-equationsofmotion
+
+* 2 dimensional motion: projectiles @sec-projectiles
+
+:::
+
+## Getting From Here to There: At Constant Speed
+
+Whether it’s runners on a track, the cosmic rays piercing us all the time, orbiting planets, electrons in a wire, electromagnetic waves, quark wavefunctions inside a proton, electrons and holes in a semiconductor, or the stretching of spacetime itself. Everything is about "motion." Motion is both the easiest and the hardest concept in physics and so much of what comes for us will constantly stretch at ideas about what motion is and how we can describe it. So we need to start at the beginning. Because:
+
+>**motion: it’s everywhere**<br>
+>Almost everything in physics boils down to: motion. (Even boiling.)
+
+But at its most basic, our physics will be all about how to get from <em>here</em> to <em> there</em> and from <em> then</em> to <em> now</em>, and to be able to explain how that happened and predict what will come next. 
+
+```{r}
+#| label: fig-motion_head
+#| fig-cap: "Everywhere you look: motion."
+#| cap-location: margin
+#| out-width: 100%
+#| echo: false
+knitr::include_graphics("screenshot_3643.png")
+```
+Characterizing motion is simple in principle! You need two things:
+
+![screenshot_3644](screenshot_3644.png){width=80%}
+
+And for everyday motion, that seems reasonable and you already know a lot about that.
+
+Suppose you're on a trip and you timed yourself between the two mile markers.
+
+![screenshot_3645](screenshot_3645.png){width=80%}
+
+
+
+What was your speed? I know you know this and your brain would quickly calculate:
+
+* I went 350 – 50 = 300 miies
+* it took me 6 hours
+* so my speed was 300/6 = 50 "miles per hour," mph
+
+So: $$v=50$$ mph
+
+Now, what if we stop and then start up after a break? How do we refer to the speed then?
+
+![screenshot_3646](screenshot_3646.png){width=80%}
+
+## Average speed {#sec-averagespeed}
+
+So as time marches on, part of it we'd be moving and part of it we'd be stationary. But notice that the times are no different and the distances are no different. Now your brain would be doing an average speed calculation with exactly the same beginning and ending times and distances. You'd now say that:
+
+$$<v> = 50$$ mph
+
+This bracketing notation means "average" or "mean"...the average speed only depends on the beginning and ending points. Since the same number of hours elapsed, as before without the stop, we must have gone faster than the average before the stop and/or faster after the stop. Average speeds are not that unfamiliar, but that's because you don't probably think of it that way. But you've all asked yourselves the question, "I've got to go 100 miles and I think I can travel at 70 mph, so I"ll be home in about one and a half hours."
+
+So you've known for a long time that
+
+$\text{speed} = \dfrac{\text{distance traveled}}{\text{time taken}}$
+
+is the rate at which distance changes with time. 
+
+
+### Speed in Modern Terms
+
+ Let’s make this more compact by inserting customary symbols to get rid of the English words. Here are some grammar rules in QS&BB:
+
+-   We’ll limit ourselves almost exclusively to motion in one dimension
+    in space.
+
+-   We’ll use the symbol $v$ for speed (because customarily, we’ll speak
+    of “velocity”…more about this below).
+
+-   $<A>$ is the average of the quantity $A$
+  
+-   We’ll use the symbol $x$ for distance in one dimension, regardless
+    of which direction it points.
+
+-   We’ll use the symbol $t$ for time and almost always presume that we
+    set our clocks so that the beginning time of any interval is
+     $t_0=0$.
+
+-   Oh, and we’ll use the subscript $\text{ }_{0}$ to indicate the beginning of some time or location interval---" $t_0$" or  " $x_0$ ”---in a sequence of events.
+
+-   We’ll use the Greek symbol Delta, $\Delta$ to mean “change of”…this
+    will come up a lot.
+
+With this, then we can "solve" this simple problem:
+
+$$
+\begin{align}
+v &= \text{speed}=\dfrac{\text{distance traveled}}{\text{time taken}} \nonumber \\
+v &=\dfrac{x-x_0}{t-t_0} \label{speeddef}\\
+&= \dfrac{350-50}{6}=50  \text{mph} \nonumber
+\end{align}
+$$
+
+where "$v$" is the velocity and it's defined by the middle equation in equation \eqref{speeddef}.
+
+## Dimensional Analysis
+
+This might be superfluous for most of your interests, but sometimes it's usefult to keep track of the dimensions of quantities. It can check an answer after a calculation – if the dimension of a result shoudl be mph but it comes out to be "feet" then you made a mistake somewhere. But it's also useful to keep track of changing from one set of units to another, like miles per hour to meters per second.
+
+The usual way of keeping track of the dimensions is a different kind of bracket: $[A]$ would refer to the "dimension of $A$". 
+
+So if our distance units were feet and our time units were hours, then we would say that the dimensions of velocity could be determined to be:
+
+$$\dfrac{[\text{distance}]}{[\text{time}]}=\dfrac{\text{feet}}{\text{hours}} = [v] = \text{feet per hour}$$
+
+
+
+## Spacespace and Spacetime Diagrams{#sec-spacetimediagrams}
+
+There are multiple ways to represent motion... an equation like @eq-eq1 is a model. But graphical representation is also very useful. Here are two:
+
+### spacespace diagram, stationary
+
+Let's imagine a pool table. Here it is with a set of x-y axes. Notice that I've placed a ball at the intial coordinates (*x*~0~, *y*~0~):
+
+```{r}
+#| label: fig-motion_still
+#| fig-cap: "Our platform for describing motion. A ball on a pool table...sitting there minding its own business."
+#| cap-location: margin
+#| out-width: 80%
+# #| out.width: “700px”  
+# #| column: screen
+#| echo: false
+knitr::include_graphics("screenshot_3649.png")
+```
+
+Wait a while...here it still is:
+
+
+
+![screenshot_3649](screenshot_3649.png){width=80%}
+
+
+
+Let's plot it on an x-y axis set.
+
+![screenshot_3657](screenshot_3657.png){width=80%}
+
+!](screenshot_3656.png)
+
+I call this diagram a **spacespace diagram** since both axes are space coordinates. It's how you think about things normally. As time progresses, our ball doesn't move on the table, so the x and y coordinates of the ball at any time are the same.
+
+### spacetime diagram, stationary
+
+Now supposed I plot the ball's trajectory (yes, "trajectory") as a function of space and time.
+
+![screenshot_3658](screenshot_3658.png){width=80%}
+
+Now you see "movement"...the stationary ball is moving in *time*. This picture is an example of a **spacetime diagram**. Not very interesting.
+
+### spacespace diagram, moving!
+
+Just sitting still isn't interesting, so let's roll the ball across the pool table:
+
+![screenshot_3665](screenshot_3665.png){width=80%}
+
+While the ball moves in space, it's also moving in time but the time coordinate is implied or hidden. The clocks show what it might be if one were to use a stopwatch to monitor its motion for 4 points along the trajectory. 
+
+Since the ball moves only horizontally, $y_0$ doesn't change and so I can represent the motion in a space ($x$) and time ($t$) way and here is the spacetime diagram for this simple situation![screenshot_3666](screenshot_3666.png){width=80%}
+
+
+
+Notice that the trajectory in spacetime is a straight line and its slope? The velocity, which is a continuous curve in this diagram, and the dashed line shows it. 
+
+This is a model of motion, which for physicists is always a curve in some coordinate system. Here the slope is 
+$$
+\begin{align}
+v &=\dfrac{x-x_0}{t-t_0} \nonumber \\
+v &= \dfrac{\Delta x}{\Delta t} \nonumber
+\end{align}
+$$
+We can easily imagine that the motion might not be smooth (like the stopping and starting on the road above) and so the concept of the average is always in play:
+
+![screenshot_3667](screenshot_3667.png){width=80%}
+
+The more precisely we sample the motion, the more precisely we converge on an **instantaneous speed**, which you're familiar with while driving with a speedometer in front of you. You think it's telling you exaclty what your speed is, but it is actually digitally sampling the rotation of your tires, but very finely.
+
+In physics:
+
+* "kinematics" is the subject of motion
+* "dynamics" is the subject of forces...which cause the motion
+
+Galileo introduced the idea of kinematics...he characterized motion without regard to what made the motion happen. Isaac Newton did the first legitimate analysis – model – of dynamics. He explained how to characterize forces and the motions that result. That's the subject of the next chapter.
+
+### Acceleration
+
+The rolling ball's motion in spacetime had the same slope between any two time intervals – a straight line. So the velocity never changes.
+
+But of course for motion to get started one has begin from rest and get going, so the velocity has to increase in time. That's what acceleration is.
+
+* Velocity is the rate at which distance changes in time. 
+* Acceleration is the rate at which velocity changes in time.
+
+Here are the two models of motion:
+$$
+\begin{align}
+v &=\dfrac{x-x_0}{t-t_0} \text{  model of velocity} \\
+v &= \dfrac{\Delta x}{\Delta t} \nonumber \\
+& \text{ and } \nonumber \\
+a &=\dfrac{v-v_0}{t-t_0}  \text{  model of acceleration} \nonumber \\
+a &= \dfrac{\Delta v}{\Delta t} \nonumber
+\end{align}
+$$
+
+* So if the speed is uniform, like the ball above, then the acceleration is zero (since $\Delta v = 0$). 
+* If the speed changes in time, then we have accelerated motion since $\Delta v \ne 0$.
+
+Dimensions of acceleration are a little unfamiliar but we can work them out:
+
+![screenshot_3668](screenshot_3668.png){width=80%} 
+
+Of course the simplest acceleration is a constant one...that during any time interval, the speed increases and the rate at which the speed increases is constant. ![screenshot_3669](screenshot_3669.png){width=80%}
+
+But sometimes you put on the brakes, and you know that you slow down because you can feel it and the speedometer is telling you that. So in increasing time intervals, the rate at which the speed changes is negative. ![screenshot_3670](screenshot_3670.png){width=80%}
+
+In the diagram, $\Delta v < 0$. This is a negative acceleration and is called <u>decceleration</u>. 
+
+I've concentrated on acceleration and deceleration which are constant...the speed changes at a uniform rate, up or down. But that's not the only kind. Think about a sprinter. Just after the starting gun, a runner's speed out of the blocks is high and remains high for the first few steps. As the runner starts to become a little more vertical, air resistance becomes a factor and while the runner goes faster, she does so at a lower rate of speed increase. That's a non-constant acceleration. 
+
+::: column-margin
+![A sprinter's changing acceleration. Notice that the slope changes as time inncreases](screenshot_3671.png){width=80%}
+:::
+
+Now you can design a sports video game. All you have to do is measure an athlete's personal acceleration parameters and code them. I found this years ago for Madden NFL11 of a particular running back:![screenshot_3672](screenshot_3672.png){width=80%}
+
+
+
+## Gravity
+
+Famously, Galileo Galilei determined that any object near the earth would fall at a constant acceleration. How he determined this was clever and you can read the story at [Galileo](../../history/galileo_free_fall.qmd). What he found was that the speed of a falling object would increase linearly with the time of it's fall. A competing idea from other natural philosophers including Leonardo DaVinci, proposed that the speed would increase linearly *with distance, not time*.
+
+What Galileo knew from medieval considerations was that this linearity with time for $v$ meant that distance had to increase quadratically with time. 
+
+So, a model of Galileo's qualitative conclusion is:
+$$
+\begin{align}
+v(t) &\propto t \nonumber \\
+x(t) &\propto t^2 \nonumber
+\end{align}
+$$
+The symbol $\propto$ means "proportional to" and when we find a relationship like that, we can turn it into an equation by inserting some constant of proportionality. For falling bodies near the earth, the symbol for that constant is called "$g$" or "little g." Now we can fully-form the model as:
+$$
+\begin{align}
+v(t) &= gt \nonumber \\
+x(t) &= 1/2gt^2 \nonumber
+\end{align}
+$$
+There are simplicity reasons for the 1/2...if we'd absorbed that into $g$ then the first equation would have had to change. The value of $g$ comes from experiment and is about
+$$
+\begin{equation}
+g = 9.8 \text{ m/s$^2$} = 32 \text{ ft/s$^2$}.  \nonumber \\
+\end{equation}
+$$
+While this is a story that started with gravity, it's nonetheless a completely general description of any accelerated motion (your car) if that acceleration is constant. In general, then, we'd use the symbol $a$ and treat falling as a special case of constantly accelerated motion in which case $a=g$. 
+
+While we defined speed in terms of distance, we can rewrite @eq-eq1
+$$
+\begin{align}
+\text{For constant speed,}&\text{ no acceleration} \\
+v &=\dfrac{x-x_0}{t-t_0} \nonumber \\
+x-x_0 &=v(t-t_0) \nonumber \text{ let's take our initial time be 0} \\
+x &= x_0 + vt
+\end{align}
+$$
+And for constant acceleration, we can find a general relationship for distance as well with a simple calculation. 
+
+::: {.callout-warning  icon=false}
+⚠️ A bit of algebra is required to derive the complete quartet of equations for motion with a constant acceleration. I do that for you in [equations of motion](./Motion_equations.qmd)
+:::
+
+## Complete model for motion{#sec-equationsofmotion}
+
+So collectively, here are our definitions for motion:
+
+$$
+\begin{align}
+\text{Constant speed,}&\text{ no acceleration} \nonumber \\
+x &= x_0 + vt \nonumber \\
+v &= \text{ constant} \nonumber \\
+a &= 0 \nonumber \\
+\text{Constant}&\text{ acceleration}& \nonumber \\
+a &=\dfrac{v-v_0}{t-t_0} \nonumber \\
+a &= \dfrac{\Delta v}{\Delta t} \nonumber \\
+\end{align}
+$$
+
+And here are the complete set of equations for one-dimentional constant acceleration. Each relation relates two of the three variables: $x, t, v$. 
+
+$$
+\begin{align}
+& \text{1. } \; x = \langle v \rangle t \label{avev} \\ 
+& \text{2.  } \; v   = v_0 + at \label{vat} \\
+& \text{3. }  \; x   = x_0+v_0 t + \frac{1}{2} at^2 \label{xat}  \\
+& \text{4. }\; v^2   = v_0^2 + 2ax \label{vax} 
+\end{align}
+$$
+
+Notice two things. If the motion is at a constant velocity, then setting $a=0$ recovers that special case. And notice  that \eqref{vax} does not have time as a variable and that will turn out to be interesting when we talk about energy.
 
 ---
+
+## Projectiles{#sec-projectiles}
+
+When you throw a ball from centerfield to home plate, the ball executes what looks like a parabollic trajectory. The ball goes forward while it probably rises for a while and then drops toward the ground. That's two-dimensional motion and Galileo had the insipiration to figure out what was going on and how to do experiments to confirm his hypothesis that the up-and-down would follow the shape of a parabola. 
+
+His insight was that when motion is imparted to an object and the source of the motion is taken away (you throw the ball and it leaves your hand and is then in its own), that something stays with the ball. He called it "impeto" and we call it "momentum." The ball acquires momentum. 
+
+And he realized that whatever impeto the ball acquires in the horizontal direction is preserved, but the moment the ball leaves your hand, it starts to head toward the Earth. In modern words, we'd say that once released, the ball has a horizontal momentum that stays constant and a vertical momentum that changes and points down. The two motions are in some sense overlaid or shared by the ball.
+
+```{r}
+#| label: fig-motion_head2
+#| fig-cap: "Throwing a ball. The vertical axis is the height above the ground and the horizontal axis is the range. The curve shows the trajectory of a thrown ball in the absence of any air resistance – a perfect parabola. The intitial velocity is shown as the arrow at location 1. At each of the five points the overall velocity is broken into horizontal and vertical components. "
+#| cap-location: margin
+#| out-width: 100%
+# #| out.width: “700px”  
+# #| column: screen
+#| echo: false
+knitr::include_graphics("screenshot_3677.png")
+```
+
+In the figure you can see that the original velocity $v_1$ points up and foward and I've broken up this arrow (a vector) into it's horizontal component which you can see at 1, 2, 3, 4, and 5 is the same length. It's "impeto" is constant. The vertical component changes at each point – disappearing at the top – and then increasing down as the ball heads to Earth. Gravity wins.
+
+For QS&BB we'll not need two dimensional kinematics.
+
+
+
+
 ::: {.post-nav}
 [Next: 2.00 momentum and force](../20250415_0200-momentum_and_force/0200-momentum_and_force.html)
 :::

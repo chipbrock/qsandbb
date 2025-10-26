@@ -21,12 +21,11 @@ class: stories-index
 draft: false
 ---
 
-
 ::: {.centered-table}
 | \| [Feynman Diagrams Tutorial](./feynman-diagrams/index.html) |  [Particle Biographies](./particle-bios/index.html) | [People](./math/index.html) |
 | \| [Particle Detectors](./math/index.html)| [Experiment Biographies](./math/index.html) |
 | \|  [NOS](./NOS/index.html) | [Science Musings](./math/index.html) | [Philosophy](./math/index.html) | [History](./math/index.html) |
-| \| [Math Refresher](./math/index.html) | [mechanics](./mechanics/index.html) | [electromagnetism](./electromagnetism/index.html) | [special_relativity](./special_relativity/index.html) | 
+| \| [Math Refresher](./math/index.html) | [mechanics](https://chipbrock.github.io/SkinnyPhysics/mechanics/) | [electromagnetism](./electromagnetism/index.html) | [special_relativity](./special_relativity/index.html) | 
 
 <br>
 

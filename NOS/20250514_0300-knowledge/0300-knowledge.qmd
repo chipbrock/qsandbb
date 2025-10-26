@@ -1,0 +1,99 @@
+---
+title: "3.00 Scientific Knowledge, Proof, and Truth"
+date: 2025-08-16 # (your last edit date)
+image: "iStock_000006766990Small.png"
+categories: [NOS, philosophy]
+description: "Scientific and everyday knowledge seem different...but it's actually hard to say why. Isn't it interesting? It's an old problem."
+draft: false
+---
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Nos</a> > <strong>knowledge</strong>
+</div>
+::: {.post-nav}
+👈 [Previous: 2.00 models](../20250514_0200-models/0200-models.html) | [Next: 4.00 reality and mathematics](../20250514_0400-reality/0400-reality.html) 👉
+:::
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: May 14, 2025
+</div>
+---
+
+::: {.column-margin}
+![](iStock_000006766990Small.png){ width=100% }
+:::
+
+# A kind of knowledge?
+
+"Scientific and everyday knowledge" seem different...but it's actually hard to say why. I know when I or a colleague am behaving scientifically and that the knowledge we've produced is legitimately scientific, but isn't it interesting that it's hard to describe? Characterizing “kinds of knowledge” is a deep subject in psychology and philosophy and I won’t go there. But I can describe the kind of knowledge we care about – Scientific Knowledge – and roughly contrast it with our everyday picture of what it means to know something. 
+
+Broadly, I think we have:  a) knowledge of things—how they appear, how many there are, how they behave; personal knowledge—like how I drive a car; and b) social knowledge—what others tell me, like their names or preferences.[^piaget]
+
+[^piaget]: This is similar to Piaget’s three kinds of knowledge: Physical, Social, and Logico-mathematical.
+
+Knowledge of things can often be <u>recorded</u>—written down, sketched, or tabulated. Personal knowledge is harder to share; it’s tied to experience but it also often consists of internal imagery. Social knowledge is public, <u>transferable</u>, but sometimes prone to misunderstanding.
+
+Defending my everyday knowledge doesn't follow rules. If well-meaning, then common sense prevails.  I might compare a book cover to a stoplight to demonstrate that it’s red, or to the lawn to show it’s green. That’s <u>factual demonstration</u>. I might say the red book is my favorite or argue that I "just know" that the green one by the same author will also be good, extrapolating from my own experience. These are opinions. I might say, “My wife says the green book is good,” which accepting her authority to defend my opinion. Some people will claim that they "just know X is true," in spite of any evidence which drives me crazy.
+
+Our everyday knowledge is pretty fluid. We can change our minds, althought there can be some personal knowledge of political or spiritual belief that's unchangable. 
+
+# Five characteristics of scientific knowledge
+
+Scientific knowledge has aspects of all of these everyday life experience, but it's somehow different. Here's my take on this.
+
+1. **Domain**. Scientific knowledge works within defined and accepted boundaries. We study, explain, and predict events in the natural world. The physical world as opposed to a mental or supernatural realm.[^baseball]
+
+   [^baseball]: Baseball rules work within the domain of a baseball diamond. Applying them outside of that domain, say on a football field, would not make sense.
+
+   
+
+2. **Commitments**. Unlike everyday knowledge, scientific knowledge comes with some rules and a handful of commitments which are not under question. The commitments are: 
+
+   1. there is a physical world independent of our minds; 
+   2. that world is not capricious but behaves consistently in all places and times, or evolves in understandable ways;  
+   3. that world is knowable; 
+   4. there are no boundaries of what we can know of that world;
+   5. cause and effect operate in that physical world; and 
+   6. that world must be described in terms of mathematics.
+
+3. **Rules**. Scientific knowledge is public and reproducable. 
+
+   * Scientific knowledge is worthless if it's a secret. This leads to endless arguments about people who had private competing ideas to those who are now credited. Look up Thomas Harriot and Galileo.
+   * Scientific knowledge largely builds on trusted theories and facts from the past. A theory parachuted in without any connection to history is not scientific knowledge. It's just a guess and unwelcome in scientific discourse.
+   * Scientific knowledge is a product of people, either working together or historically connected through a chain of evidence and theory. 
+   * Promulgating something that you found on the internet or youtube is not scientific knowledge. Scientific expertise is required before ideas or theories are worth listening to.
+   * The flip side of this is **Authority**. Judging scientific statements as true because an authority claimed them so is not scientific. Authority should not matter, evidence should. History is littered with examples of unknown scientitists going up against authority scientists...and winning. Look up Alexander Friedmann and Albert Einstein. Not the latter's best moment.
+
+4. **Scientific Statements**. A scientific statement must explain events in the physical world, predict events in the physical world...or both.
+
+   * An explanation must come from a mathematical model.
+   * A prediction must be a quantitative or existence statement (X exist).
+
+5. **Precision**. This point is often underappreciated and runs counter to how we usually accept knowledge. In science, saying “I measured A and its value is $x$” is unscientific. 
+
+   o The proper scientific statement is: “I measured X and its value is $x \pm \delta x$.” That uncertainty—$\delta x$—is essential and must be explicitly stated and justified. 
+
+   o Typically, it includes at least two of three components: statistical uncertainty (e.g., the “margin of error” in polls), systematic uncertainty (how well your instruments perform), and sometimes theoretical uncertainty (from models or simulations underlying the measurement).
+   
+   *  Statistical uncertainty is straightforward: more measurements (e.g., 1000 vs. 10) generally yield more precise results, typically expressed in standard deviations. 
+   
+   
+   * Systematic uncertainty reflects limitations in measurement tools—using a ruler marked only in inches makes it hard to claim 1/10th-inch precision. 
+   
+   
+   * Theoretical uncertainties arise when the measurement depends on models, common in particle, nuclear, and astrophysics, especially when simulating detectors or signals above background.
+   
+
+
+
+## How they differ from everyday knowledge
+
+First of all, everyday knowledge production doesn't adhere to strict rules, so that's an obvious difference with scientific knowledge. Rules-based knowledge that's not science is probably the Law. What you say, how you say it, and how you justify it is pretty much the whole game for the legal profession.
+
+👉 For me, I think that #5 above is key. It removes "proof" and "truth" from the game since everything you assert must come with an uncertainty. There's no analog to this in everyday knowledge production and consumption. In fact, polemic everyday knowledge is usually, aggressively certain.
+
+
+---
+
+::: {.post-nav}
+👈 [Previous: 2.00 models](../20250514_0200-models/0200-models.html) | [Next: 4.00 reality and mathematics](../20250514_0400-reality/0400-reality.html) 👉
+:::

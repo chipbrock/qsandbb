@@ -1,8 +1,11 @@
 ---
-title: "2.00 momentum and force"
-categories: [Mechanics]
-description: "momentum and force post content"
-draft: true
+title: "2.00 Momentum and Force"
+number-sections: true
+date: 2025-08-25 # (your last edit date)
+image: "screenshot_3679.png"
+categories: [Mechanics, physics, velocity]
+description: "Newton's laws of momentum, force, and acceleration guide us."
+draft: false
 ---
 
 <div class="breadcrumb">
@@ -10,14 +13,271 @@ draft: true
 </div>
 
 <div style="font-size:0.85em; color:#555; margin-top:0.5em;">
-Author: Chip Brock · Published: April 15, 2025
+Author: Chip Brock · Drafted: August 25, 2025
 </div>
 
 ---
 
-Write your content here.
+::: {.column-margin}
+![](screenshot_3679.png){ width=100% }
+:::
+
+
+This is the first of three outlines of some basic physics ideas so that I can refer to them in other posts. If you'd like more, including history and examples, then visit [full textbook](https://qstbb.pa.msu.edu/storage/ISP220_fall2020/QS&BB2020/intro.html) for a textbook-level presentation.
+
+## Take-aways:
+
+
+
+::: {.callout-tip  icon=false}
+🔐 
+Maybe you only need the bare facts: stuff to remember in this chapter:
+
+* impulse definition, Equation  \eqref{fullimpulse}
+* Newton's mass definition @sec-mechmass
+* momentum definition @sec-mechmomentum, Equation \eqref{momentumdef} 
+* Newton's real second law of motion, Equation \eqref{newtons2}
+* Newton's famous, simplified, second law of motion, Equation \eqref{newtons2b}
+* Newton's famous "three laws of motion" @sec-newtonslaws
+* Newton's notion of weight, @sec-weight
+* Newton's centripetal force...circular motion, @sec-circular
+
+
+
+:::
+
+## Isaac Newton's important idea
+
+To start something moving from rest? Apply a force. To speed up or slow down something already moving? Apply a force! To cause something to deviate from a straight line? Yes. Another force. To keep something moving at a constant speed? No (net) force required, thank you.
+
+Here's what he said:
+
+::: {.callout-important  icon=false}
+🫵 Whenever there's a change of velocity on any object, a force is at work: since acceleration is a change in velocity, forces are responsible for acceleration. Note: because velocity is technically a vector, then changing direction is also changing velocity.
+:::
+
+One of the many ways that  Newton got into the textbooks was to argue with Aristotle who insisted that *all motion* requires a pusher in physical contact: No, Newton said. Constant motion *is* free. It's only accelerated motion that requires payment in the form of the action of a force. 
+
+Let’s start slowly and sneak up on this idea. Impulsively.
+
+
+
+### Impulse – Every sport 
+
+In QS&BB we don't need much depth, but we do need three important concepts...the ones that underpinned Newton's system:  **force**, **mass**, and **momentum**. Let's move:
+
+In the previous lesson we laid out the rules that govern an object's motion. 
+
+Newton:  To get something up to speed, you need to whack it or shove it --- either *a sharp collision or a steady push* increases the speed of an object. Push harder? More speed. Push longer? Again, more speed.
+
+So let’s codify that everyday notion into a model of forces and motion. Let’s imagine a force, $F$  that pushes during some time interval, $\Delta t$. A whack means that $\Delta t$ is small (like a golf club hitting a ball) while a steady shove (like a rugby scrum) means that the force is slowly applied so $\Delta t$ is larger.
+
+Here’s what we know from experience: applying a force ($F$) to something for a time interval ($\Delta t$) results in the speed increasing in proportion, ($\Delta v$). We have the beginnings of a model:
+
+$$
+\begin{equation}
+F\Delta t \propto \Delta v. \label{eq:impulse1}
+\end{equation}
+$$
+
+Increase $F$, $\Delta t$, or both on the left-hand side, and the speed goes up on the right-hand side. The quantity on the left side is called the **Impulse**. It's the sports-quantity. Any game involving a ball involves impulse and exceptional athletes can control both the $F$ and the $\Delta t$. The quantity on the right implies that the speed changed and of course if the speed changed, then the object accelerated and/or it changed direction.
+
+We need to refine the model. But first some units and language:
+
+>**May the force be with you by so many different names**<br><br>
+>We will use forces many times in QS&BB, which is a common quantity in our lives because of “weight.” But if you’re from the United States, when you step on the bathroom scale it reports back to you your weight in the Imperial measurement system (or “customary measures system”) as too many **Pounds**, lbs. In a minute, you’ll see why that’s confusing when comparing to the rest of the world where the bathroom scale would report kilograms. <br><br>
+>The unit of force in the International System of Units (SI), which includes the older “metric system” or MKS (Meter, Kilogram, Second) is the **Newton**, N. If you go to the gas station in Berlin, you’ll fill your tires to a pressure measured in Pascals, which is Newtons per square meter. Of course up the street from me, our Michigan gas station reports pounds per square inch for my pressure.
+
+We'll predominantly use the unit of Newton as the modern measure of a force – like the rest of the civilized world. I'll  not obsess with units and so I'm happy for you to rely on Mr. Google in almost all instances. 
+
+::: {.callout-important  icon=false}
+🔐  Type this into your browser: "convert 10 pounds into newtons" and you'll be rewarded with the answer and a tool for all kinds of unit conversions. You're welcome.
+:::
+
+### Inertia
+
+*Pressing* forward (see what I did there?). Let's think about pushing.
+
+Suppose I apply a force of $F=100$ pounds for 60 seconds to a Volkswagen and you apply a force of $F=100$ pounds for 60 seconds to a little red wagon. We both begin our efforts at point A:
+
+```{r}
+#| label: fig-motion_head2
+#| fig-cap: "The same force applied to two red objects, of very different sizes"
+#| cap-location: margin
+#| out-width: 80%
+# #| out.width: “700px”  
+# #| column: screen
+#| echo: false
+knitr::include_graphics("./iwagon.png")
+```
+
+Will the resulting $\Delta v$ at point B be the same for both vehicles? 
+
+Of course not. The little red wagon will gain more speed than the Volkswagen (regardless of its color). The VW is more reluctant to be accelerated than the wagon. So Equation \eqref{eq:impulse1} is not the whole story. What's missing is just that reluctance that any object has to being accelerated, which has a name: **inertia**.
+
+## Newton's Mass{#sec-mechmass}
+
+
+Mass is a toughy and we'll see over and over how complicated it is –  to the current day. Here's how he defined it in the *Principia*:
+
+"Mass is the quantity of matter arising from its density and bulk conjointly."
+
+There you go. Useful? ...no?
+
+You do perfectly well to accept the idea that mass is the **quantitative measure of an object's reluctance to be coaxed into changing its motion.**
+
+Here begins our love-hate relationship with mass. This much works:
+
+::: {.callout-important  icon=false}
+🫵 *Inertia* is an object's resistance to being accelerated and the measure of an object’s inertia is its *mass*.
+:::
+
+This is the most profound and at the same time, the most mundane idea that Newton had!
+
+::: {.callout-tip  icon=false}
+ 🔐  At the deep level of elementary particles, mass confuses us, perhaps in a different way from how it confuses engineering freshmen. We think that mass may actually not be an actual property of object, but rather a result of an object's interaction with a spooky field that sprang into existence just after the birth of the Universe. Now, in the 21st century, we've got a whole new set of neuroses about this subject, as understanding it occupies almost the entire Particle Physics community. So, Mass has been a problematic subject since its beginning in Newton's hands.
+:::
+
+## The "Quantity of Motion": Momentum {#sec-mechmomentum}
+
+We just developed a sense that our hand-built, car-pushing formula, Equation \eqref{eq:impulse1} has to depend on speed *and* mass and so we'll just add it in on the right-hand side to get:
+
+$$
+\begin{equation}
+F\Delta t = m\Delta v  \label{impulse2}
+\end{equation}
+$$
+
+
+Being more explicit, when fleshed out impulse is
+
+$$
+\begin{equation}
+F\Delta t = m(v - v_0) \label{fullimpulse}
+\end{equation}
+$$
+
+>There’s more to this story<br><br>
+>To be totally correct, the right hand side of this equation can be written as $\Delta (mv)$ which recognizes that the mass might change instead of, or in addition to, the velocity changing. This is how a balloon jumps from your hand when you stop pinching the nozzle, or how a rocket is propelled by ejecting burned propellent out the back. In each case, the mass of the moving object changes and that results in a thrust. But we’ll not encounter that in QS&BB.
+
+
+
+This quantity on the right, $mv$ is the definition of momentum. So the impulse is:
+$$
+\begin{align}
+F\Delta t &= \Delta (mv) \nonumber \\
+F\Delta t &= \Delta p \label{momentumdef} \\
+
+\end{align}
+$$
+
+The athletic use of this is instinctive and learned...but with muscles and your neurosystem not paper and pencil:
+
+```{r}
+#| label: fig-impulse_balls
+#| fig-cap: "The left-hand version where you want to change the velocity of a ball for example, in baseball, tennis, soccer, and golf…anything with a ball. The right-hand version where you have a fixed goal – like stopping precisely – fits football, gymnastics, and track and field. "
+#| cap-location: margin
+#| out-width: 100%
+# #| out.width: “700px”  
+# #| column: screen
+#| echo: false
+knitr::include_graphics("screenshot_3684.png")
+```
+
 
 ---
+So, repeat after me:
+
+* If there is no net force on an object
+
+  * it’s motion doesn’t change
+
+    👉 if its speed was zero…it stays zero
+
+    👉 if its speed was 55 mph…it stays at 55 mph
+
+Said another way, if you see the motion of any object changing... then somewhere there is a force actiing (it might be invisible, like a magnetic field).
+
+One quick change of Equation \eqref{momentumdef}:
+
+$$
+\begin{align}
+F\Delta t &= \Delta p \nonumber \\
+F &= \frac{\Delta p}{\Delta t} \label{newtons2} \\
+\text{since }&=\Delta p = \Delta (mv) \nonumber \\
+\text{and if the mass is constant } &= \Delta p =m\Delta v \nonumber\\
+F &= m \frac{\Delta v}{\Delta t} \nonumber \\
+\text{and since } &= \frac{\Delta v}{\Delta t} = a \nonumber \\
+F &= ma \label{newtons2b}
+\end{align}
+$$
+A couple of these are  suitable for a T-shirt: Equation \eqref{newtons2} is "Newton's Second law of Motion" in its most general physics-major form. Equation \eqref{newtons2b} is the T-shirt version for motion in which the mass of an object undergoing a push doesn't change.
+
+### Newton's 3 laws of motion{#sec-newtonslaws}
+
+If there's a second law, there must be a first one and there is...and a third one. Here they are for completeness:
+
+1. An object with constant velociy will retain that constant velocity of zero or another value.
+2. Best expressed as an equation as \eqref{newtons2}.
+3. For every force that object A applies to object B, an equal and opposite force will be appled by B to A.
+
+The Third law is very useful for solving problems, but that's not what we're about in **QS&BB**.
+
+### Weight {#sec-weight}
+
+There's an important special case of Equation \eqref{newtons2b} which has to do with the earth and, well, everything that's not nailed down. The earth attracts all objects with a force (which we'll talk about in a bit) that seems constant and has a partcular value of acceleration, that of gravity., We affectionately call it $g$. So your weight is the force that the earth applies to you and so we simply have:
+$$
+\begin{align}
+F &= ma \text{ ...now modify for gravitational force}\nonumber \\
+F &= W \text{ for the special force called "weight"} \nonumber \\
+a &= g \text{ for the special acceleration of gravity} \nonumber\\
+W &=mg \text{ which is weight on earth} \label{weight}
+\end{align}
+$$
+Two caveats:
+
+1. We call this $g$ "little g" and it's only got a specific value for the earth. There are different  little g's for other planets, moons,  or stars.
+2. The force of gravity is actually not constant – stay tuned. But miles above tthe earth it's still so close to $g$  that we often pretend that it's constant.
+
+So little g is an important number:
+
+* In the american system, $g = 32$ feet/second$^2$ , 32 ft/s$^2$
+* For the rest of the world, $g = 9.8$ meters/second$^2$, 9.8 m/s$^2^
+
+
+
+## Circular Motion {#sec-circular}
+
+Remember that if a velocity changes, then there's an force acting as a cause and an acceleration is the result. Well, what about driving around a curve keeping your accelerator at 50 mph? This is the one time in **QS&BB** we'll care about the vector nature of velocity. A true (for a professional physicist or student) velocity has a magnitude (what your speedometer reads back) and a direction. So going 50 mph north is a different velocity than going 50 mph east. Same <u>speed</u>, different <u>velocity</u>.
+
+Okay, what's going on with you turning that corner where your direction changes but your speed doesn't. From the formal definition, the velocity must change 👉 so there must be a force acting 👉 so there is an acceleration.
+
+It might be easier to think of twirling something overhead. Suppose you tie a ball to a thin rope and get it rotating above your head in a horizontal plane, like our little guy in the margin.
+
+::: column-margin
+![Twirling a ball over your head in a horizontal plane.](screenshot_3696.png){width="100%" #fig-erad}
+:::
+
+You can feel a tug. That is, the ball seems to exert a force on your hand through the rope. But what's really going on is that the ball wants to go forward (Newton's first law) and you pull it back incrementally, bit by bit as it goes around. You're supplying that force necessary to defeat its straight line motion.
+
+This force-towards-the-center is called "centripetal force" – you've maybe heard of "centrifugal force" but that's different and sometimes called "ficticious" which seems sort of insulting. But when you're a passenger in a car that's going around a curve, you feel a force that's away from the center of the curve...that's centifugal. But that's just your body trying to obey that first law and go straight, while you're in this car going, well, not straight. Where do you get the force that makes you follow the car? The door against your shoulder, the friction of the back of your lap on the seat, and hopefully your seatbelt. Absent those forces which pull you toward the center of the curve, you'd go flying. 
+
+The acceleration that you (or the ball) experience is toward the center of the circle (which we'll say has radius $R$, following the direction of the force, and has its own formula and name of "centripetal acceleration" ($a_c$):
+$$
+a_c=\frac{v^2}{R} \label{centripetala}
+$$
+From Newton's second law, there's then a centripetal force. That tug you provide to the ball of mass $m$ is:
+$$
+\begin{align}
+F_c &= m a_c \nonumber \\
+F_c &=m \frac{v^2}{R} \label{centripetalf}
+\end{align}
+$$
+
+
+
+
 ::: {.post-nav}
 ← [Previous: 1.00 motion](../20250415_0100-motion/0100-motion.html) | [Next: 3.00 collisions](../20250415_0300-collisions/0300-collisions.html)
 :::
+

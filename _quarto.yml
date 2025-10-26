@@ -1,16 +1,33 @@
 title: "Quarks, Spacetime, and the Big Bang"
 #author: "Chip Brock"
+execute:
+  cache: true
+  freeze: auto
+preview:
+  watch-inputs-only: true
 from: markdown+emoji
 project:
   type: website
   output-dir: docs
 render:
-  - "*.qmd"
+  # include only the site you actually want rendered
+  - index.qmd
+  - QSBB.qmd
+  - once_upon.qmd
+  - stories.qmd
+
+  # content sections (adjust to taste)
+  - NOS/**/*.qmd
+  - mechanics/**/*.qmd
+  - special_relativity/**/*.qmd
+  - particle-bios/**/*.qmd
+  - electromagnetism/**/*.qmd
+  - math/**/*.qmd
+  - Words/**/*.qmd
+
+  # EXCLUDES
   - "!about3.qmd"
-  #- about2.qmd
-  #- index.qmd
-  #- about.qmd
-  #- about2.qmd
+  - "!garage/**"
 toc: true
 number-sections: true
 highlight-style: pygments
@@ -29,7 +46,7 @@ website:
       - text: 🗑️ just a theory?
         href: trigger.qmd
       - text: 📖 blog
-        href: blog.qmd
+        href: stories.qmd
       #- text: about me
       #  menu:
       #    - me-in-2-seconds.qmd
@@ -48,14 +65,12 @@ website:
         menu:
           - text: Nature of Science (NOS)
             href: NOS/index.qmd
-          #- text: All Stories
-          #  href: stories.qmd
-          #- text: interesting posts
-          #  href: posts/index.qmd
-          - text: Particle Bios
-            href: particle-bios/index.qmd
+          - text: Skinny Physics
+            href: https://chipbrock.github.io/SkinnyPhysics/
           - text: Feynman Diagrams
             href: https://chipbrock.github.io/FeynmanDiagramsEveryone/
+          - text: Particle Bios
+            href: particle-bios/index.qmd
           - text: Math Review
             href: math/index.qmd
           - text: words
@@ -84,16 +99,27 @@ format:
     theme:
       light: simplex
       dark: darkly
-    toggle: true  
+    toggle: true
+    fontsize: 1.3em
     css: styles.css
-    grid: 
+    grid:
       body-width: 900px
     mainfont: "EB Garamond, Georgia, serif"
     toc: true
     reading-time: true
     html-math-method: mathjax
-    mathjax:
-      options:
-        chtml:
-          scale: 0.8 # or try 0.85 to reduce more
+    # Force-enable AMS numbering for MathJax v3
+    include-in-header:
+      text: |
+        <script>
+        window.MathJax = {
+          tex: {
+            tags: 'ams',         // number align, gather, etc.
+            tagSide: 'right',    // numbers on the right
+            packages: {'[+]': ['ams']} // be explicit about AMS package
+          },
+          chtml: { scale: 0.9 }
+        };
+        </script>
+
 #reference-location: margin

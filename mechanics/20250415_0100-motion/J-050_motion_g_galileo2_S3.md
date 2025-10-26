@@ -2,8 +2,8 @@
 title: "Motion, 1"
 author: "Chip Brock"
 description: "Here we'll do enough about motion to serve our physics stories. The word for how things move is 'kinematics' which says nothing about why things move and this post is a bit about kinematics. "
-date: 07-12-2025
-categories: [motion, test] # self-defined categories
+date: 08-17-2025
+categories: [motion, velocity] # self-defined categories
 image: chip.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 fig-cap-location: margin

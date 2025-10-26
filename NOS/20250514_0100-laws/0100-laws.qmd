@@ -1,6 +1,6 @@
 ---
-title: "1.00 laws"
-date: 2025-07-08  # (your last edit date)
+title: "1.00 Laws and Theories"
+date: 2025-08-16  # (your last edit date)
 image: "screenshot_3483.png"
 categories: [NOS, philosophy]
 description: "'It’s not just a good idea, it’s the law.' was the 1970's highway sign. A law you can disobey. But a Scientific Law? That's supposed to be certain. If a statement about the natural world isn't a 'law' then it's often thought to be just second-rate. Nope. There aren't any Scientific Laws!"
@@ -11,7 +11,7 @@ draft: false
   <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Nos</a> > <strong>laws</strong>
 </div>
 ::: {.post-nav}
-[Next: 2.00 knowledge](../20250514_0200-knowledge/0200-knowledge.html) 👉
+[Next: 2.00 models](../20250514_0200-models/0200-models.html) 👉
 :::
 
 
@@ -28,10 +28,8 @@ Author: Chip Brock · Published: May 14, 2025
 :::
 
 ::: {.callout-warning  icon=false}
-🫵 This will make more sense if you've read my Florida story [only a theory](./../../trigger.qmd) warning!
+🔖 This will make more sense if you've read my Florida story [just a theory](./../../trigger.qmd) warning ☝️!
 :::
-
-[1.00 laws](20250514_0100-laws/0100-laws.qmd)
 
 # Turtles: Theories and Laws
 
@@ -85,7 +83,7 @@ I was proud of my community during that episode. That’s how it’s supposed to
 
 ## My criterion for a proper scientific statement
 
-I'm treading into waters that force us to think about what is and what isn't a proper scientific process. Historically. that's the problem of demarcating Scientific Knowledge from "Pseudoscientific Science." You may have heard that scientific statements must be "falsifiable," an idea often credited to the philosopher of science (and other things), Karl Popper[^Popper] 
+I'm treading into waters that force us to think about what is and what isn't a proper scientific process. Historically. that's the problem of demarcating Scientific Knowledge from "pseudo-science" statements. You may have heard that scientific statements must be "falsifiable," an idea often credited to the philosopher of science (and other things), Karl Popper[^Popper] 
 
 [^Popper]: Popper's strict falsifiability is no longer accepted for nuanced reasons (the "Quine-Duhem Thesis") but the sentiment is still a guide and Einstein underscored this in his 1905 Special Relativity paper.
 
@@ -95,7 +93,7 @@ I'm treading into waters that force us to think about what is and what isn't a p
 🫵 In order for you to assert a statement about the natural world as legitimately scientific, you must be able to say what it would take to change your mind.
 :::
 
-> Nobody said, “Let’s ignore this evidence because Relativity must be true.” We all said, “Wow. This is probably a mistake but we’d better spend a year around the world checking it.” 
+> Nobody said, “Let’s ignore this evidence because Relativity must be true.” We all said, “Wow. A faster-than-light neutrino signal is probably a mistake but we’d better spend a year around the world checking it.” 
 
 👍 Proponents of **scientific statements** can always tell you what evidence would force them to abandon one of their favorite theories, here, a superluminal particle qualifies as one of those pieces of evidence that could in-principle have overthrown Relativity.
 
@@ -138,5 +136,5 @@ So "theories all the way down" really means that we have a few theories that we 
 ---
 
 ::: {.post-nav}
-[Next: 2.00 knowledge](../20250514_0200-knowledge/0200-knowledge.html) 👉
+[Next: 2.00 models](../20250514_0200-models/0200-models.html) 👉
 :::

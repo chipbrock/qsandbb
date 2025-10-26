@@ -43,8 +43,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e508f83e6cc6ae7fcf892157b80b52e4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-fdbf0f28e20667e750fd5713a8479fa9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-095d27ee4a2d8c9b23f4d6487ba4dada.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-f5f3d3c945a1b94b73b39036bb7547df.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,6 +107,16 @@ ul.task-list li input[type="checkbox"] {
         background: A9A9A9;
       }
 </style>
+<script>
+window.MathJax = {
+  tex: {
+    tags: 'ams',         // number align, gather, etc.
+    tagSide: 'right',    // numbers on the right
+    packages: {'[+]': ['ams']} // be explicit about AMS package
+  },
+  chtml: { scale: 0.9 }
+};
+</script>
 <meta name="quarto:status" content="draft">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -172,7 +182,7 @@ window.Quarto = {
 <span class="menu-text">🗑️ just a theory?</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html"> 
+    <a class="nav-link" href="../stories.html"> 
 <span class="menu-text">📖 blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -185,12 +195,16 @@ window.Quarto = {
  <span class="dropdown-text">Nature of Science (NOS)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../particle-bios/index.html">
- <span class="dropdown-text">Particle Bios</span></a>
+    <a class="dropdown-item" href="https://chipbrock.github.io/SkinnyPhysics/">
+ <span class="dropdown-text">Skinny Physics</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="https://chipbrock.github.io/FeynmanDiagramsEveryone/">
  <span class="dropdown-text">Feynman Diagrams</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../particle-bios/index.html">
+ <span class="dropdown-text">Particle Bios</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../math/index.html">
@@ -252,10 +266,21 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#posts" id="toc-posts" class="nav-link active" data-scroll-target="#posts"><span class="header-section-number">1</span> Posts</a></li>
+  <li><a href="#laws-and-theories" id="toc-laws-and-theories" class="nav-link active" data-scroll-target="#laws-and-theories"><span class="header-section-number">1</span> Laws and Theories</a>
+  <ul class="collapse">
+  <li><a href="#theories" id="toc-theories" class="nav-link" data-scroll-target="#theories"><span class="header-section-number">1.1</span> Theories</a></li>
+  </ul></li>
+  <li><a href="#models-and-scientific-statements" id="toc-models-and-scientific-statements" class="nav-link" data-scroll-target="#models-and-scientific-statements"><span class="header-section-number">2</span> Models and Scientific Statements</a></li>
+  <li><a href="#scientific-knowledge-proof-and-truth" id="toc-scientific-knowledge-proof-and-truth" class="nav-link" data-scroll-target="#scientific-knowledge-proof-and-truth"><span class="header-section-number">3</span> Scientific Knowledge, Proof, and Truth</a>
+  <ul class="collapse">
+  <li><a href="#scientific-statements" id="toc-scientific-statements" class="nav-link" data-scroll-target="#scientific-statements"><span class="header-section-number">3.1</span> Scientific statements</a></li>
+  <li><a href="#proof" id="toc-proof" class="nav-link" data-scroll-target="#proof"><span class="header-section-number">3.2</span> Proof?</a></li>
+  </ul></li>
+  <li><a href="#reality-and-the-role-of-mathematics" id="toc-reality-and-the-role-of-mathematics" class="nav-link" data-scroll-target="#reality-and-the-role-of-mathematics"><span class="header-section-number">4</span> Reality and the Role of Mathematics</a></li>
+  <li><a href="#posts" id="toc-posts" class="nav-link" data-scroll-target="#posts"><span class="header-section-number">5</span> Posts</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Tk9T">NOS <span class="quarto-category-count">(6)</span></div><div class="category" data-category="ZHJhZnRpbmc=">drafting <span class="quarto-category-count">(4)</span></div><div class="category" data-category="cGhpbG9zb3BoeQ==">philosophy <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Tk9T">NOS <span class="quarto-category-count">(8)</span></div><div class="category" data-category="ZHJhZnRpbmc=">drafting <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cGhpbG9zb3BoeQ==">philosophy <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c2NpZW5jZQ==">science <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -263,16 +288,63 @@ window.Quarto = {
 
 
 
-<p><span class="emoji" data-emoji="information_source">ℹ️</span> README. Science is a big subject with an often misunderstood vocabulary and practices. Words matter and everyday phrases are often coopted into scientific parlance and that can lead to trouble. Also the outcomes, goals, and realistic expectation of science are complicated and even subfield-dependent. NOS stands for “Nature of Science” and here you’ll get my take on many of these topics and how I’ve taught them.</p>
-<section id="posts" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="posts"><span class="header-section-number">1</span> Posts</h2>
+<p><span class="emoji" data-emoji="information_source">ℹ️</span> README. Science is a big subject with an often misunderstood vocabulary and practices. Words matter and everyday phrases are often coopted into scientific parlance and that can lead to trouble. Also the outcomes, goals, and realistic expectation of science are complicated and even subfield-dependent. NOS stands for “Nature of Science” and it’s its own discipline within philosophy, sociology, history, and science itself. In this page, I’ll sketch my take on NOS and provide links to more in-depth commentary.</p>
+<section id="laws-and-theories" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="laws-and-theories"><span class="header-section-number">1</span> Laws and Theories</h2>
+<p>I think that the term scientific “Law” is misleading because it implies a fancy 🎓 permanence and universality, running counter to the fact that science is contingent – Laws are subject to change, and that’s not the picture that many people have. Laws are forever!</p>
+<p>So we don’t do Law any more. We do theories and models – at least I do 😎. That’s because the distinction between a Law of physics and a theory of physics is often often misunderstood. (See in the menu bar ☝️ my gripe in <a href="./../trigger.html" target="_blank">just a theory?</a> .)</p>
+<section id="theories" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="theories"><span class="header-section-number">1.1</span> Theories</h3>
+<p>I think that the common idea about a theory is that it is a set of guesses or hunches. We all do it: have a theory as to why that tree fell down (“It was leaning and it was really windy.”)</p>
+<p>This everyday-sense leads to the a mistaken notion that theories are somehow less than laws. Since I’ve aleready set aside “laws” as unhelpful, let me try to explain what my notion of theories are.</p>
+<p>A scientific theory is a <u>framework</u> that can have three jobs:</p>
+<ol type="1">
+<li>Explain observed phenomena.</li>
+<li>Tie together ideas that once seemed unrelated.</li>
+<li>Predict new phenomena – while being consistent with previously successes. (Ask Mr Google about Immanuel Velikovsky and Venus.)</li>
+</ol>
+<p>We’re guided by theories, but we test mathematical models.</p>
+<p>Here’s more with some examples: <a href="../NOS/20250514_0100-laws/0100-laws.html">1.00 laws</a></p>
+</section>
+</section>
+<section id="models-and-scientific-statements" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="models-and-scientific-statements"><span class="header-section-number">2</span> Models and Scientific Statements</h2>
+<p>When we make mathematical models, they are very specific. They consist of inputs and some calculational process –&nbsp;an algorithm if you will, that tests an idea. Maybe you remember “turning the crank” in a school calculation.</p>
+<p>What comes out after “turning the crank” is a function, a number, a plot, an expected state of matter in the form of a scientific statement. This, a theory cannot do. The result can refer to something previously known (an <em>explanation</em>) or to something to be tested (a <em>prediction</em>).</p>
+<p>Here’s more detail: <a href="../NOS/20250514_0200-models/0200-models.html">2.00 models and scientific statements</a></p>
+</section>
+<section id="scientific-knowledge-proof-and-truth" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="scientific-knowledge-proof-and-truth"><span class="header-section-number">3</span> Scientific Knowledge, Proof, and Truth</h2>
+<p>Scientific knowledge is a bit special. It’s easy for us in everyday life to spontaneously decide that we “know” something –&nbsp;until we learn that we were were wrong! And that’s not a problem, it happens.</p>
+<p>But scientific knowledge is different and we expect a lot from it. It’s not a ’belief” which is personal and often unjustifiable. In fact, while it sounds scientific, “I believe in evolution” is not a scientific statement. <em>Belief</em> is not justifiable in scientific language.</p>
+<p>The grammar of scientific knowledge is scientific statements.</p>
+<section id="scientific-statements" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="scientific-statements"><span class="header-section-number">3.1</span> Scientific statements</h3>
+<p>A scientific statement is not casual talk. It’s an assertion of something that’s checkable and it’s either what a model generates or how a scientific process is later described for the public. In both cases it’s open to scrutiny, and speaks a language that is within the norms of the scientific community (admitedly, a tough thing to define).</p>
+<p>Whatever comes out of a model’s crank-turning is a scientific statement in a form that can be compared with an experiment: they can be sentences, a mathematical function, the prediction of a state of matter, or a numerical fact.</p>
+<p>That’s sort of an active job, but it can also do the work of reporting on results and there it has similar requirements. To say that “The value of the Newtonian constant of gravitation is <span class="math inline">\(6.674 30 \times 10^{-11}\)</span> m<span class="math inline">\(^3\)</span> kg<span class="math inline">\(^{-1}\)</span> s<span class="math inline">\(^{-2}\)</span>.” is not a scientfic statement. Rather, The value of the Newtonian constant of gravitation is <span class="math inline">\(6.674 30 \times 10^{-11} \pm 0.00015\)</span> m<span class="math inline">\(^3\)</span> kg<span class="math inline">\(^{-1}\)</span> s<span class="math inline">\(^{-2}\)</span>.” is a scientific statement. You see, higher standards.</p>
+<p>If my scientific statement as a model’s output does not agree with the results of an experiment, I would have to say that my statement is <em>disconfirmed</em> (not “disproven”). If it repeatedly doesn’t match, that result casts doubt on either the model or the inputs to the model.</p>
+</section>
+<section id="proof" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="proof"><span class="header-section-number">3.2</span> Proof?</h3>
+<p>When the results of a measurement appears to agree with the model’s prediction, then we say that the model is <em>confirmed</em>. But not proven.</p>
+<p>That’s because no prediction and no measurement is absolutely precise. And so one cannot <em>prove</em> a result, not a model and certainly not a theory. One learns – and the scientific community learns – a measure of trust for some statements, theories, and models. Some are highly trusted, some less so. We highly trust Einstein’s Special Relativity, but it’s not indubitable. See my story of Opera in</p>
+<p>So, following on that and using the term in its normal way, there is no measureable <em>truth</em> in a scientific process. Scientists will sometimes be loose with language about this…“getting near the truth” or ” X is probably a part of the truth” might come out of their mouths, but we all know the limitations.</p>
+<p>Here’s more detail: <a href="../NOS/20250514_0300-knowledge/0300-knowledge.html">3.00 knowledge, proof, and truth</a></p>
+</section>
+</section>
+<section id="reality-and-the-role-of-mathematics" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="reality-and-the-role-of-mathematics"><span class="header-section-number">4</span> Reality and the Role of Mathematics</h2>
+</section>
+<section id="posts" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="posts"><span class="header-section-number">5</span> Posts</h2>
 <ul>
 <li><a href="../NOS/20250514_0100-laws/0100-laws.html">1.00 laws</a></li>
-<li><a href="../NOS/20250514_0200-knowledge/0200-knowledge.html">2.00 knowledge</a></li>
+<li><a href="20250514_0200-knowledge/0200-knowledge.qmd">2.00 knowledge, proof, and truth</a></li>
 <li><a href="../NOS/20250514_0300-truth/0300-truth.html">3.00 truth</a></li>
 <li><a href="../NOS/20250514_0400-proof/0400-proof.html">4.00 proof</a></li>
-<li><a href="../NOS/20250514_0500-models/0500-models.html">5.00 models</a></li>
-<li><a href="../NOS/20250514_0600-reality/0600-reality.html">6.00 reality</a></li>
+<li><a href="20250514_0500-models/0500-models.qmd">5.00 models and scientific statements</a></li>
+<li><a href="20250514_0600-reality/0600-reality.qmd">6.00 reality</a></li>
 </ul>
 
 
@@ -303,13 +375,47 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Tk9TJTJDZHJhZnRpbmc=" data-listing-date-sort="1751860800000" data-listing-file-modified-sort="1752080151155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
+<div class="quarto-post image-right" data-index="0" data-categories="cGhpbG9zb3BoeSUyQ05PUyUyQ3NjaWVuY2U=" data-listing-date-sort="1743486045000" data-listing-file-modified-sort="1755360222809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../NOS/20250514_0600-reality/0600-reality.html" class="no-external">6.00 reality</a>
+<a href="../NOS/index_original.html" class="no-external">Nature of Science (aka NOS)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../NOS/20250514_0600-reality/0600-reality.html" class="no-external"></a>
+<a href="../NOS/index_original.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cGhpbG9zb3BoeQ=='); return false;">
+philosophy
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tk9T'); return false;">
+NOS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('c2NpZW5jZQ=='); return false;">
+science
+</div>
+</div>
+<div class="listing-description">
+<a href="../NOS/index_original.html" class="no-external"><span class="emoji" data-emoji="information_source">ℹ️</span> README. Science is a big subject with an often misunderstood vocabulary and practices. Words matter and everyday phrases are often coopted into scientific parlance and…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../NOS/index_original.html" class="no-external">
+<div class="listing-date">
+Apr 1, 2025
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Tk9TJTJDZHJhZnRpbmc=" data-listing-date-sort="1751860800000" data-listing-file-modified-sort="1755363146734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../NOS/20250514_0400-reality/0400-reality.html" class="no-external">6.00 reality</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../NOS/20250514_0400-reality/0400-reality.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Tk9T'); return false;">
@@ -320,11 +426,11 @@ drafting
 </div>
 </div>
 <div class="listing-description">
-<a href="../NOS/20250514_0600-reality/0600-reality.html" class="no-external">ℹ️ <strong>README:</strong> reality post content</a>
+<a href="../NOS/20250514_0400-reality/0400-reality.html" class="no-external">ℹ️ <strong>README:</strong> reality post content</a>
 </div>
 </div>
 <div class="metadata">
-<a href="../NOS/20250514_0600-reality/0600-reality.html" class="no-external">
+<a href="../NOS/20250514_0400-reality/0400-reality.html" class="no-external">
 <div class="listing-date">
 Jul 7, 2025
 </div>
@@ -334,13 +440,13 @@ Jul 7, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Tk9TJTJDZHJhZnRpbmc=" data-listing-date-sort="1751860800000" data-listing-file-modified-sort="1752080137984" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1861">
+<div class="quarto-post image-right" data-index="2" data-categories="Tk9TJTJDZHJhZnRpbmc=" data-listing-date-sort="1751860800000" data-listing-file-modified-sort="1752080151155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../NOS/20250514_0500-models/0500-models.html" class="no-external">5.00 models</a>
+<a href="../NOS/20250514_0600-reality copy/0600-reality.html" class="no-external">6.00 reality</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../NOS/20250514_0500-models/0500-models.html" class="no-external"></a>
+<a href="../NOS/20250514_0600-reality copy/0600-reality.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Tk9T'); return false;">
@@ -351,21 +457,21 @@ drafting
 </div>
 </div>
 <div class="listing-description">
-<a href="../NOS/20250514_0500-models/0500-models.html" class="no-external">ℹ️ <strong>README:</strong> We test models, not theories.</a>
+<a href="../NOS/20250514_0600-reality copy/0600-reality.html" class="no-external">ℹ️ <strong>README:</strong> reality post content</a>
 </div>
 </div>
 <div class="metadata">
-<a href="../NOS/20250514_0500-models/0500-models.html" class="no-external">
+<a href="../NOS/20250514_0600-reality copy/0600-reality.html" class="no-external">
 <div class="listing-date">
 Jul 7, 2025
 </div>
 <div class="listing-reading-time">
-10 min
+1 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Tk9TJTJDZHJhZnRpbmc=" data-listing-date-sort="1751860800000" data-listing-file-modified-sort="1752080127105" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2036">
+<div class="quarto-post image-right" data-index="3" data-categories="Tk9TJTJDZHJhZnRpbmc=" data-listing-date-sort="1751860800000" data-listing-file-modified-sort="1752080127105" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2036">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../NOS/20250514_0400-proof/0400-proof.html" class="no-external">4.00 proof</a>
@@ -396,7 +502,7 @@ Jul 7, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Tk9TJTJDZHJhZnRpbmc=" data-listing-date-sort="1751860800000" data-listing-file-modified-sort="1752080115292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
+<div class="quarto-post image-right" data-index="4" data-categories="Tk9TJTJDZHJhZnRpbmc=" data-listing-date-sort="1751860800000" data-listing-file-modified-sort="1752080115292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../NOS/20250514_0300-truth/0300-truth.html" class="no-external">3.00 facts and truth</a>
@@ -427,13 +533,13 @@ Jul 7, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Tk9TJTJDcGhpbG9zb3BoeQ==" data-listing-date-sort="1751860800000" data-listing-file-modified-sort="1752080089351" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1076">
+<div class="quarto-post image-right" data-index="5" data-categories="Tk9TJTJDcGhpbG9zb3BoeQ==" data-listing-date-sort="1755316800000" data-listing-file-modified-sort="1755362784582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1080">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../NOS/20250514_0200-knowledge/0200-knowledge.html" class="no-external">2.00 knowledge</a>
+<a href="../NOS/20250514_0300-knowledge/0300-knowledge.html" class="no-external">3.00 Scientific Knowledge, Proof, and Truth</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../NOS/20250514_0200-knowledge/0200-knowledge.html" class="no-external"></a>
+<a href="../NOS/20250514_0300-knowledge/0300-knowledge.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Tk9T'); return false;">
@@ -444,13 +550,13 @@ philosophy
 </div>
 </div>
 <div class="listing-description">
-<a href="../NOS/20250514_0200-knowledge/0200-knowledge.html" class="no-external">Scientific and everyday knowledge seem different…but it’s actually hard to say why. Isn’t it interesting? It’s an old problem.</a>
+<a href="../NOS/20250514_0300-knowledge/0300-knowledge.html" class="no-external">Scientific and everyday knowledge seem different…but it’s actually hard to say why. Isn’t it interesting? It’s an old problem.</a>
 </div>
 </div>
 <div class="metadata">
-<a href="../NOS/20250514_0200-knowledge/0200-knowledge.html" class="no-external">
+<a href="../NOS/20250514_0300-knowledge/0300-knowledge.html" class="no-external">
 <div class="listing-date">
-Jul 7, 2025
+Aug 16, 2025
 </div>
 <div class="listing-reading-time">
 6 min
@@ -458,10 +564,41 @@ Jul 7, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Tk9TJTJDcGhpbG9zb3BoeQ==" data-listing-date-sort="1751947200000" data-listing-file-modified-sort="1753131196148" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1747">
+<div class="quarto-post image-right" data-index="6" data-categories="Tk9TJTJDZHJhZnRpbmc=" data-listing-date-sort="1755316800000" data-listing-file-modified-sort="1755362246520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1867">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../NOS/20250514_0100-laws/0100-laws.html" class="no-external">1.00 laws</a>
+<a href="../NOS/20250514_0200-models/0200-models.html" class="no-external">2.00 Models and Scientific Statements</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../NOS/20250514_0200-models/0200-models.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Tk9T'); return false;">
+NOS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ZHJhZnRpbmc='); return false;">
+drafting
+</div>
+</div>
+<div class="listing-description">
+<a href="../NOS/20250514_0200-models/0200-models.html" class="no-external">ℹ️ <strong>README:</strong> We test models, not theories.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../NOS/20250514_0200-models/0200-models.html" class="no-external">
+<div class="listing-date">
+Aug 16, 2025
+</div>
+<div class="listing-reading-time">
+10 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="Tk9TJTJDcGhpbG9zb3BoeQ==" data-listing-date-sort="1755316800000" data-listing-file-modified-sort="1756160851412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1750">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../NOS/20250514_0100-laws/0100-laws.html" class="no-external">1.00 Laws and Theories</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../NOS/20250514_0100-laws/0100-laws.html" class="no-external"></a>
@@ -481,7 +618,7 @@ philosophy
 <div class="metadata">
 <a href="../NOS/20250514_0100-laws/0100-laws.html" class="no-external">
 <div class="listing-date">
-Jul 8, 2025
+Aug 16, 2025
 </div>
 <div class="listing-reading-time">
 9 min

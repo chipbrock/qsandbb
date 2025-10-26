@@ -1,0 +1,27 @@
+# Quarto build output
+_site/
+docs/
+.quarto/
+
+# IDE / system cruft
+**/.ipynb_checkpoints/
+**/.Rproj.user/
+**/.DS_Store
+**/.AppleDouble
+**/.Spotlight-V100
+**/.Trash
+
+# Python / R / JS envs & caches (wherever they live)
+.venv/
+renv/
+packrat/
+**/__pycache__/
+node_modules/
+
+# Personal scratch space
+garage/
+garage/.venv/
+garage/renv/
+garage/packrat/
+garage/node_modules/
+garage/**/__pycache__/

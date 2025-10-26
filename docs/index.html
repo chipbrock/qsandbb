@@ -38,8 +38,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e508f83e6cc6ae7fcf892157b80b52e4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-fdbf0f28e20667e750fd5713a8479fa9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-095d27ee4a2d8c9b23f4d6487ba4dada.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-f5f3d3c945a1b94b73b39036bb7547df.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,6 +67,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+window.MathJax = {
+  tex: {
+    tags: 'ams',         // number align, gather, etc.
+    tagSide: 'right',    // numbers on the right
+    packages: {'[+]': ['ams']} // be explicit about AMS package
+  },
+  chtml: { scale: 0.9 }
+};
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -102,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">🗑️ just a theory?</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="./stories.html"> 
 <span class="menu-text">📖 blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -115,12 +125,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Nature of Science (NOS)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./particle-bios/index.html">
- <span class="dropdown-text">Particle Bios</span></a>
+    <a class="dropdown-item" href="https://chipbrock.github.io/SkinnyPhysics/">
+ <span class="dropdown-text">Skinny Physics</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="https://chipbrock.github.io/FeynmanDiagramsEveryone/">
  <span class="dropdown-text">Feynman Diagrams</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./particle-bios/index.html">
+ <span class="dropdown-text">Particle Bios</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./math/index.html">
@@ -158,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 </header><main class="content" id="quarto-document-content">
 <p><br></p>
 <div class="custom-intro">
-<p>I’m an experimental particle physicist at Michigan State University and have done my research at <a href="https://pa.msu.edu/high-energy-physics/index.aspx" target="_blank" style="color: #ff6600 !important;" onmouseover="this.style.setProperty('color', '#4563A7', 'important');" onmouseout="this.style.setProperty('color', '#ff6600', 'important');"> MSU </a>, <a href="https://www.fnal.gov" target="_blank" style="color: #ff6600 !important;" onmouseover="this.style.setProperty('color', '#4563A7', 'important');" onmouseout="this.style.setProperty('color', '#ff6600', 'important');"> Fermilab </a>, <a href="https://www.anl.gov" target="_blank" style="color: #ff6600 !important;" onmouseover="this.style.setProperty('color', '#4563A7', 'important');" onmouseout="this.style.setProperty('color', '#ff6600', 'important');"> Argonne National Laboratory </a>, and <a href="https://home.cern" target="_blank" style="color: #ff6600 !important;" onmouseover="this.style.setProperty('color', '#4563A7', 'important');" onmouseout="this.style.setProperty('color', '#ff6600', 'important');"> CERN </a>. I specialize in teaching modern physics to non-science students and this blog brings that content to an audience beyond my lecture hall. <br><br>Our stories range from descriptive to sophisticated and regardless of your background, you can learn with me. Start with the tab ☝️ called… “start” and you’ll get the lay of the QS&amp;BB land.</p>
+<p>I’m an experimental particle physicist at Michigan State University. In my career, I have done my research at <a href="https://pa.msu.edu/high-energy-physics/index.aspx" target="_blank" style="color: #ff6600 !important;" onmouseover="this.style.setProperty('color', '#4563A7', 'important');" onmouseout="this.style.setProperty('color', '#ff6600', 'important');"> MSU </a>, <a href="https://www.fnal.gov" target="_blank" style="color: #ff6600 !important;" onmouseover="this.style.setProperty('color', '#4563A7', 'important');" onmouseout="this.style.setProperty('color', '#ff6600', 'important');"> Fermilab </a>, <a href="https://www.anl.gov" target="_blank" style="color: #ff6600 !important;" onmouseover="this.style.setProperty('color', '#4563A7', 'important');" onmouseout="this.style.setProperty('color', '#ff6600', 'important');"> Argonne National Laboratory </a>, and <a href="https://home.cern" target="_blank" style="color: #ff6600 !important;" onmouseover="this.style.setProperty('color', '#4563A7', 'important');" onmouseout="this.style.setProperty('color', '#ff6600', 'important');"> CERN </a>. I specialize in teaching modern physics to non-science students and this <a href="./stories.html" target="_blank" rel="noopener"><strong>BLOG</strong></a> brings that content and more to an audience beyond my lecture hall. <br><br>Our stories range from descriptive to sophisticated and regardless of your background, you can learn with me. Start with the tab ☝️ called… “start” and you’ll get the lay of the QS&amp;BB land.</p>
 </div>
 <div class="line-block"><a href="./me-in-2-seconds.html">me in 2 seconds</a> | <a href="./CV.html">Curriculum Vitae</a> | <a href="./teaching.html">teaching</a> | <a href="./research.html">research</a> | <a href="./professional.html">professional</a></div>
 
