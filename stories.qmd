@@ -27,7 +27,7 @@ listing:
 \|[Particle Biographies](./particle-bios/index.html) \| [People](./math/index.html) \|
 [Particle Detectors](./math/index.html) \| [Experiment Biographies](./math/index.html)
 \| [NOS](./NOS/index.html) \| [Science Musings](./math/index.html) \| [Philosophy](./math/index.html) \| [History](./history/index.html)
-\| [Math Refresher](./math/index.html) \| \|<a href="https://chipbrock.github.io/SkinnyPhysics/" target="_blank" rel="noopener">💪 Skinny Physics</a> \|<a href="https://chipbrock.github.io/SkinnyPhysics/mechanics/" target="_blank" rel="noopener">🚚 ⚾️ 🏋️‍ mechanics</a>\| <a href="https://chipbrock.github.io/SkinnyPhysics/" target="_blank" rel="noopener">🌝 🌎 🌗 Gravitation </a> \| [electromagnetism](./electromagnetism/index.html) \| [special_relativity](./special_relativity/index.html) \|
+\| [Math Refresher](./math/index.html) \| \|<a href="https://chipbrock.github.io/SkinnyPhysics/" target="_blank" rel="noopener">💪 Skinny Physics</a> \|<a href="https://chipbrock.github.io/SkinnyPhysics/mechanics/" target="_blank" rel="noopener">🚚 ⚾️ 🏋️‍ mechanics</a>\| <a href="https://chipbrock.github.io/SkinnyPhysics/gravitation/" target="_blank" rel="noopener">🌝 🌎 🌗 gravitation and astronomy </a> \| <a href="https://chipbrock.github.io/SkinnyPhysics/electromagnetism/" target="_blank" rel="noopener">🧲 📡 💡 electromagnetism </a>  \| [special_relativity](./special_relativity/index.html) \|
 :::
 
 <script>
