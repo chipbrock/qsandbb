@@ -45,7 +45,7 @@ website:
         href: once_upon.qmd
       - text: 🗑️ just a theory?
         href: trigger.qmd
-      - text: 📖 blog
+      - text: 📖 journal
         href: stories.qmd
       #- text: about me
       #  menu:

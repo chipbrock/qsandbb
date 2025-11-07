@@ -52,7 +52,7 @@ target="_blank"
    onmouseover="this.style.setProperty('color', '#4563A7', 'important');"
    onmouseout="this.style.setProperty('color', '#ff6600', 'important');">
    CERN
-</a>. I specialize in teaching modern physics to non-science students and this <a href="./stories.qmd" target="_blank" rel="noopener"><strong> 📚 BLOG</strong></a> brings that content and more to an audience beyond my lecture hall.
+</a>. I specialize in teaching modern physics to non-science students and this <a href="./stories.qmd" target="_blank" rel="noopener"><strong> 📚 JOURNAL</strong></a> brings that content and more to an audience beyond my lecture hall.
 <br><br>Our stories range from descriptive to sophisticated and regardless of your background, you can learn with me. Start with the tab  ☝️ called... “start" and you’ll get the lay of the QS&amp;BB land.
 </div>
 

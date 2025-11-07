@@ -1,5 +1,5 @@
 ---
-title: This Blog is full of stories
+title: This Journal is full of stories
 page-layout: full
 toc-title: Year
 date-format: "MMMM D, YYYY"

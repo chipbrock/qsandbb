@@ -32,7 +32,7 @@
         "\n",
         "## Plot {#sec-plot}\n"
       ],
-      "id": "9ecbcf38"
+      "id": "549ea52f"
     },
     {
       "cell_type": "code",
@@ -60,7 +60,7 @@
         "\n",
         "Knuth says always be literate [@knuth1984].\n"
       ],
-      "id": "40aae370"
+      "id": "d02e2e67"
     },
     {
       "cell_type": "code",
@@ -68,7 +68,7 @@
       "source": [
         "1 + 1"
       ],
-      "id": "3bb98e86",
+      "id": "19c9a238",
       "execution_count": null,
       "outputs": []
     },
@@ -98,7 +98,7 @@
         "be made for them. The simplest case is just attaching a \n",
         "colorbar to each axes:^[See the [Matplotlib Gallery](https://matplotlib.org/stable/gallery/subplots_axes_and_figures/colorbar_placement.html) to explore colorbars further].\n"
       ],
-      "id": "4a416c5d"
+      "id": "203861ed"
     },
     {
       "cell_type": "code",
@@ -122,7 +122,7 @@
         "        fig.colorbar(pcm, ax=ax)\n",
         "plt.show()"
       ],
-      "id": "3dc8846a",
+      "id": "8c0dc5b7",
       "execution_count": null,
       "outputs": []
     },
@@ -132,15 +132,15 @@
       "source": [
         "## References"
       ],
-      "id": "1d71e15b"
+      "id": "fd26a83c"
     }
   ],
   "metadata": {
     "kernelspec": {
-      "name": "myenv",
+      "name": "python3",
       "language": "python",
-      "display_name": "Python (.venv)",
-      "path": "/Users/chipbrock/Library/Jupyter/kernels/myenv"
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/chipbrock/Library/Python/3.9/share/jupyter/kernels/python3"
     }
   },
   "nbformat": 4,
