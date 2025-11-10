@@ -14,7 +14,7 @@
         "  engine: jupyter\n",
         "---"
       ],
-      "id": "f0b86e85"
+      "id": "f2cfc883"
     },
     {
       "cell_type": "code",
@@ -107,7 +107,7 @@
         "plt.tight_layout()\n",
         "plt.show()        # ← show this figure now"
       ],
-      "id": "d1d6529c",
+      "id": "654810b8",
       "execution_count": null,
       "outputs": []
     }
