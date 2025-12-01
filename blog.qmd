@@ -9,6 +9,7 @@ listing:
     - NOS/**/*.qmd
     - musings/**/*.qmd
     - feynman-diagrams/**/*.qmd
+    - experiment-bios/**/*.qmd
     - particle-bios/**/*.qmd 
     - mechanics/**/*.qmd
     - history/**/*.qmd
@@ -23,7 +24,7 @@ date-format: "MMMM D, YYYY"
 ::: {.small-links}
 \| [Feynman Diagrams Tutorial](https://chipbrock.github.io/FeynmanDiagramsEveryone/) 
 \|[Particle Biographies](./particle-bios/index.html) \| [People](./people/index.html) \|
-[Particle Detectors](./math/index.html) \| [Experiment Biographies](./math/index.html)
+[Particle Detectors](./math/index.html) \| [Experiment Biographies](./experiments/index.html)
 \| [NOS](./NOS/index.html) \| [Science Musings](./math/index.html) \| [Philosophy](./math/index.html) \| [History](./history/index.html)
 \| [Math Refresher](./math/index.html) \| [mechanics](./mechanics/index.html) \| [electromagnetism](./electromagnetism/index.html) \| [special_relativity](./special_relativity/index.html) \|
 :::

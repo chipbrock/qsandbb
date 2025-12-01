@@ -20,9 +20,10 @@ render:
   # content sections (adjust to taste)
   - musings/**/*.qmd
   - NOS/**/*.qmd
+  - particle-bios/**/*.qmd
+  - experiment-bios/**/*.qmd
   - mechanics/**/*.qmd
   - special_relativity/**/*.qmd
-  - particle-bios/**/*.qmd
   - electromagnetism/**/*.qmd
   - math/**/*.qmd
   - Words/**/*.qmd
@@ -74,7 +75,7 @@ website:
           - text: Feynman Diagrams
             href: https://chipbrock.github.io/FeynmanDiagramsEveryone/
           - text: Experiment Bios
-            href: experiments/index.qmd
+            href: experiment-bios/index.qmd
           - text: Particle Bios
             href: particle-bios/index.qmd
           - text: Math Review
