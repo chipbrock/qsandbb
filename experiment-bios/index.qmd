@@ -1,6 +1,6 @@
 ---
 title: Experiments
-#sidebar: experiments
+#sidebar: experiment-bios
 listing: 
   contents: 
     - ./**/*.qmd

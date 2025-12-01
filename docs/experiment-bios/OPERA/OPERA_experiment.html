@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-08-21">
+<meta name="description" content="This is a notorious episode in recent particle physics. It irriates some, but to me it’s a good thing. Here’s what happened:">
 
-<title>Blog –  Quarks, Spacetime, and the Big Bang</title>
+<title>The OPERA Experiment and the Speed of Light –  Quarks, Spacetime, and the Big Bang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-095d27ee4a2d8c9b23f4d6487ba4dada.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-f5f3d3c945a1b94b73b39036bb7547df.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-095d27ee4a2d8c9b23f4d6487ba4dada.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-f5f3d3c945a1b94b73b39036bb7547df.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<script>
 window.MathJax = {
   tex: {
     tags: 'ams',         // number align, gather, etc.
@@ -110,37 +81,8 @@ window.MathJax = {
 };
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -150,8 +92,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><img src="./images/logo_orange_words.png" class="site-logo"> Quarks, Spacetime, and the Big Bang</span>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title"><img src="../../images/logo_orange_words.png" class="site-logo"> Quarks, Spacetime, and the Big Bang</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -161,19 +103,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./QSBB.html"> 
+    <a class="nav-link" href="../../QSBB.html"> 
 <span class="menu-text">👉 start here</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./once_upon.html"> 
+    <a class="nav-link" href="../../once_upon.html"> 
 <span class="menu-text">👉 then here</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./trigger.html"> 
+    <a class="nav-link" href="../../trigger.html"> 
 <span class="menu-text">🗑️ just a theory?</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./stories.html"> 
+    <a class="nav-link" href="../../stories.html"> 
 <span class="menu-text">📖 journal</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -182,11 +124,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-topics">    
         <li>
-    <a class="dropdown-item" href="./musings/index.html">
+    <a class="dropdown-item" href="../../musings/index.html">
  <span class="dropdown-text">Posts</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./NOS/index.html">
+    <a class="dropdown-item" href="../../NOS/index.html">
  <span class="dropdown-text">Nature of Science (NOS)</span></a>
   </li>  
         <li>
@@ -198,19 +140,19 @@ window.Quarto = {
  <span class="dropdown-text">Feynman Diagrams</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./experiment-bios/index.html">
+    <a class="dropdown-item" href="../../experiment-bios/index.html">
  <span class="dropdown-text">Experiment Bios</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./particle-bios/index.html">
+    <a class="dropdown-item" href="../../particle-bios/index.html">
  <span class="dropdown-text">Particle Bios</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./math/index.html">
+    <a class="dropdown-item" href="../../math/index.html">
  <span class="dropdown-text">Math Review</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Words/index.qmd">
+    <a class="dropdown-item" href="../../Words/index.qmd">
  <span class="dropdown-text">words</span></a>
   </li>  
     </ul>
@@ -224,25 +166,41 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TWVjaGFuaWNz">Mechanics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tk9T">NOS <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZHJhZnRpbmc=">drafting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXhwZXJpbWVudHM=">experiments <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aGlzdG9yeQ==">history <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bXVzaW5ncw==">musings <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV1dHJpbm9z">neutrinos <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cGhpbG9zb3BoeQ==">philosophy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cGh5c2ljcw==">physics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2NpZW5jZQ==">science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmVsb2NpdHk=">velocity <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
+<h1 class="title">The OPERA Experiment and the Speed of Light</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">history</div>
+    <div class="quarto-category">experiments</div>
+    <div class="quarto-category">neutrinos</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    This is a notorious episode in recent particle physics. It irriates some, but to me it’s a good thing. Here’s what happened:
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 21, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -252,279 +210,18 @@ window.Quarto = {
 </header>
 
 
-<div class="small-links">
-<p>| <a href="https://chipbrock.github.io/FeynmanDiagramsEveryone/">Feynman Diagrams Tutorial</a> |<a href="./particle-bios/index.html">Particle Biographies</a> | <a href="./people/index.html">People</a> | <a href="./math/index.html">Particle Detectors</a> | <a href="./experiment-bios/index.html">Experiment Biographies</a> | <a href="./NOS/index.html">NOS</a> | <a href="./math/index.html">Science Musings</a> | <a href="./math/index.html">Philosophy</a> | <a href="./history/index.html">History</a> | <a href="./math/index.html">Math Refresher</a> | <a href="./mechanics/index.html">mechanics</a> | <a href="./electromagnetism/index.html">electromagnetism</a> | <a href="./special_relativity/index.html">special_relativity</a> |</p>
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+<p>Author: Chip Brock · Published: April 15, 2025</p>
 </div>
-<p><br></p>
+<p><a href="./opera-simulation-standalone-4.html">simulation</a></p>
+<iframe src="opera-simulation-standalone-4.html" width="100%" height="2000px" style="border:none; border-radius: 8px;">
+</iframe>
+<hr>
+<p>Watch this space for the complete story from me on OPERA.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-     </select>
-  </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bXVzaW5ncyUyQ25ldXRyaW5vcyUyQ05PUw==" data-listing-file-modified-sort="1764623229131" data-listing-reading-time-sort="9" data-listing-word-count-sort="1726">
-<div class="thumbnail">
-<p><a href="./musings/Opera_neutrinos/Opera_neutrinos.html" class="no-external"></a></p><a href="./musings/Opera_neutrinos/Opera_neutrinos.html" class="no-external">
-<p><img loading="lazy" src="./images/logo_orange_words.png" class="thumbnail-image"></p>
-</a><p><a href="./musings/Opera_neutrinos/Opera_neutrinos.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./musings/Opera_neutrinos/Opera_neutrinos.html" class="no-external">Faster than light neutrinos?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./musings/Opera_neutrinos/Opera_neutrinos.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('bXVzaW5ncw=='); return false;">
-musings
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bmV1dHJpbm9z'); return false;">
-neutrinos
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Tk9T'); return false;">
-NOS
-</div>
-</div>
-<div class="listing-description">
-<a href="./musings/Opera_neutrinos/Opera_neutrinos.html" class="no-external">ℹ️ <strong>README:</strong> What do you do when you get a MAJOR surprise?</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./musings/Opera_neutrinos/Opera_neutrinos.html" class="no-external"></a></p><a href="./musings/Opera_neutrinos/Opera_neutrinos.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="aGlzdG9yeSUyQ2V4cGVyaW1lbnRzJTJDbmV1dHJpbm9z" data-listing-date-sort="1755748800000" data-listing-file-modified-sort="1764632583406" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
-<div class="thumbnail">
-<p><a href="./experiment-bios/OPERA/OPERA_experiment.html" class="no-external"></a></p><a href="./experiment-bios/OPERA/OPERA_experiment.html" class="no-external">
-<p><img loading="lazy" src="./experiment-bios/OPERA/screenshot_3673.png" class="thumbnail-image"></p>
-</a><p><a href="./experiment-bios/OPERA/OPERA_experiment.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./experiment-bios/OPERA/OPERA_experiment.html" class="no-external">The OPERA Experiment and the Speed of Light</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./experiment-bios/OPERA/OPERA_experiment.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('aGlzdG9yeQ=='); return false;">
-history
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZXhwZXJpbWVudHM='); return false;">
-experiments
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bmV1dHJpbm9z'); return false;">
-neutrinos
-</div>
-</div>
-<div class="listing-description">
-<a href="./experiment-bios/OPERA/OPERA_experiment.html" class="no-external">This is a notorious episode in recent particle physics. It irriates some, but to me it’s a good thing. Here’s what happened:</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./experiment-bios/OPERA/OPERA_experiment.html" class="no-external">
-<div class="listing-date">
-August 21, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TWVjaGFuaWNzJTJDcGh5c2ljcyUyQ2hpc3RvcnklMkN2ZWxvY2l0eQ==" data-listing-date-sort="1755748800000" data-listing-file-modified-sort="1764630403394" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<div class="thumbnail">
-<p><a href="./history/galileo_free_fall.html" class="no-external"></a></p><a href="./history/galileo_free_fall.html" class="no-external">
-<p><img loading="lazy" src="./history/screenshot_3673.png" class="thumbnail-image"></p>
-</a><p><a href="./history/galileo_free_fall.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./history/galileo_free_fall.html" class="no-external">Galileo and Free Fall</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./history/galileo_free_fall.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNz'); return false;">
-Mechanics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cGh5c2ljcw=='); return false;">
-physics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('aGlzdG9yeQ=='); return false;">
-history
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('dmVsb2NpdHk='); return false;">
-velocity
-</div>
-</div>
-<div class="listing-description">
-<a href="./history/galileo_free_fall.html" class="no-external">Scientific and everyday knowledge seem different…but it’s actually hard to say why. Isn’t it interesting? It’s an old problem.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./history/galileo_free_fall.html" class="no-external">
-<div class="listing-date">
-August 21, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Tk9TJTJDcGhpbG9zb3BoeQ==" data-listing-date-sort="1755316800000" data-listing-file-modified-sort="1755361929000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1750">
-<div class="thumbnail">
-<p><a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external"></a></p><a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external">
-<p><img loading="lazy" src="./NOS/20250514_0100-laws/screenshot_3483.png" class="thumbnail-image"></p>
-</a><p><a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external">1.00 Laws and Theories</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Tk9T'); return false;">
-NOS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cGhpbG9zb3BoeQ=='); return false;">
-philosophy
-</div>
-</div>
-<div class="listing-description">
-<a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external">‘It’s not just a good idea, it’s the law.’ was the 1970’s highway sign. A law you can disobey. But a Scientific Law? That’s supposed to be certain. If a statement about the natural world isn’t a ‘law’ then it’s often thought to be just second-rate. Nope. There aren’t any Scientific Laws!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./NOS/20250514_0100-laws/0100-laws.html" class="no-external">
-<div class="listing-date">
-August 16, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Tk9TJTJDZHJhZnRpbmc=" data-listing-date-sort="1755316800000" data-listing-file-modified-sort="1764623709718" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1867">
-<div class="thumbnail">
-<p><a href="./NOS/20250514_0200-models/0200-models.html" class="no-external"></a></p><a href="./NOS/20250514_0200-models/0200-models.html" class="no-external">
-<p><img loading="lazy" src="./NOS/20250514_0200-models/model.png" class="thumbnail-image"></p>
-</a><p><a href="./NOS/20250514_0200-models/0200-models.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./NOS/20250514_0200-models/0200-models.html" class="no-external">2.00 Models and Scientific Statements</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./NOS/20250514_0200-models/0200-models.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Tk9T'); return false;">
-NOS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZHJhZnRpbmc='); return false;">
-drafting
-</div>
-</div>
-<div class="listing-description">
-<a href="./NOS/20250514_0200-models/0200-models.html" class="no-external">ℹ️ <strong>README:</strong> We test models, not theories.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./NOS/20250514_0200-models/0200-models.html" class="no-external">
-<div class="listing-date">
-August 16, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="Tk9TJTJDcGhpbG9zb3BoeQ==" data-listing-date-sort="1755316800000" data-listing-file-modified-sort="1755362784582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1080">
-<div class="thumbnail">
-<p><a href="./NOS/20250514_0300-knowledge/0300-knowledge.html" class="no-external"></a></p><a href="./NOS/20250514_0300-knowledge/0300-knowledge.html" class="no-external">
-<p><img loading="lazy" src="./NOS/20250514_0300-knowledge/iStock_000006766990Small.png" class="thumbnail-image"></p>
-</a><p><a href="./NOS/20250514_0300-knowledge/0300-knowledge.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./NOS/20250514_0300-knowledge/0300-knowledge.html" class="no-external">3.00 Scientific Knowledge, Proof, and Truth</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./NOS/20250514_0300-knowledge/0300-knowledge.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Tk9T'); return false;">
-NOS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cGhpbG9zb3BoeQ=='); return false;">
-philosophy
-</div>
-</div>
-<div class="listing-description">
-<a href="./NOS/20250514_0300-knowledge/0300-knowledge.html" class="no-external">Scientific and everyday knowledge seem different…but it’s actually hard to say why. Isn’t it interesting? It’s an old problem.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./NOS/20250514_0300-knowledge/0300-knowledge.html" class="no-external">
-<div class="listing-date">
-August 16, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="bXVzaW5ncyUyQ3NjaWVuY2U=" data-listing-date-sort="1743486045000" data-listing-file-modified-sort="1747519151000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
-<div class="thumbnail">
-<p><a href="./musings/index.html" class="no-external"></a></p><a href="./musings/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./musings/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./musings/index.html" class="no-external">Musings</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./musings/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('bXVzaW5ncw=='); return false;">
-musings
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('c2NpZW5jZQ=='); return false;">
-science
-</div>
-</div>
-<div class="listing-description">
-<a href="./musings/index.html" class="no-external"><span class="emoji" data-emoji="information_source">ℹ️</span> README. Science is a big subject with an often misunderstood vocabulary and practices. Words matter and everyday phrases are often coopted into scientific parlance and…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./musings/index.html" class="no-external">
-<div class="listing-date">
-April 1, 2025
-</div>
-<div class="listing-author">
-Chip Brock
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

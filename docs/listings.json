@@ -3,7 +3,7 @@
     "listing": "/blog.html",
     "items": [
       "/musings/Opera_neutrinos/Opera_neutrinos.html",
-      "/experiment-bios/OPERA_experiment.html",
+      "/experiment-bios/OPERA/OPERA_experiment.html",
       "/history/galileo_free_fall.html",
       "/NOS/20250514_0100-laws/0100-laws.html",
       "/NOS/20250514_0200-models/0200-models.html",
@@ -24,7 +24,7 @@
   {
     "listing": "/experiment-bios/index.html",
     "items": [
-      "/experiment-bios/OPERA_experiment.html"
+      "/experiment-bios/OPERA/OPERA_experiment.html"
     ]
   },
   {
@@ -56,6 +56,11 @@
   {
     "listing": "/NOS/index.html",
     "items": [
+      "/NOS/index_original.html",
+      "/NOS/20250514_0400-reality/0400-reality.html",
+      "/NOS/20250514_0600-reality copy/0600-reality.html",
+      "/NOS/20250514_0400-proof/0400-proof.html",
+      "/NOS/20250514_0300-truth/0300-truth.html",
       "/NOS/20250514_0300-knowledge/0300-knowledge.html",
       "/NOS/20250514_0200-models/0200-models.html",
       "/NOS/20250514_0100-laws/0100-laws.html"
