@@ -1,0 +1,35 @@
+---
+title: Math Review
+#sidebar: math
+listing: 
+  contents: 
+    - ./**/*.qmd
+  type: default
+  sort: "title desc" # can also sort on more than one field
+  fields: [date, title, reading-time, description, categories]
+  categories: true # allows you to sort posts by assigned categories 
+  sort-ui: true
+  filter-ui: true
+format:
+  html:
+    toc: true
+    toc-location: right
+    number-sections: true
+author: Chip Brock
+date: '2025-04-01T01:40:45'
+categories: [math]
+page-layout: full
+title-block-banner: A9A9A9
+draft: true
+---
+
+# Math Review
+
+## Overview
+
+Some high school and maybe some college
+
+## Posts
+
+- Orders of magnitude – how to avoid a ton of digits
+

@@ -1,0 +1,33 @@
+---
+title: Blog
+listing: 
+  sort-ui: ["date"]
+  sort: "date desc"
+  filter-ui: false
+  categories: true
+  contents: 
+    - NOS/**/*.qmd
+    - musings/**/*.qmd
+    - feynman-diagrams/**/*.qmd
+    - particle-bios/**/*.qmd 
+    - mechanics/**/*.qmd
+    - history/**/*.qmd
+  type: default
+  exclude:
+    draft: true
+page-layout: full
+toc-title: Year
+date-format: "MMMM D, YYYY"
+---
+
+::: {.small-links}
+\| [Feynman Diagrams Tutorial](https://chipbrock.github.io/FeynmanDiagramsEveryone/) 
+\|[Particle Biographies](./particle-bios/index.html) \| [People](./people/index.html) \|
+[Particle Detectors](./math/index.html) \| [Experiment Biographies](./math/index.html)
+\| [NOS](./NOS/index.html) \| [Science Musings](./math/index.html) \| [Philosophy](./math/index.html) \| [History](./history/index.html)
+\| [Math Refresher](./math/index.html) \| [mechanics](./mechanics/index.html) \| [electromagnetism](./electromagnetism/index.html) \| [special_relativity](./special_relativity/index.html) \|
+:::
+
+
+<br>
+

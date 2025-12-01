@@ -1,0 +1,32 @@
+---
+title: "6.00 reality"
+date: 2025-07-07  # (your last edit date)
+image: "logo_orange_words.png"
+categories: [NOS, drafting]
+description: "ℹ️ **README:** reality post content"
+draft: true
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Nos</a> > <strong>reality</strong>
+</div>
+::: {.post-nav}
+👈 [Previous: 5.00 models](../20250514_0500-models/0500-models.html)
+:::
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: May 14, 2025
+</div>
+
+---
+
+::: {.column-margin}
+![](logo_orange_words.png){ width=120px }
+:::
+
+Watch this space.
+
+---
+::: {.post-nav}
+👈 [Previous: 5.00 models](../20250514_0500-models/0500-models.html)
+:::

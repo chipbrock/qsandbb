@@ -1,0 +1,82 @@
+---
+title: "About the various blog series"
+number-sections: true
+date: 2050-01-01 # (your last edit date)
+pinned: true # In any pinned post's front matter
+priority: 1
+image: "0015.JPG"
+categories: [pinned]
+description: "This blog is a mixture of tutorial and topical posts. Here's how to use it."
+draft: false
+# hide date just for this post when shown in listings
+listing:
+  fields: [title, description, categories, image]
+---
+
+<div class="breadcrumb">
+<a href="../../stories.html">Blog List</a> >
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+
+Author: Chip Brock · Drafted: April 15, 2025
+
+</div>
+
+My goal in **QS&BB** is to write stories about particle physics and cosmology for an interested and general audience. The stories are understandable on their own. But, it might be more fullfilling to have some background in some basic physics concepts like force, momentum, energy, gravity...and so on. 
+
+So for those of you who maybe had physics a long time ago, or never, ...I've created some bare-bones *tutorial* content. How these and other tutorials differ from the "regular" posts is that they're organized start to finish in a logically sequential format like you expect from a (tiny) textbook. Of course, you can also jump in anywhere for a targeted refresher.
+
+So two kinds of posts in **QS&BB**:
+
+## Tutorial Topics
+
+### Some physics
+
+The background material is a sketch of some standard physics subjects abstracted from a detailed on-line textbook that I wrote for the class, [online text](https://qstbb.pa.msu.edu/storage/ISP220_fall2020/QS&BB2020/intro.html). This list is intentionally sparse with links inside to "just the facts" to get you going or fill in some gaps with minimal, or in some cases, no mathematics:
+
+1. motion
+2. momentum and force
+3. collisions
+4. energy
+5. Galilean astronomy and the gravitational rules from Newton
+6. Electrostatics and magnetism, almost no mathematics
+7. Faraday's experiments, again, almost no formulae
+8. Faraday's fields, essentially no mathematicss
+9. Waves and Maxwell's fields, essentially no mathematics
+10. Special Relativity, an introduction to the problem Einstein tackled
+11. Special Relativity, his postulates and some formulae
+12. Special Relativity, the transformations using graphs, not mathematics
+13. Special Relativity, Spacetime and yes, a formula: $E=mc^2$
+
+### Feynman Diagrams
+
+This tutorial shows how with a mimimum of rules you can draw your own diagrams for any particle physics reaction and with a little bit of background, appreciate when I use Feynman Diagrams in my stories. Antimatter is involved.
+
+I've created a [separate, "off-site" electronic book](https://chipbrock.github.io/FeynmanDiagramsEveryone/) for this tutorial.
+
+### Some Math
+
+I've provided a minimal sketch of the math that might be a refresher for you: Powers of 10. The simplest algebra. That's it.
+
+If I need a complicated formula? I'll draw a graph, sometimes with interactively adjustable parameters to explore the physics. A complicated formula is always a graph.
+
+
+
+## The rest?
+
+### Some of the rest are in categories
+
+For example, I write about the "biographies" of each known particle (and some speculated particles) and biographies of many important experiments and scientists.They will be roughly organized chronologically.
+
+I'll also have something to say about the "Nature of Science" (NOS), organized by topic.
+
+### Asynchronous stories
+
+The rest will be whim, ideas I have, things that happen in my field...tagged, but not organized sequentially.
+
+
+
+## SO
+
+A big project which I hope you'll enjoy as much as I've enjoyed teaching these matters for four decades!

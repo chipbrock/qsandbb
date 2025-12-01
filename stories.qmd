@@ -1,0 +1,52 @@
+---
+title: This Journal is full of stories
+page-layout: full
+toc-title: Year
+date-format: "MMMM D, YYYY"
+
+listing:
+  contents:
+    - NOS/**/*.qmd
+    - musings/**/*.qmd
+    - feynman-diagrams/**/*.qmd
+    - particle-bios/**/*.qmd
+    - mechanics/**/*.qmd
+    - history/**/*.qmd
+    - pinned/**/*.qmd
+  sort: ["date desc"] # your 2050 date keeps the pinned post first
+  type: default
+  sort-ui: false
+  filter-ui: false
+  categories: true
+  # If you want to hide drafts via metadata, use this instead of 'exclude'
+  # filter: "draft != true"
+---
+
+::: small-links
+\| <a href="https://chipbrock.github.io/FeynmanDiagramsEveryone/" target="_blank" rel="noopener">😎 Feynman Diagrams Tutorial</a> \|[Particle Biographies](./particle-bios/index.html) \| [People](./people/index.html) \| [Particle Detectors](./math/index.html) \| [Experiment Biographies](./math/index.html) \| [NOS](./NOS/index.html) \| [Science Musings](./math/index.html) \| [Philosophy](./math/index.html) \| [History](./history/index.html) \| [Math Refresher](./math/index.html) \| \|<a href="https://chipbrock.github.io/SkinnyPhysics/" target="_blank" rel="noopener">💪 Skinny Physics</a> \|<a href="https://chipbrock.github.io/SkinnyPhysics/mechanics/" target="_blank" rel="noopener">🚚 ⚾️ 🏋️‍ mechanics</a>\| <a href="https://chipbrock.github.io/SkinnyPhysics/gravitation/" target="_blank" rel="noopener">🌝 🌎 🌗 gravitation and astronomy </a> \| <a href="https://chipbrock.github.io/SkinnyPhysics/electromagnetism/" target="_blank" rel="noopener">🧲 📡 💡 electromagnetism </a> \| [special_relativity](./special_relativity/index.html) \|
+:::
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Find the blog card by its title link (built file name)
+  const link = document.querySelector('.quarto-listing a[href*="about_blog.html"]');
+  if (!link) return;
+
+  // Quarto's listing rows are usually a .row containing left date + right card
+  const row = link.closest('.row, .listing-item, li, article, section, div');
+  if (!row) return;
+
+  // Hide any date UI within that row (covers multiple themes/layouts)
+  row.querySelectorAll('.date, .listing-date, .quarto-title-meta, .quarto-title-meta-contents, .quarto-title-meta-heading').forEach(el => {
+    el.style.display = 'none';
+  });
+
+  // In some themes the left date column is a narrow col; hide it too if present
+  const leftCol = row.querySelector('.col-auto, .col-2, .g-col-2');
+  if (leftCol) leftCol.style.display = 'none';
+});
+</script>
+```
+
+<br>

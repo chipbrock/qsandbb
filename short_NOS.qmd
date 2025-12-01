@@ -1,0 +1,66 @@
+
+
+# The Nature of Science
+
+How science works can be tricky and everyone has an opinion. The Nature of Science (NOS) is its own discpline across philosophy, history, sociology, and science itself.
+
+Since I'll be talking about old and new ideas, I thought I should try to put down my views on NOS from my physics-perspective. Below is a sketch to be fleshed out in separate posts with links below.
+
+## Laws and Theories
+
+I think that the term scientific "Law" is misleading because it implies a fancy 🎓 permanence and universality, running counter to the fact that science is contingent – Laws are subject to change, and that's not the picture that many people have. Laws are forever!
+
+So we don't do Law any more. We do theories and models – at least I do 😎. That's because the distinction between a Law of physics and a theory of physics is often often misunderstood. (See in the menu bar ☝️ my gripe in <a href="./../trigger.html" target="_blank">just a theory?</a> .)
+
+### Theories
+
+I think that the common idea about a theory is that it is a set of guesses or hunches. We all do it: have a theory as to why that tree fell down ("It was leaning and it was really windy.") 
+
+This everyday-sense leads to the a mistaken notion that theories are somehow less than laws. Since I've aleready set aside "laws" as unhelpful, let me try to explain what my notion of theories are.
+
+A scientific theory is a <u>framework</u> that can have three jobs:
+
+1. Explain observed phenomena.
+2. Tie together ideas that once seemed unrelated.
+3. Predict new phenomena – while being consistent with previously successes. (Ask Mr Google about Immanuel Velikovsky and Venus.)
+
+We're guided by theories, but we test mathematical models.
+
+Here's more with some examples: [1.00 laws](20250514_0100-laws/0100-laws.qmd)
+
+## Models and Scientific Statements
+
+When we make mathematical models, they are very specific. They consist of inputs and some calculational process – an algorithm if you will, that tests an idea. Maybe you remember "turning the crank" in a school calculation.
+
+What comes out after "turning the crank" is a function, a number, a plot, an expected state of matter in the form of a scientific statement. This, a theory cannot do. The result can refer to something previously known (an *explanation*) or to something to be tested (a *prediction*).
+
+Here's more detail: [5.00 models and scientific statements](20250514_0500-models/0500-models.qmd)
+
+## Scientific Knowledge, Proof, and Truth
+
+Scientific knowledge is a bit special. It's easy for us in everyday life to spontaneously decide that we "know" something – until we learn that we were were wrong! And that's not a problem, it happens.
+
+But scientific knowledge is different and we expect a lot from it. It's not a 'belief" which is personal and often unjustifiable. In fact, while it sounds scientific, "I believe in evolution" is not a scientific statement. *Belief*  is not justifiable in scientific language.
+
+The grammar of scientific knowledge is scientific statements.
+
+### Scientific statements
+
+A scientific statement is not casual talk. It's an assertion of something that's checkable and it's either what a model generates or how a scientific process is later described for the public. In both cases it's open to scrutiny, and speaks a language that is within the norms of the scientific community (admitedly, a tough thing to define).
+
+Whatever comes out of a model's crank-turning is a scientific statement in a form that can be compared with an experiment: they can be sentences, a mathematical function, the prediction of a state of matter, or a numerical fact. 
+
+That's sort of an active job, but it can also do the work of reporting on results and there it has similar requirements. To say that "The value of the Newtonian constant of gravitation is $6.674 30 \times 10^{-11}$ m$^3$ kg$^{-1}$ s$^{-2}$." is not a scientfic statement. Rather, The value of the Newtonian constant of gravitation is $6.674 30 \times 10^{-11} \pm 0.00015$ m$^3$ kg$^{-1}$ s$^{-2}$." is a scientific statement. You see, higher standards.
+
+If my scientific statement as a model's output does not agree with the results of an experiment, I would have to say that my statement is *disconfirmed* (not "disproven"). If it repeatedly doesn't match, that result casts doubt on either the model or the inputs to the model. 
+
+### Proof?
+
+When the results of a measurement appears to agree with the model's prediction, then we say that the model is *confirmed*. But not proven.
+
+That's because no prediction and no measurement is absolutely precise. And so one cannot *prove* a result, not a model and certainly not a theory. One learns – and the scientific community learns – a measure of trust for some statements, theories, and models. Some are highly trusted, some less so. We highly trust Einstein's Special Relativity, but it's not indubitable. See my story of Opera in 
+
+So, following on that and using the term in its normal way, there is no measureable *truth* in a scientific process. Scientists will sometimes be loose with language about this..."getting near the truth" or " X is probably a part of the truth" might come out of their mouths, but we all know the limitations. 
+
+## Reality and the Role of Mathematics
+

@@ -1,0 +1,240 @@
+/* css styles */
+/* Force smaller base font size */
+html {
+  font-size: 16px !important;
+}
+
+.article-style p {
+  font-size: 2.1rem;
+}
+#quarto-document-content p {
+  font-size: 1.2rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main ul {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  margin-left: 1.8rem; /* or try 1em, 2rem, etc. */
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+ol {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.3rem; /* or 1.3rem or whatever you like */
+  margin-left: 1.8rem; /* or try 1em, 2rem, etc. */
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* menu logo size */
+.navbar-title .site-logo {
+  height: 5em !important;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
+/* logo */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #ff6600 !important; /* or any color you want */
+}
+.navbar-brand:hover {
+  color: #4563a7 !important;
+}
+.navbar-title {
+  font-size: 1.3rem; /* Increase this value as needed */
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
+}
+
+.large-word {
+  font-size: 24px;
+}
+
+#quarto-document-content p {
+  font-size: 1.2rem;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+/* Increase font size for the list of posts and descriptions under ## Posts */
+main ul {
+  font-size: 1.2rem;
+}
+body h1 {
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.9rem !important;
+  /*color: #4563a7 !important;*/
+}
+/*-- this makes the heading h2 blue */
+body h2 {
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.5rem !important;
+  color: #ff6600 !important;
+}
+body h3 {
+  font-size: 1.4rem !important;
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
+  color: #4563a7 !important;
+}
+body h4 {
+  font-size: 1.4rem !important;
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
+  color: #6a6a6a !important;
+}
+body h5 {
+  font-size: 1.3rem !important;
+}
+body h6 {
+  font-size: 1.1rem !important;
+}
+/* vertical spacing for the title of posts */
+.quarto-title h1.title {
+  margin-top: 1.2rem !important;
+  padding-top: 0rem !important;
+}
+
+/* Control all link colors throughout the site */
+a {
+  color: #4563a7 !important; /* blue - or whatever color you want */
+  /*  text-decoration: underline !important; */
+}
+
+a:hover {
+  color: #ff6600 !important; /* orange on hover */
+  /*  text-decoration: underline !important; */
+}
+
+/* Keep visited links the same color */
+a:visited {
+  color: #4563a7 !important;
+  /*  text-decoration: underline !important; */
+}
+
+/* Targets the thumbnail images on listing pages */
+.quarto-post .thumbnail-image {
+  width: 70% !important;
+  height: auto;
+  flex-basis: 30%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* tables */
+.centered-table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 0.5rem;
+  border: none;
+}
+
+.centered-table th,
+.centered-table td {
+  border: none !important;
+  padding: 0.2em 0.5em; /* adjust padding as needed */
+}
+
+.custom-table {
+  margin: 2em auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  max-width: 120rem;
+}
+
+.custom-table td {
+  padding: 3.5em 1em;
+  border: none;
+}
+
+.margin-figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.margin-figure p {
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.9em;
+  margin-top: 0.3em;
+}
+
+/* Smaller titles in listings */
+.quarto-listing-title {
+  font-size: 1.8rem; /* or 90%, or whatever you like */
+}
+
+/*.callout.callout-style-default .callout-body {
+  font-family: "Helvetica", "Helvetica Neue",  Arial, sans-serif;
+  font-size: 0.8rem;
+}*/
+
+/* Listing title (e.g. post headline) */
+.listing-title {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 1.5em !important;
+  color: #333333 !important;
+}
+
+/* Listing description (summary or excerpt) */
+.listing-description {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 1em !important;
+  color: #666666 !important;
+}
+
+/* Shared font and size */
+.small-links a {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 0.85em !important;
+  text-decoration: none;
+}
+
+/* Shrink thumbnail column */
+div.quarto-post .thumbnail {
+  flex-basis: 20% !important; /* was 30% */
+}
+
+/* Expand the body (text) column accordingly */
+div.quarto-post .body {
+  flex-basis: 65% !important; /* was 45% */
+}
+
+/* Hide the date ONLY for the 'about_blog' card */
+.quarto-listing .quarto-post:has(.title a[href$="about_blog.html"]) .date,
+.quarto-listing
+  .quarto-post:has(.title a[href$="about_blog.html"])
+  .listing-date,
+.quarto-listing .quarto-post:has(a[href$="about_blog.html"]) .date,
+.quarto-listing .quarto-post:has(a[href$="about_blog.html"]) .listing-date {
+  display: none !important;
+}
+
+.quarto-listing .quarto-post:has(.title a[href$="about_blog.html"]) .date,
+.quarto-listing .quarto-post:has(.title a[href$="other_pinned.html"]) .date,
+.quarto-listing
+  .quarto-post:has(.title a[href$="about_blog.html"])
+  .listing-date,
+.quarto-listing
+  .quarto-post:has(.title a[href$="other_pinned.html"])
+  .listing-date {
+  display: none !important;
+}
+
+/* Make section numbers match heading colors */
+h1 .header-section-number {
+  color: #4563a7 !important; /* matches your H1 color */
+}
+
+h2 .header-section-number {
+  color: #ff6600 !important; /* matches your H2 color */
+}
+
+h3 .header-section-number,
+h4 .header-section-number,
+h5 .header-section-number,
+h6 .header-section-number {
+  color: inherit !important; /* matches the heading text */
+}

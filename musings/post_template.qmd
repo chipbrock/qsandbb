@@ -1,0 +1,19 @@
+---
+title: "Post Template"
+image: "logo_orange_words.png"
+categories: [Musings]
+description: "ℹ️ **README:** Academic science post content"
+draft: true
+---
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: May 17, 2025
+</div>
+
+---
+
+
+
+Watch this space.
+
+---

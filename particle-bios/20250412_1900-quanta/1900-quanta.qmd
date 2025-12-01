@@ -1,0 +1,26 @@
+---
+title: "quanta"
+# date: 2025-04-12
+categories: [Particle Bios, draft]
+description: "quanta post content"
+draft: true
+---
+
+# quanta
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> › <a href="../index.qmd">TOC Particle Bios</a> › <strong>quanta</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 12, 2025
+</div>
+
+---
+
+Watch this space.
+
+---
+::: {.post-nav}
+← [Previous: 1900 gamma](../20250412_1900-gamma/1900-gamma.html) | [Next: 1905 photon](../20250412_1905-photon/1905-photon.html)
+:::

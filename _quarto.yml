@@ -1,0 +1,131 @@
+title: "Quarks, Spacetime, and the Big Bang"
+#author: "Chip Brock"
+execute:
+  cache: true
+  freeze: auto
+preview:
+  watch-inputs-only: true
+from: markdown+emoji
+project:
+  type: website
+  output-dir: docs
+render:
+  # include only the site you actually want rendered
+  - musings/*.qmd
+  - index.qmd
+  - QSBB.qmd
+  - once_upon.qmd
+  - stories.qmd
+
+  # content sections (adjust to taste)
+  - musings/**/*.qmd
+  - NOS/**/*.qmd
+  - mechanics/**/*.qmd
+  - special_relativity/**/*.qmd
+  - particle-bios/**/*.qmd
+  - electromagnetism/**/*.qmd
+  - math/**/*.qmd
+  - Words/**/*.qmd
+
+  # EXCLUDES
+  - "!about3.qmd"
+  - "!garage/**"
+toc: true
+number-sections: true
+highlight-style: pygments
+website:
+  draft-mode: unlinked
+  #title: "Quarks, Spacetime, and the Big Bang"
+  title: "<img src='/images/logo_orange_words.png' class='site-logo'/> Quarks, Spacetime, and the Big Bang"
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    left:
+      - text: 👉 start here
+        href: QSBB.qmd
+      - text: 👉 then here
+        href: once_upon.qmd
+      - text: 🗑️ just a theory?
+        href: trigger.qmd
+      - text: 📖 journal
+        href: stories.qmd
+      #- text: about me
+      #  menu:
+      #    - me-in-2-seconds.qmd
+      #    - CV.qmd
+      #    - teaching.qmd
+      #   - research.qmd
+      #    - professional.qmd
+      #- me.qmd
+      #- QSBB.qmd
+      #- text: sandbox_working
+      #  href: sandbox_working.qmd
+
+      #- text: 📜 musings
+      #  href: musings/index.qmd
+      - text: topics
+        menu:
+          - text: Posts
+            href: musings/index.qmd
+          - text: Nature of Science (NOS)
+            href: NOS/index.qmd
+          - text: Skinny Physics
+            href: https://chipbrock.github.io/SkinnyPhysics/
+          - text: Feynman Diagrams
+            href: https://chipbrock.github.io/FeynmanDiagramsEveryone/
+          - text: Experiment Bios
+            href: experiments/index.qmd
+          - text: Particle Bios
+            href: particle-bios/index.qmd
+          - text: Math Review
+            href: math/index.qmd
+          - text: words
+            href: Words/index.qmd
+          # - text: Musings
+          #   href: musings/index.qmd
+      #- stories.qmd
+      #- teaching.qmd
+      #- research.qmd
+      #- professional.qmd
+      #- about3.qmd
+      #- authoring.qmd
+  sidebar:
+    - id: id-feynman_diagrams
+      title: "cheese"
+      style: "docked"
+      background: light
+    - id: id-particle_bio
+      title: "particles"
+      style: "docked"
+      background: light
+
+format:
+  html:
+    code-fold: true
+    theme:
+      light: simplex
+      dark: darkly
+    toggle: true
+    fontsize: 1.3em
+    css: styles.css
+    grid:
+      body-width: 900px
+    mainfont: "EB Garamond, Georgia, serif"
+    toc: true
+    reading-time: true
+    html-math-method: mathjax
+    # Force-enable AMS numbering for MathJax v3
+    include-in-header:
+      text: |
+        <script>
+        window.MathJax = {
+          tex: {
+            tags: 'ams',         // number align, gather, etc.
+            tagSide: 'right',    // numbers on the right
+            packages: {'[+]': ['ams']} // be explicit about AMS package
+          },
+          chtml: { scale: 0.9 }
+        };
+        </script>
+
+#reference-location: margin

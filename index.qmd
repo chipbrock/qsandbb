@@ -1,0 +1,61 @@
+---
+title: "Chip Brock"
+about:
+  template: jolla
+  image: media/chip_c.jpeg
+  #image-shape: round
+  image-width: 10em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/raymond-brock-47261919/
+    - text: Email
+      href: mailto:brockr@msu.edu
+    - text: Facebook
+      href: https://www.facebook.com/chip.brock1
+    - text: Bluesky
+      href: https://bsky.app/profile/chipbrock.bsky.social
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?user=vfLYgg8AAAAJ&hl=en
+    - text: ORCiD
+      href: https://orcid.org/0000-0002-4556-9212
+      
+draft: false
+---
+
+<br>
+
+<div class="custom-intro">
+  I’m an experimental particle physicist at Michigan State University. In my career, I have done my research at <a href="https://pa.msu.edu/high-energy-physics/index.aspx"
+  target="_blank"
+   style="color: #ff6600 !important;"
+   onmouseover="this.style.setProperty('color', '#4563A7', 'important');"
+   onmouseout="this.style.setProperty('color', '#ff6600', 'important');">
+   MSU
+</a>,
+<a href="https://www.fnal.gov"
+target="_blank"
+   style="color: #ff6600 !important;"
+   onmouseover="this.style.setProperty('color', '#4563A7', 'important');"
+   onmouseout="this.style.setProperty('color', '#ff6600', 'important');">
+   Fermilab
+</a>, 
+<a href="https://www.anl.gov"
+target="_blank"
+   style="color: #ff6600 !important;"
+   onmouseover="this.style.setProperty('color', '#4563A7', 'important');"
+   onmouseout="this.style.setProperty('color', '#ff6600', 'important');">
+   Argonne National Laboratory
+</a>, and 
+<a href="https://home.cern"
+target="_blank"
+   style="color: #ff6600 !important;"
+   onmouseover="this.style.setProperty('color', '#4563A7', 'important');"
+   onmouseout="this.style.setProperty('color', '#ff6600', 'important');">
+   CERN
+</a>. I specialize in teaching modern physics to non-science students and this <a href="./stories.qmd" target="_blank" rel="noopener"><strong> 📚 JOURNAL</strong></a> brings that content and more to an audience beyond my lecture hall.
+<br><br>Our stories range from descriptive to sophisticated and regardless of your background, you can learn with me. Start with the tab  ☝️ called... “start" and you’ll get the lay of the QS&amp;BB land.
+</div>
+
+
+
+| [me in 2 seconds](./me-in-2-seconds.qmd) | [Curriculum Vitae](./CV.qmd) | [teaching](./teaching.qmd) | [research](./research.qmd) | [professional](./professional.qmd) 

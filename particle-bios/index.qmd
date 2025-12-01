@@ -1,0 +1,60 @@
+---
+title: Particle Biographies
+#sidebar: particle-bios
+listing: 
+  contents: 
+    - ./**/*.qmd
+  type: default
+  sort: "title desc" # can also sort on more than one field
+  fields: [date, title, reading-time, description, categories]
+  categories: true # allows you to sort posts by assigned categories 
+  sort-ui: true
+  filter-ui: true
+format:
+  html:
+    toc: true
+    toc-location: right
+    number-sections: true
+author: Chip Brock
+date: '2025-04-01T01:40:45'
+categories: [particles]
+page-layout: full
+title-block-banner: A9A9A9
+draft: true
+---
+
+# Particle Bios Topics
+
+## Overview
+
+Introductory content for Particle Bios.
+
+## Posts
+
+- [1804 atom](20250414_1804-atom/1804-atom.qmd)
+- Our first particle from J.J. Thomson...the electron.
+- [1881 electron](20250412_1881-electron/1881-electron.qmd) 
+- ...and his student, Rutherford, finds a surprise...the beta particle.
+- [1899 beta](20250412_1899-beta/1899-beta.qmd) 
+- Rutherford gets his hands on uranium...the alpha particle. 
+- [1899 alpha](20250412_1899-alpha/1899-alpha.qmd)
+- Villard gets into the act...gamma rays.
+- [1900 gamma](20250412_1900-gamma/1900-gamma.qmd) 
+- Max Planck finds a desparate way out...his "quanta."
+- [1900 quanta](20250412_1900-quanta/1900-quanta.qmd) 
+- Albert Einstein takes quanta all the way...the photon.
+- [1905 photon](20250412_1905-photon/1905-photon.qmd)
+- Rutherford again! The first controled particle collisions reveal the nucleus: 
+- [1911 nucleus](20250412_1911-nucleus/1911-nucleus.qmd)
+- Rutherford does it again...the proton:  
+- [1913 proton](20250412_1913-proton/1913-proton.qmd)
+- Rutherford's lab does it again, James Chadwick...the neutron:  
+- [1920 neutron](20250412_1920-neutron/1920-neutron.qmd)
+- A complete surprise from Paul Dirac...the positron:  
+- [1928 positron](20250413_1928-positron/1928-positron.qmd)
+- Pauli has an unserious  idea...the neutrino: 
+- [1930 electron neutrino](20250413_1930-electron_neutrino/1930-electron_neutrino.qmd)
+	"Who ordered that?"...the muon: 
+- [1937 muon](20250413_1937-muon/1937-muon.qmd)
+
+- When did "particles" become a scientific thing? Maybe with atoms.

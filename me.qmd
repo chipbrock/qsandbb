@@ -1,0 +1,93 @@
+ ---
+title: "about me"
+---
+
+I’m a "University Distinguished Professor" in the Physics and Astronomy Department at MSU, and on the MSU faculty since 1982. Before that, I was a postdoc at Fermilab, a graduate student at Carnegie Mellon University, and even spent some time working as an engineer in private industry. These days, I also serve as an Adjunct Professor of Physics at Arizona State University.
+
+# education & training
+
+My bachelor’s degree is in Electrical Engineering from Iowa State University, but I switched gears after working in private industry for a while. I went on to earn an MS in Physics and Philosophy of Science from Northern Illinois University and then completed my Ph.D. at Carnegie Mellon University, focusing on both theoretical and experimental elementary particle physics.
+
+Like many scientists, I owe my inspiration to a great high school science teacher. For me, that was Walter Hauswald at Sycamore High School. He let me help with class prep and encouraged me to explore topics like quantum mechanics outside of class. I was lucky to have him for all three years of my high school physical science courses, and I even dedicated my Ph.D. thesis to him.
+
+# personal
+
+- Born: August 2, 1950 (Oak Park, IL)
+- Married: Janet Peterkin, 2 children (Terry and Kimberly)
+- Citizenship: U.S.
+
+# CV
+
+## Education:
+
+Carnegie-Mellon University | 1975 M.S. Physics | 1980 Ph.D. Elementary Particle Physics (experiment and theory)
+
+Northern Illinois University | 1975 M.S. Physics & Philosophy of Science
+
+Iowa State University | 1972 B. S. Electrical Engineering
+
+## Professional Experience:
+
+Arizona State University, Department of Physics 
+
+- 2019–present Adjunct Professor of Physics
+
+Michigan State University, Department of Physics and Astronomy 
+
+- 2011–present University Distinguished Professor
+
+- 1994–2001 Chairperson
+
+- 1991–2011 Professor
+
+- 1986–1991 Associate Professor
+
+- 1982–1986 Assistant Professor
+
+Fermi National Accelerator Laboratory | 1980–1982 Research Associate
+
+Driv–Lok, Inc. | 1972–1973 Sales Engineer
+
+## Service:
+
+- 2014, Chair, US ATLAS Institutional Board (2014-2015)
+
+- 2013-2014, Member Board of Directors, Fermilab Research Alliance
+
+- 2010, Chair, Division of Particles and Fields, APS
+
+- 1999, Fellow, American Physical Society
+
+- 1976–present, American Physical Society
+
+## Awards:
+
+- 2011, Michigan State University University Distinguished Professor
+
+- 2005, PA Osgood Award for Undergraduate Teaching
+
+- 2004, Michigan State University Distinguished Faculty Award
+
+- 1985, Michigan State University “Teacher–Scholar Award”
+
+- 1993, Department of Physics and Astronomy “Best Graduate Instructor”
+
+
+
+# short bio
+
+I am an experimental elementary particle physicist and a University Distinguished Professor at Michigan State University (MSU). I earned my B.S. in Electrical Engineering from Iowa State University in 1972. After a year in industry, I returned to academia, completing an M.S. in Physics and the Philosophy of Science at Northern Illinois University and a Ph.D. in Physics at Carnegie-Mellon University in 1980. Following two years as a postdoctoral researcher at the Fermi National Accelerator Laboratory, I joined the MSU Department of Physics and Astronomy in 1982, and in 2011, I was honored as a University Distinguished Professor.
+
+As Chair of the Department of Physics and Astronomy from 1994 to 2001, I oversaw the construction of a new department building, facilitated MSU’s involvement in the construction of the SOAR 4m telescope in Chile, and integrated the private Abrams Planetarium into the department. After stepping down as Chair in 2001, I returned to full-time research and teaching in particle physics.
+
+In the 1980s, I served as spokesperson for Fermilab’s neutrino experiment E733 and have been a member of the Fermilab D0 collaboration since its early days. I’ve taken on leadership roles in significant measurements and the development of D0 apparatus components, including chairing the experiment’s Computing Policy Board and assembling an early grid Linux farm that generated 1 billion Monte Carlo events in the late 1990s.
+
+I am also a member of MSU’s LHC ATLAS group, where I was the first convenor of the Single Top Group and led the “Phase 0” "CMX" trigger electronics upgrade for the L1Calo system. Together with a colleague from the University of Michigan, I conceived and continue to direct the ATLAS “Tier 2” data center, funded through competitive awards.
+
+In 2010, I served as Chair of the APS Division of Particles and Fields. Over the years, I’ve been a member of the DOE High Energy Physics Advisory Panel (HEPAP), the United States representative to the International Committee on Future Accelerators (ICFA), and served two terms on the Fermilab Physics Advisory Committee. I’ve also been a member of the Fermilab Research Alliance Board of Directors, the United States ATLAS Institutional Board Chair for two years, and co-convened the DPF Snowmass 2013 Energy Frontier study, which covered all aspects of particle physics.
+
+Throughout my career, I’ve taught across the undergraduate and graduate curricula, and in recent years, I’ve focused on teaching general education students. I developed two unique courses for non-science majors: one that intertwines the history of physics with the history of art and another exploring elementary particle physics and cosmology.
+
+I’ve authored or co-authored over 1,000 publications in experimental and phenomenological particle physics and have been continuously funded by the National Science Foundation since 1982. I’m a Fellow of the American Physical Society and have received two all-university awards from MSU for research and teaching.
+
+Outside of physics, I’m a lifelong baseball fan and have spent many years coaching high school baseball in East Lansing.

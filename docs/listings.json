@@ -1,0 +1,79 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/musings/Opera_neutrinos/Opera_neutrinos.html",
+      "/history/galileo_free_fall.html",
+      "/NOS/20250514_0100-laws/0100-laws.html",
+      "/NOS/20250514_0200-models/0200-models.html",
+      "/NOS/20250514_0300-knowledge/0300-knowledge.html",
+      "/musings/index.html"
+    ]
+  },
+  {
+    "listing": "/pinned/about_blog.html",
+    "items": []
+  },
+  {
+    "listing": "/history/index.html",
+    "items": [
+      "/history/galileo_free_fall.html"
+    ]
+  },
+  {
+    "listing": "/math/index.html",
+    "items": []
+  },
+  {
+    "listing": "/musings/index.html",
+    "items": [
+      "/musings/Opera_neutrinos/Opera_neutrinos.html"
+    ]
+  },
+  {
+    "listing": "/particle-bios/index.html",
+    "items": []
+  },
+  {
+    "listing": "/NOS/index_original.html",
+    "items": [
+      "/NOS/20250514_0300-knowledge/0300-knowledge.html",
+      "/NOS/20250514_0200-models/0200-models.html",
+      "/NOS/20250514_0100-laws/0100-laws.html"
+    ]
+  },
+  {
+    "listing": "/words/index.html",
+    "items": []
+  },
+  {
+    "listing": "/NOS/index.html",
+    "items": [
+      "/NOS/20250514_0300-knowledge/0300-knowledge.html",
+      "/NOS/20250514_0200-models/0200-models.html",
+      "/NOS/20250514_0100-laws/0100-laws.html"
+    ]
+  },
+  {
+    "listing": "/experiments/index.html",
+    "items": [
+      "/experiments/galileo_free_fall.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": []
+  },
+  {
+    "listing": "/stories.html",
+    "items": [
+      "/musings/Opera_neutrinos/Opera_neutrinos.html",
+      "/pinned/about_blog.html",
+      "/history/galileo_free_fall.html",
+      "/NOS/20250514_0100-laws/0100-laws.html",
+      "/NOS/20250514_0200-models/0200-models.html",
+      "/NOS/20250514_0300-knowledge/0300-knowledge.html",
+      "/musings/index.html"
+    ]
+  }
+]

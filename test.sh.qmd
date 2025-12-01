@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cat <<EOF > test_output.txt
+Watch this space.
+INSERT-PREV-NEXT-BLOCK-HERE
+EOF

@@ -1,0 +1,26 @@
+---
+title: "electron"
+# date: 2025-04-12
+categories: [Particle Bios, draft]
+description: "electron post content"
+draft: true
+---
+
+# electron
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> › <a href="../index.qmd">TOC Particle Bios</a> › <strong>electron</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 12, 2025
+</div>
+
+---
+
+Watch this space.
+
+---
+::: {.post-nav}
+← [Previous: 1804 atom](../20250414_1804-atom/1804-atom.html) | [Next: 1899 beta](../20250412_1899-beta/1899-beta.html)
+:::

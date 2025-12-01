@@ -1,0 +1,229 @@
+/* css styles */
+
+/* Force smaller base font size */
+html {
+  font-size: 14px !important;
+}
+
+body {
+  font-size: 14px !important;
+}
+
+/* Article style paragraphs */
+.article-style p {
+  font-size: 1.8rem !important;
+}
+
+/* Main content paragraphs - SINGLE declaration, no duplicates */
+#quarto-document-content p {
+  font-size: 1.8rem !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Force entire navbar to use larger base size */
+.navbar,
+header,
+.navbar-container {
+  font-size: 16px !important; /* or even 18px */
+}
+
+/* Lists - SINGLE declaration for ul */
+main ul {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 1.8rem !important;
+  margin-left: 1.8rem;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Ordered lists */
+ol {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 1.8rem !important;
+  margin-left: 1.8rem;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* menu logo size */
+.navbar-title .site-logo {
+  height: 4em !important;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
+/* logo */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #ff6600 !important;
+}
+.navbar-brand:hover {
+  color: #4563a7 !important;
+}
+.navbar-title {
+  font-size: 1.2rem !important;
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* Headings */
+body h1,
+h1 {
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 1.8rem !important;
+}
+
+body h2,
+h2 {
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 1.8rem !important;
+}
+
+body h3,
+h3 {
+  font-size: 1.8rem !important;
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+body h4,
+h4 {
+  font-size: 0.95rem !important;
+}
+
+body h5,
+h5 {
+  font-size: 1rem !important;
+}
+
+body h6,
+h6 {
+  font-size: 0.9rem !important;
+}
+
+/* vertical spacing for the title of posts */
+.quarto-title h1.title {
+  margin-top: 1.2rem !important;
+  padding-top: 0rem !important;
+  font-size: 1.8rem !important;
+}
+
+/* Targets the thumbnail images on listing pages */
+.quarto-post .thumbnail-image {
+  width: 70% !important;
+  height: auto;
+  flex-basis: 30%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* tables */
+.centered-table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 0.5rem;
+  border: none;
+}
+
+.centered-table th,
+.centered-table td {
+  border: none !important;
+  padding: 0.2em 0.5em;
+}
+
+.custom-table {
+  margin: 2em auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.9rem !important;
+  max-width: 120rem;
+}
+
+.custom-table td {
+  padding: 3.5em 1em;
+  border: none;
+}
+
+.margin-figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.margin-figure p {
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.9em;
+  margin-top: 0.3em;
+}
+
+/* Smaller titles in listings */
+.quarto-listing-title {
+  font-size: 1.5rem !important;
+}
+
+/* Listing title (e.g. post headline) */
+.listing-title {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 1.3em !important;
+  color: #333333 !important;
+}
+
+/* Listing description (summary or excerpt) */
+.listing-description {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 0.95em !important;
+  color: #666666 !important;
+}
+
+/* Shared font and size */
+.small-links a {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 1em !important;
+  /*  font-size: 0.85em !important;*/
+  text-decoration: none;
+}
+
+/* Shrink thumbnail column */
+div.quarto-post .thumbnail {
+  flex-basis: 20% !important;
+}
+
+/* Expand the body (text) column accordingly */
+div.quarto-post .body {
+  flex-basis: 65% !important;
+}
+
+/* Hide the date ONLY for the 'about_blog' card */
+.quarto-listing .quarto-post:has(.title a[href$="about_blog.html"]) .date,
+.quarto-listing
+  .quarto-post:has(.title a[href$="about_blog.html"])
+  .listing-date,
+.quarto-listing .quarto-post:has(a[href$="about_blog.html"]) .date,
+.quarto-listing .quarto-post:has(a[href$="about_blog.html"]) .listing-date {
+  display: none !important;
+}
+
+.quarto-listing .quarto-post:has(.title a[href$="about_blog.html"]) .date,
+.quarto-listing .quarto-post:has(.title a[href$="other_pinned.html"]) .date,
+.quarto-listing
+  .quarto-post:has(.title a[href$="about_blog.html"])
+  .listing-date,
+.quarto-listing
+  .quarto-post:has(.title a[href$="other_pinned.html"])
+  .listing-date {
+  display: none !important;
+}
+
+/* Nuclear option - force all paragraphs to be smaller */
+p {
+  font-size: 1.8rem !important;
+}
+
+/* Force all text elements */
+div,
+span,
+article {
+  font-size: inherit !important;
+}

@@ -1,0 +1,25 @@
+---
+title: "1928 positron"
+categories: [Particle Bios, draft]
+description: "positron post content"
+draft: true
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Particle Bios</a> › <strong>positron</strong>
+</div>
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 13, 2025
+</div>
+
+---
+
+## The positron
+
+Watch this space.
+
+---
+::: {.post-nav}
+← [Previous: 1920 neutron](../20250412_1920-neutron/1920-neutron.html) | [Next: 1930 electron neutrino](../20250413_1930-electron_neutrino/1930-electron_neutrino.html)
+:::

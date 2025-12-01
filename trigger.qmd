@@ -1,0 +1,44 @@
+---
+title: "Theories, Laws, and Truth, oh, my."
+title-block-banner: A9A9A9
+format: html
+draft: false
+---
+
+::: {.callout-warning icon="false"}
+## ℹ️ README:
+
+<br>"It's only a theory" is a phrase wrong enough to make a grown physicist cry. Theories, laws, facts, proof, truth are all related verses in a compliated song and while we scientists know what we mean...it's confusing. Scientists converse in everyday terms. Like normal people. But while we use normal words in real life, some of them are different in scientific life.
+
+As for the crying? Years ago I was triggered by a long argument in the state of Florida.
+:::
+
+Around 2008 the Florida State Board of Education was grappling with their "F" grade in a national review of science education. And, predictably instructions to teachers on how to teach evolution was a major issue. A few states insisted on teaching creationism, or the cloak-and-dagger idea of "Intelligent Design," along side of, or in place of actual science.
+
+So after many, many hearings, reports, testimony from Nobel laureates, and very public disputes, The fuss was resolved by mandating that whenever evolution was mentioned, it was to be referred to as the **Theory** of Evolution. By contrast, whenever Newton’s rule regarding gravity was used, it was to be called Newton’s **Law** of Gravitation. Law, good. Theory? Not good. Remembering this story is why I have on my unhappy face right now.\[\^law\]
+
+> 😐 That triggered me and I never taught introductory physics the same after that.
+
+So I have rules (for myself) and in physics classes that I teach that can be summed up as:
+
+## There are no scientific [L]{.underline}aws.
+
+The obvious implication of the Florida stalemate is that somehow a theory is less than a law, less believable, less trustworthy, less true, less factually correct. This is demoralizing for us physicists since it can lead to misunderstanding about what science can and cannot do. After thinking about this for many years I have reached a set of conclusions about the Nature of Science (NOS)[^1]
+
+[^1]: The Nature of Science is a term of art in some parts of science education research. Everyone has a slightly different take on the "NOS" and I have mine.
+
+Just to be clear...it is after all my journal 😎 ... I'll not use the word "Law" when I describe scientific ideas.
+
+> **Wait.** What about Newton’s Laws of motion? <br><br> **Glad you asked.** I will talk about historical scientific ideas which got labeled as "Law" but I'll use lowercase, "law." So: "Newton's Second <u>law</u>." Just to make the point: Newton's Second "law" is not always correct since it was superseded by Einstein's Theory of Special Relativity. Some "[L]{.underline}aw"! Notice that in modern use: It's universally the *Theory of Relativity*, not Law of Relativity,
+
+There are other words and phrases that deserve a scientific explanation and here are seven of them, followed by a snapshot of what I have in mind for each. Follow the links for more discussion. Please!
+
+1.  <a href="./NOS/20250514_0100-laws/0100-laws.html" target="_blank">There are no Scientific Laws.</a>
+2.  <a href="./NOS/20250514_0200-knowledge/0200-knowledge.html" target="_blank">Scientific knowledge is a unique and reliable kind of knowledge.</a>
+3.  <a href="./NOS/20250514_0300-truth/0300-truth.html" target="_blank">Facts change and there is no scientific Truth.</a>
+4.  <a href="./NOS/20250514_0400-proof/0400-proof.html" target="_blank">Theories cannot be proven.</a>
+5.  <a href="./NOS/20250514_0500-models/0500-models.html" target="_blank">We don't test a theories. We test models.</a>
+6.  <a href="./NOS/20250514_0600-reality/0600-reality.html" target="_blank">There is a reality “out there” and our understanding of it continuously improves.</a>
+7.  Science is what scientists do.
+
+Thinking yet? Each of the above is a separate post tagged "NOS" so you can find them.

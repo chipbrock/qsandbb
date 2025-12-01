@@ -1,0 +1,35 @@
+---
+title: "research"
+draft: false
+---
+
+**research emphases**
+
+I’ve worked on electroweak and QCD physics in both deep inelastic neutrino scattering experiments and large proton collider experiments. Along the way, I’ve contributed to designing, building, and installing trigger electronics for various experiments. I was also an early pioneer in high-density, large-scale grid computing, starting at Fermilab and more recently for CERN.
+
+## ATLAS experiment CERN
+
+I’ve been part of the ATLAS collaboration since the mid-1990s. I convened the first “Single Top Quark” group and helped establish the ATLAS Great Lakes Tier 2 computing center in collaboration with the University of Michigan. This center operates across our campuses to serve the entire US ATLAS community alongside three other Tier 2 centers.
+
+In 2014, we commissioned a $2M electronics project, designed and built at MSU, as an upgrade to the L1 calorimeter trigger. Using state-of-the-art FPGA technology, the system processes data at four times the rate of Run 1 at the LHC and performed flawlessly during Run 2. My most recent hardware project was in working with a colleague to set up a “factory” in our labs to produce 20,000 small muon drift chamber tubes for the Phase 3 ATLAS upgrade.
+
+## D0 experiment fermi national accelerator laboratory
+
+I’ve been part of the DØ collaboration since its beginning in 1983. During that time, I’ve mentored four PhD students, co-convened the first W Mass group, and chaired the Computing Policy Committee for many years. I also co-led the Database, Data Handling, and Data Grid group and created an early-days grid computing center at MSU for monte carlo event production. My team contributed to building and upgrading critical components, including the L1 calorimeter trigger, the trigger framework, and a six-sided scintillator “cap” surrounding the detector.
+
+## phenomenology
+
+My PhD at Carnegie Mellon was a blend of experimental and theoretical work. My early research focused on heavy flavor production and strange particle production in neutrino scattering. My first publication as a graduate student was a solo *Physical Review Letter*. Later, I worked on gluon resummation in Drell-Yan processes, next-to-leading-order corrections to single top quark production at colliders, and now am working on reducing uncertainties in high mass di-lepton Drell-Yan final states at the LHC.
+
+## publications
+
+I am the author or co-author of more than 1000 publications in experimental and theoretical particle physics since 1975.
+
+You can find my publications in [Google Scholar](https://scholar.google.com/citations?user=vfLYgg8AAAAJ&hl=en).
+
+## research recognition
+
+- MSU Teacher Scholar Award, 1985
+- MSU Distinguished Faculty Award, 2005
+- MSU University Distinguished Faculty Award, 2011
+- Fellow, American Physical Society, 1999

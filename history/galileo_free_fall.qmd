@@ -1,0 +1,16 @@
+---
+title: "Galileo and Free Fall"
+number-sections: true
+date: 2025-08-21 # (your last edit date)
+image: "screenshot_3673.png"
+categories: [Mechanics, physics, history, velocity]
+description: "Scientific and everyday knowledge seem different...but it's actually hard to say why. Isn't it interesting? It's an old problem."
+draft: false
+---
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: April 15, 2025
+</div>
+
+---
+Watch this space for the story of Galileo's free fall experiment. 

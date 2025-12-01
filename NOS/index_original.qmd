@@ -1,0 +1,36 @@
+---
+title: Nature of Science (aka NOS)
+#sidebar: Nature of Science
+listing: 
+  contents: 
+    - ./**/*.qmd
+  type: default
+  sort: "title desc" # can also sort on more than one field
+  fields: [date, title, reading-time, description, categories]
+  categories: true # allows you to sort posts by assigned categories 
+  sort-ui: true
+  filter-ui: true
+format:
+  html:
+    toc: true
+    toc-location: right
+    number-sections: true
+author: Chip Brock
+date: '2025-04-01T01:40:45'
+categories: [philosophy, NOS, science]
+page-layout: full
+title-block-banner: A9A9A9
+draft: true
+---
+
+:information_source: README. Science is a big subject with an often misunderstood vocabulary and practices. Words matter and everyday phrases are often coopted into scientific parlance and that can lead to trouble. Also the outcomes, goals, and realistic expectation of science are complicated and even subfield-dependent. NOS stands for "Nature of Science" and here you'll get my take on many of these topics and how I've taught them.
+
+## Posts
+
+- [1.00 laws](20250514_0100-laws/0100-laws.qmd)
+- [2.00 knowledge, proof, and truth](20250514_0200-knowledge/0200-knowledge.qmd)
+- [3.00 truth](20250514_0300-truth/0300-truth.qmd)
+- [4.00 proof](20250514_0400-proof/0400-proof.qmd)
+- [5.00 models and scientific statements](20250514_0500-models/0500-models.qmd)
+- [6.00 reality](20250514_0600-reality/0600-reality.qmd)
+

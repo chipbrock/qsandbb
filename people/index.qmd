@@ -1,0 +1,37 @@
+---
+title: People Bios
+#sidebar: people
+listing: 
+  contents: 
+    - ./**/*.qmd
+  type: default
+  sort: "title desc" # can also sort on more than one field
+  fields: [date, title, reading-time, description, categories]
+  categories: true # allows you to sort posts by assigned categories 
+  sort-ui: true
+  filter-ui: true
+format:
+  html:
+    toc: true
+    toc-location: right
+    number-sections: true
+author: Chip Brock
+date: '2025-04-01T01:40:45'
+categories: [biography]
+page-layout: full
+title-block-banner: A9A9A9
+draft: true
+---
+::: {.callout-note  icon=false}
+⚠️ Work in progress 🚧 🪏
+:::
+
+# People Matter
+
+## Overview
+
+Physicists, Astronomers, Cosmologists, and Mathematicians
+
+## Posts
+
+- lots of folks

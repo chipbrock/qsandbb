@@ -1,0 +1,90 @@
+
+
+# The Nature of Science
+
+Just how science works can be tricky and everyone has an opinion. The Nature of Science (NOS) is its own discpline across philosophy, history, sociology, and science itself. While we physicists have a pretty good sense of what constitutes good science, we don't have a rulebook and we can sometimes argue about this among ourselves. 
+
+There's an element of "if it works, it's okay." But also some taboos. 
+
+Since I'll be talking about old and new ideas, I thought I should try to put down my views on NOS from my physics-perspective. Below is a sketch to be fleshed out in separate posts with links below.
+
+## Laws
+
+I think that the term scientific "Law" is misleading because it implies a fancy 🎓 permanence and universality, running counter to the fact that science is contingent. It originated with Isaac Newton's deciphering of what appeared to be the absolute rules of the Universe. His explanations convinced people that the world was knowable – no small part of the basis of the Enlightenment. So science revealed *Laws*, capital "L."
+
+:::: column-margin
+::: margin-figure
+<img src="https://miro.medium.com/v2/resize:fit:2400/1*JfEyipp5DIDdIs9qDkGcfQ.jpeg" alt="logo" style="zoom:25%;"/>
+
+<p>The mystic William Blake, painted his *Newton* (1795–c.1805, William Blake) as a negative image. Blake was distinctly unhappy with what he thought was a sterile and godless turn in European thought. But that he chose this subject as a vehicle for his annimosity toward the Enlightenment is..., well, enlightening.</p>
+
+:::
+::::
+
+But we don't do Law any more. We do theories and models – at least I do 😎. That's because the distinction between a Law of physics and a theory of physics is often often misunderstood. (See in the menu bar ☝️ my gripe in <a href="./../trigger.html" target="_blank">just a theory?</a> .) For now, if I mention an old-historical "law" ("Newton's law") I'll use lower case. Otherwise, it's theories...all the way down.
+
+## Theories
+
+I think that the common idea about a theory is that it is a set of guesses or hunches. We all do it: have a theory as to why that tree fell down ("It was leaning and it was really windy.") 
+
+This everyday sense leads to the a mistaken notion that theories are somehow less than laws. Since I've aleready set aside "laws" as unhelpful, let me try to explain what my notion of theories are.
+
+A scientific theory is a framework that can have three jobs:
+
+1. Explain observed phenomena.
+2. Tie together ideas that once seemed unrelated.
+3. Predict new phenomena – while being consistent with previously successes. (Ask Mr Google about Immanuel Velikovsky and Venus.)
+
+We usually emphasize #3, but I think that #1 is underappreciated. Can an acceptable theory *only* explain even if it doesn't yet predict novel phenomena? (See "arguing among ourselves" in the first paragraph.)
+
+Textbooks often define a scientific theory as a systematic explanation facts. But what counts as an explanation? A paragraph? A logical set of proofs? A set of mathematical equations? A nicely formed tweet?
+
+My problem is distinguishing something as all encompassing as Quantum Theory from the theory of atoms. The latter is a part of the former since we describe atoms using the tools and commitments of Quantum Theory. 
+
+Here's my take:
+
+A framework – made of logical statements and/or mathematics – provides tools and guidance on how to use them. Furthermore – and this is important – a theory limits itself to a domain: For example, A theory of chemical bonding doesn't need to encompass the theory of black holes. Its "domain" is atoms and molecules. Engineers bulding bridges use Newton's ("laws of" we say) mechanics, but their domain doesn't encompass the theory of evolution. But there are overlaps: the theory of chemical bonding must embrace the rules of the quantum theory, so there is a heirarchy among theories.
+
+Two important aspects of this complicated mix.
+
+1. **Our trust in theories is earned.** Quantum mechanics is highly trusted (not sacred, so not Law-like) It might be a part of a grander theory.
+2. **We can't use or test a theory directly.** Einstein's Special Theory of Relativity consists of two short English (well, German) sentences in the form of postuates. That's the framework idea. Testing and using them requires building models.. 
+
+We're guided bytheories, but we test models. In physics, those models are mathematical.
+
+## Models and Scientific Statements
+
+When we make mathematical **[model]**s, they are very specific. First they consist of inputs, Let's call them (x, y, z), where the variables could be numerical facts or procedural commitments or other inputs. Then, a model has some calculational, ✏️ , process. An algorithm if you will that tests an idea. Maybe you remember "turning the crank" in a school cacluation.
+
+That model has an...urgency. Start it going (calculating) and a conclusion, 📈 ,  is the result. So in cartoon form:
+
+" **[**(x, y, z) →  ✏️ **]** will result in: 📈 ."
+
+What comes out after "turning the crank" is 📈: a function, a number, a plot, an expected state of matter. This a theory cannot do.
+
+The result, 📈, can refer to something previously known (an *explanation*) or to something to be tested (a *prediction*). The whole process, [model + successful explanation] or [model + prediction + successful measurement] I'll call a *scientific process*.
+
+## Scientific Knowledge, Proof, and Truth
+
+Scientific knowledge is a bit special. It's easy for us in everyday life to spontaneously decide that we "know" something – until we learn that we were were wrong! And that's not a problem, it happens.
+
+But scientific knowledge is different and we expect a lot from it. It's not a 'belief" which is personal and often unjustifiable. In fact, while it sounds scientific, "I believe in evolution" is not a scientific statement. Just like "I believe in martians" isn't. *Belief* is not justified in scientific language.
+
+One of the jobs of a scientific statement is to assert something that's checkable. It must be public, based on expertise, always open to scrutiny, and within the norms of the scientific community (admitedly, a tough thing to define). What's important is that scientific statements are made and trusted by experts. Unfortunately, folks with expertise are sometimes now called "elites," as if expertise is bad.
+
+Scientific statements are the grammar used to test the claims of models against experiment. They can take the form of sentences, a mathematical function, the prediction of a state of matter, or a numerical fact. Interpreting them can, however, be nuanced. 
+
+If my scientific statement ( 📈 ) does not agree with the results of an experiment, I would have to say that my statement is *disconfirmed* (not "disproven"). If it repeatedly doesn't match, that result casts doubt on the model but more likely on the inputs to the model. 
+
+### Proof?
+
+When the results of a measurement appears to agree with the model's prediction, then we say that the model is *confirmed*. But that's nuanced in a variety of ways.
+
+1. First, the domain may be so broad as to be unhelpful as a scientific statement. That Winston-Salem is between Detroit and Miami could be confirmed but it's not very precise.
+2. Second, it's possible for a scientific statement to agree with experiment, but accidentally. When I say it's 2 pm and it is 2 pm, but my watch stopped at 2 am, that's not a helpful scientific conclusion. Justification is required of a confirmed scientific statement.
+3. Finally, and this is both important and not understood outside of the scientifi community is uncertainty. If the results of a political poll say that candidate X polls at 49% and candidate Y polls at 51% and that the margin of uncertainty is 5%, then those candidates are tied. Y is not ahead of X. In political polling these are statements about the statistical precision of the measurement, but in scientific prediction and measurement there are other uncertainties in play. The inputs (x, y, z) are certainly imprecise and that uncertainty will be carried through to the results of the model. And, the model's algorithm might have its own uncertainties. The end result is that if I were to say that my scientific statement is 2 feet, that's not scientific. If you used a yardstick without any markings to make your measurement, then your ability to be as precise as one foot is nil. If you used a micrometer to make your measurement, then your determination of "2" might be very precise, but it would still have uncertainty. The scientifically proper way to report the model's prediction and/or the experiment's result is $2\pm a$ feet where $a$ is the uncertainty, like $2 \pm 0.1$ feet. 
+
+This means that no prediction and no measurement is absolutely precise. And so one cannot *prove* a result, not a model and certainly not a theory. So, following on that and using the term in its normal way, there is no measureable *truth* in a scientific process. 
+
+## Reality and the Role of Mathematics
+

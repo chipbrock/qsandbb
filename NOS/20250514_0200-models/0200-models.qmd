@@ -1,0 +1,135 @@
+---
+title: "2.00 Models and Scientific Statements"
+date: 2025-08-16 # (your last edit date)
+image: "model.png"
+categories: [NOS, drafting]
+description: "ℹ️ **README:** We test models, not theories."
+draft: false
+---
+
+<div class="breadcrumb">
+  <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Nos</a> > <strong>models</strong>
+</div>
+::: {.post-nav}
+👈 [Previous: 1.00 laws and theories](../20250514_0100-laws/0100-laws.html) | [Next: 3.00 scientific knowledge, proof, and truth](../20250514_0300-knowledge/0300-knowledge.html) 👉
+:::
+
+<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
+Author: Chip Brock · Published: May 14, 2025
+</div>
+
+---
+
+::: {.column-margin}
+![](model.png){ width=120px }
+:::
+
+## It is not possible to test a theory. We test models.
+
+I’ve discarded Laws and truth and proof and so it’s time to confront the idea of a theory and how we can trust one or not. “What is a theory,” is a valid question.
+
+I've thought about this a lot. We have an idea of what a theory is, but do we directly test a theory? I don't think so. I think we make models following the rules and suggestions of a theory and we then **we test the model**. I'll try to explain why. Beware that this may be controversial...it's my idea that may not have occurred to others unless they've been condemned to this dual life that I have of both a scientific and philosophical education. It's a living, but it's not easy.
+
+### Planes, Trains, and Automobiles: Models
+
+When I was a kid, I was consumed by models of cars— “hot rods” of the 1960s. And airplanes. And HO train sets. In short, life-like replicas of transportation tools were my passion when I wasn’t playing or watching baseball.
+
+A plastic model stands for—represents—a real thing in the world, not perfectly, but well enough to complete a mission. In my case, that mission was a 13 year old boy imagining the car that he’d work on and own some day. If my plastic 1967 Chevy with baby moon wheels, GM 350 cubes with aluminum heads, Edelbrock intake manifold, Holley 4bbl, HPC Coated Headers w/Dual Exhaust, painted baby blue was made more and more precise, it would eventually become...a real car.
+
+chevybox.png intage Revell model ’57 Chevy. In the box.
+
+I’ve been careful in what I wrote in other posts to do two things. First, I referred to scientific **statements** and **models** of nature. Gone are the days when a physicist can construct a mathematical description of say a block of wood sliding down a plane of wood and proudly proclaim that what’s written in symbols on paper is a 1:1 faithful reproduction of what happens in the laboratory.
+
+Now we operate from a more hazy, removed vantage point. As we consider electric and magnetic fields, relativity, and quantum mechanics the correspondence between a mathematical description and what nature is supposed to be like will become necessarily more indirect and abstract.
+
+I now tend to think of a theory as a broad **framework** within which there are many ways to address nature from within the framework. But what we don’t do is test the theory, rather we build mathematical models that use the rules (from within the framework) of a theory to address a particular, well-defined piece of nature with predictions. Then experiments are done to test the model, not the theory.
+
+Let’s pick on Special Relativity again. I can tell you the Theory of Relativity in these three lines:
+
+1. The rules of physics are the same in all inertial frames of reference.
+2. The speed of light is the same in all inertial frames of reference. 
+3. The interval between two spacetime events is Minkowskian.
+
+The first two statements are called the Postulates of Relativity and the last statement is a consequence of the mathematization of the theory in geometry. 
+
+This is the Theory of Relativity…the framework within which any scientific statement must fit. You don’t need to understand what these sentences mean, but you can surely see that they don’t contain a single mathematic equation. That’s where the models come in. 
+
+In my way of thinking, a mathematical model of nature is a little machine that you run to a result at the end when you add some information at the beginning. The result can be, and usually is, the prediction of what an experiment would find. That result can also be another equation, distilled from input equations. 
+
+We will use the Theory of Relativity quite a bit, but our confrontation with nature will be through models that are built within the framework of the Theory of Relativity. 
+
+An important aspect of a model is that it must respect a possible measurement’s capabilities. A model is not meant to be a 1:1 representation of nature, just like the model car is not a real car. It’s a limited representation that can be tested. Here’s what I mean.
+
+I can create a model for how fast a block will move across a table if it’s pushed with a given force. If that’s all I want to know, that’s a pretty easy thing to predict. But notice that it’s not the whole story of what goes on. The table and the block heat up and so energy is lost to the warming air. There are billions of little, complex atomic bonds between the under-surface of the block and the table-top. There’s a lot of physics involved in describing this event and how much detail I include in the model depends on a) *what I want to know* from my measurement and b) *how well I need to know* it. My model could include all of those thermodynamic and atomic effects but I wouldn’t include them if I can’t measure the speed very precisely. 
+
+Physicists learn to stick to the Goldilocks Rule of Modeling. A model can’t be too crude and a model can’t be too precise…a model needs to be Just Right.
+
+
+To summarize: 
+
+* accept a theory and its rules; build mathematical models within the theory to represent nature (but not in a 1:1 sense); 
+* make predictions from those models and test them in experiments; 
+* accept or reject the model based on the results of the experiments. 
+
+That’s the game that I’ve played for four decades in which I’ve never left the theory of quantum mechanics, the theory of special relativity, nor the theory of general relativity...but I’ve tested lots of models.
+
+#### Statements
+
+It’s a detail, but an important one. We cannot test nature directly. We can only assess the truth or falsity only of statements. This reflects a remoteness of a scientist relative to nature itself. So a prediction and a test of that prediction is really testing statements and not theories and not nature. I confess this is hard to appreciate and I can probably argue even with myself about it.
+
+painting.png *In some ways, what an artist does when she paints a landscape is make a model of it. Representation theory is a serious part of "Semiotics" which is a sophisticated discipline in philosophy, linguistics, and aesthetics.*
+
+### Memory Medicine: Confirmation and Disconfirmation
+
+In my car I just heard an advertisement for a supplement that would make me remember things better. (I don’t remember its name...see what I did there?) It apparently has been “proven” to be effective. Well, by now you know my problems with that word, but what is it that scientists can actually say about a model and indirectly, the theory framework within which it functions?
+
+The black squirrel issue makes it clear that proving, beyond a shadow of a doubt, that an inductive model is true is risky and historically unproductive. 
+
+* The word that we use when evidence supports a model’s prediction is "*confirm*"...the model’s prediction is *confirmed*, definately not “proved.” 
+* The word we use when a model’s prediction is contradicted is "disconfirmed.”
+* The burden of any model is that it must be "falsifiable" or in principle be disconfirmable. 
+
+A couple of notes. “Confirm” is weaker than prove, leaving us the necessary freedom to allow that evidence can change our models and even theories. Those theories that I keep saying we trust? They have been confirmed many, many times. (It’s fair to think that maybe a Law is just a really, well-confirmed theory. But I’m fighting that older picture of Newtonian-like Laws.) 
+
+That last bullet is important and has a special place in the Philosophy of Science—and is the center of a couple of serious arguments in my fields of physics right now. 
+
+> You might have heard some of this in the news and the falsifiability test of a theory (the word used then) is attributed to the philosopher, **Karl Popper**. He thought this was a worthy goal of science because showing something to be wrong is actually a deductive process, the inverse of showing that something agrees.
+
+To a Popperian (my pejorative word) a single instance of disconfirmation should eliminate a model from study (they would say "theory"). A single black squirrel? That’s nice sounding, but not how science actually works and is philosophically troublesome (ask Mr Google about the Duhem–Quine thesis)–that black squirrel could have just been in a dust-bin. 
+
+>The requirement of falsifiability as a standard required of science has pretty much stuck with us.
+
+Can you see how this in-principle falsifiability requirement actually feeds my original assertion above about how to tell if a statement is scientific or not? The latter is just a simpler version of the former.
+
+The bottom line here is this:
+
+<p class="pullquote"  markdown="1">The burden on science is not to prove things about nature, but to confirm or disconfirm statements about nature. </p>
+
+In QS&BB, we’ll watch revolutions in science that create large frameworks in which models are tested, rejected, and accepted. These frameworks I will call *theories* and I can list them for you:
+
+1.  Newton’s laws of motion (remember?)
+2.  Newton’s law of Gravitation
+3.  Maxwell’s Theory of Electromagnetism
+4.  Quantum Mechanics
+5.  Special Relativity Theory
+6.  The General Theory of Relativity
+
+In my picture, there are not many theories in physics. 
+
+Other topics like the big bang? quarks? nuclear physics? the standard model of particle physics? These are all models within the currently acceptable theories (frameworks) of 4, 5, and 6 above. Numbers 1 and 2? They’ve been replaced!
+
+### Laziness: Belief
+
+One more word that both has no place in science but is one of those words we use all the time: **Belief.** We all talk about what we believe (and don’t), and scientists will sometimes colloquially do that in a scientific context, but that’s sloppy. When I say “I believe in X,” what I really mean is that that job that word does is act as a shorthand for the sentence: “X is highly confirmed by experiments and X is likely to survive foreseeable experimental tests if asked.” If I’m an expert in the field of X, then I have the obligation to describe those experimental tests. If I’m not an expert in X and I want to echo an expert’s "belief," I should expect that expert could also enumerate its experimental successes in detail on my behalf. (That’s a little tricky.)
+
+There are dos and don’ts here for scientists (and students of science). When it comes to belief in a scientific statement, I can’t do three things: 
+
+1. I can’t say that I believe in X because I want to, 
+2. I can’t say that I believe in X because my gut or a “feeling” suggests that I should, and 
+3. I can’t say that I believe in X because just because a non-expert or an authoritative text tells me to. Likewise, I can’t say that I *don’t* believe in X for any of those same three reasons
+
+---
+
+::: {.post-nav}
+👈 [Previous: 4.00 proof](../20250514_0400-proof/0400-proof.html) | [Next: 6.00 reality](../20250514_0600-reality/0600-reality.html) 👉
+:::
