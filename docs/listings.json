@@ -22,6 +22,12 @@
     ]
   },
   {
+    "listing": "/experiment-bios/index.html",
+    "items": [
+      "/experiment-bios/OPERA_experiment.html"
+    ]
+  },
+  {
     "listing": "/math/index.html",
     "items": []
   },
@@ -53,12 +59,6 @@
       "/NOS/20250514_0300-knowledge/0300-knowledge.html",
       "/NOS/20250514_0200-models/0200-models.html",
       "/NOS/20250514_0100-laws/0100-laws.html"
-    ]
-  },
-  {
-    "listing": "/experiments/index.html",
-    "items": [
-      "/experiments/OPERA_experiment.html"
     ]
   },
   {
