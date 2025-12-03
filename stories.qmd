@@ -10,6 +10,7 @@ listing:
     - musings/**/*.qmd
     - feynman-diagrams/**/*.qmd
     - particle-bios/**/*.qmd
+    - experiment-bios/**/*.qmd
     - mechanics/**/*.qmd
     - history/**/*.qmd
     - pinned/**/*.qmd
@@ -18,12 +19,25 @@ listing:
   sort-ui: false
   filter-ui: false
   categories: true
-  # If you want to hide drafts via metadata, use this instead of 'exclude'
-  # filter: "draft != true"
+filter: "draft != true"
+
 ---
 
 ::: small-links
-\| <a href="https://chipbrock.github.io/FeynmanDiagramsEveryone/" target="_blank" rel="noopener">😎 Feynman Diagrams Tutorial</a> \|[Particle Biographies](./particle-bios/index.html) \| [People](./people/index.html) \| [Particle Detectors](./math/index.html) \| [Experiment Biographies](./math/index.html) \| [NOS](./NOS/index.html) \| [Science Musings](./math/index.html) \| [Philosophy](./math/index.html) \| [History](./history/index.html) \| [Math Refresher](./math/index.html) \| \|<a href="https://chipbrock.github.io/SkinnyPhysics/" target="_blank" rel="noopener">💪 Skinny Physics</a> \|<a href="https://chipbrock.github.io/SkinnyPhysics/mechanics/" target="_blank" rel="noopener">🚚 ⚾️ 🏋️‍ mechanics</a>\| <a href="https://chipbrock.github.io/SkinnyPhysics/gravitation/" target="_blank" rel="noopener">🌝 🌎 🌗 gravitation and astronomy </a> \| <a href="https://chipbrock.github.io/SkinnyPhysics/electromagnetism/" target="_blank" rel="noopener">🧲 📡 💡 electromagnetism </a> \| [special_relativity](./special_relativity/index.html) \|
+\| <a href="https://chipbrock.github.io/FeynmanDiagramsEveryone/" target="_blank" rel="noopener">😎 Feynman Diagrams Tutorial</a> 
+\| [NOS](./NOS/index.html) 
+\| [Particle Biographies](./particle-bios/index.html) 
+\| [Experiment Biographies](./experiment-bios/index.html) 
+\| [People](./people/index.html) 
+\| [Particle Detectors](./math/index.html) 
+\| [Science Musings](./math/index.html) 
+\| [Philosophy](./math/index.html) \| [History](./history/index.html) 
+\| [Math Refresher](./math/index.html) 
+\| <a href="https://chipbrock.github.io/SkinnyPhysics/" target="_blank" rel="noopener">💪 Skinny Physics</a> 
+\|<a href="https://chipbrock.github.io/SkinnyPhysics/mechanics/" target="_blank" rel="noopener">🚚 ⚾️ 🏋️‍ mechanics</a>
+\| <a href="https://chipbrock.github.io/SkinnyPhysics/gravitation/" target="_blank" rel="noopener">🌝 🌎 🌗 gravitation and astronomy </a> 
+\| <a href="https://chipbrock.github.io/SkinnyPhysics/electromagnetism/" target="_blank" rel="noopener">🧲 📡 💡 electromagnetism </a> 
+\| [special_relativity](./special_relativity/index.html) \|
 :::
 
 ```{=html}
