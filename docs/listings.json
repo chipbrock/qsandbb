@@ -3,12 +3,14 @@
     "listing": "/blog.html",
     "items": [
       "/musings/Opera_neutrinos/Opera_neutrinos.html",
+      "/particle-bios/20250412_1881-electron/1881-electron.html",
       "/experiment-bios/OPERA/OPERA_experiment.html",
       "/history/galileo_free_fall.html",
       "/NOS/20250514_0100-laws/0100-laws.html",
       "/NOS/20250514_0200-models/0200-models.html",
       "/NOS/20250514_0300-knowledge/0300-knowledge.html",
-      "/musings/index.html"
+      "/musings/index.html",
+      "/particle-bios/index.html"
     ]
   },
   {
@@ -33,7 +35,9 @@
   },
   {
     "listing": "/particle-bios/index.html",
-    "items": []
+    "items": [
+      "/particle-bios/20250412_1881-electron/1881-electron.html"
+    ]
   },
   {
     "listing": "/NOS/index_original.html",
@@ -69,13 +73,15 @@
     "listing": "/stories.html",
     "items": [
       "/musings/Opera_neutrinos/Opera_neutrinos.html",
+      "/particle-bios/20250412_1881-electron/1881-electron.html",
       "/pinned/about_blog.html",
       "/experiment-bios/OPERA/OPERA_experiment.html",
       "/history/galileo_free_fall.html",
       "/NOS/20250514_0100-laws/0100-laws.html",
       "/NOS/20250514_0200-models/0200-models.html",
       "/NOS/20250514_0300-knowledge/0300-knowledge.html",
-      "/musings/index.html"
+      "/musings/index.html",
+      "/particle-bios/index.html"
     ]
   }
 ]

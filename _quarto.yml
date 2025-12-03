@@ -70,14 +70,14 @@ website:
             href: musings/index.qmd
           - text: Nature of Science (NOS)
             href: NOS/index.qmd
-          - text: Skinny Physics
-            href: https://chipbrock.github.io/SkinnyPhysics/
-          - text: Feynman Diagrams
-            href: https://chipbrock.github.io/FeynmanDiagramsEveryone/
           - text: Experiment Bios
             href: experiment-bios/index.qmd
           - text: Particle Bios
             href: particle-bios/index.qmd
+          - text: Skinny Physics
+            href: https://chipbrock.github.io/SkinnyPhysics/
+          - text: Feynman Diagrams
+            href: https://chipbrock.github.io/FeynmanDiagramsEveryone/
           - text: Math Review
             href: math/index.qmd
           - text: words

@@ -32,7 +32,7 @@
         "\n",
         "## Plot {#sec-plot}\n"
       ],
-      "id": "74fe6cab"
+      "id": "cc0023dd"
     },
     {
       "cell_type": "code",
@@ -60,7 +60,7 @@
         "\n",
         "Knuth says always be literate [@knuth1984].\n"
       ],
-      "id": "0a22ca71"
+      "id": "1ecab509"
     },
     {
       "cell_type": "code",
@@ -68,7 +68,7 @@
       "source": [
         "1 + 1"
       ],
-      "id": "18e5833e",
+      "id": "b069a96a",
       "execution_count": null,
       "outputs": []
     },
@@ -98,7 +98,7 @@
         "be made for them. The simplest case is just attaching a \n",
         "colorbar to each axes:^[See the [Matplotlib Gallery](https://matplotlib.org/stable/gallery/subplots_axes_and_figures/colorbar_placement.html) to explore colorbars further].\n"
       ],
-      "id": "a210e0f2"
+      "id": "2cd0fa6a"
     },
     {
       "cell_type": "code",
@@ -122,7 +122,7 @@
         "        fig.colorbar(pcm, ax=ax)\n",
         "plt.show()"
       ],
-      "id": "9b8af592",
+      "id": "3cac7462",
       "execution_count": null,
       "outputs": []
     },
@@ -132,7 +132,7 @@
       "source": [
         "## References"
       ],
-      "id": "a27286cc"
+      "id": "d6c3be1a"
     }
   ],
   "metadata": {

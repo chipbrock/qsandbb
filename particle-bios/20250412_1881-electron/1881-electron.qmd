@@ -1,9 +1,9 @@
 ---
 title: "electron"
 # date: 2025-04-12
-categories: [Particle Bios, draft]
+categories: [Particle Bios, electron]
 description: "electron post content"
-draft: true
+draft: false
 ---
 
 # electron
@@ -18,7 +18,7 @@ Author: Chip Brock · Published: April 12, 2025
 
 ---
 
-Watch this space.
+Here will be the story of the electron's discovery.
 
 ---
 ::: {.post-nav}
