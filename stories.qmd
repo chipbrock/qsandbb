@@ -1,5 +1,5 @@
 ---
-title: This Journal is full of stories
+title: This Journal is full of stories?
 page-layout: full
 toc-title: Year
 date-format: "MMMM D, YYYY"
@@ -19,8 +19,8 @@ listing:
   sort-ui: false
   filter-ui: false
   categories: true
-filter: "draft != true"
-
+  exclude:
+    draft: true
 ---
 
 ::: small-links

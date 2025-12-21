@@ -2,6 +2,7 @@
 title: "electron"
 # date: 2025-04-12
 categories: [Particle Bios, electron]
+image: "electron.png"
 description: "electron post content"
 draft: false
 ---
@@ -17,6 +18,12 @@ Author: Chip Brock · Published: April 12, 2025
 </div>
 
 ---
+
+::: {.column-margin}
+![](electron.png){ width=120px }
+:::
+
+Under Construction 🚧 👷‍♂️
 
 Here will be the story of the electron's discovery.
 

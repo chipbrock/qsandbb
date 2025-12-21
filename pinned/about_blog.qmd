@@ -1,5 +1,5 @@
 ---
-title: "About the various blog series"
+title: "About the how-to series collections"
 number-sections: true
 date: 2050-01-01 # (your last edit date)
 pinned: true # In any pinned post's front matter
@@ -13,17 +13,15 @@ listing:
   fields: [title, description, categories, image]
 ---
 
-<div class="breadcrumb">
-<a href="../../stories.html">Blog List</a> >
-</div>
+::: breadcrumb
+<a href="../../stories.html">Journal List</a> \>
+:::
 
-<div style="font-size:0.85em; color:#555; margin-top:0.5em;">
-
+::: {style="font-size:0.85em; color:#555; margin-top:0.5em;"}
 Author: Chip Brock · Drafted: April 15, 2025
+:::
 
-</div>
-
-My goal in **QS&BB** is to write stories about particle physics and cosmology for an interested and general audience. The stories are understandable on their own. But, it might be more fullfilling to have some background in some basic physics concepts like force, momentum, energy, gravity...and so on. 
+My goal in **QS&BB** is to write stories about particle physics and cosmology for an interested and general audience. The stories are understandable on their own. But, it might be more fullfilling to have some background in some basic physics concepts like force, momentum, energy, gravity...and so on.
 
 So for those of you who maybe had physics a long time ago, or never, ...I've created some bare-bones *tutorial* content. How these and other tutorials differ from the "regular" posts is that they're organized start to finish in a logically sequential format like you expect from a (tiny) textbook. Of course, you can also jump in anywhere for a targeted refresher.
 
@@ -31,19 +29,19 @@ So two kinds of posts in **QS&BB**:
 
 ## Tutorial Topics
 
-### Some physics
+### Skinny physics
 
 The background material is a sketch of some standard physics subjects abstracted from a detailed on-line textbook that I wrote for the class, [online text](https://qstbb.pa.msu.edu/storage/ISP220_fall2020/QS&BB2020/intro.html). This list is intentionally sparse with links inside to "just the facts" to get you going or fill in some gaps with minimal, or in some cases, no mathematics:
 
-1. motion
-2. momentum and force
-3. collisions
-4. energy
-5. Galilean astronomy and the gravitational rules from Newton
-6. Electrostatics and magnetism, almost no mathematics
-7. Faraday's experiments, again, almost no formulae
-8. Faraday's fields, essentially no mathematicss
-9. Waves and Maxwell's fields, essentially no mathematics
+1.  motion
+2.  momentum and force
+3.  collisions
+4.  energy
+5.  Galilean astronomy and the gravitational rules from Newton
+6.  Electrostatics and magnetism, almost no mathematics
+7.  Faraday's experiments, again, almost no formulae
+8.  Faraday's fields, essentially no mathematicss
+9.  Waves and Maxwell's fields, essentially no mathematics
 10. Special Relativity, an introduction to the problem Einstein tackled
 11. Special Relativity, his postulates and some formulae
 12. Special Relativity, the transformations using graphs, not mathematics
@@ -61,8 +59,6 @@ I've provided a minimal sketch of the math that might be a refresher for you: Po
 
 If I need a complicated formula? I'll draw a graph, sometimes with interactively adjustable parameters to explore the physics. A complicated formula is always a graph.
 
-
-
 ## The rest?
 
 ### Some of the rest are in categories
@@ -75,7 +71,9 @@ I'll also have something to say about the "Nature of Science" (NOS), organized b
 
 The rest will be whim, ideas I have, things that happen in my field...tagged, but not organized sequentially.
 
+👉 **Watch for tags**...they're the slickest way around
 
+🚧 Watch for articles in progress...
 
 ## SO
 

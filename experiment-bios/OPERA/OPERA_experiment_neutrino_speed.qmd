@@ -1,8 +1,10 @@
 ---
-title: "Faster than light neutrinos?"
-image: "../../images/logo_orange_words.png"
-categories: [musings, neutrinos, NOS]
-description: "ℹ️ **README:** What do you do when you get a MAJOR surprise?"
+title: "The speed of neutrinos!"
+number-sections: true
+date: 2025-08-21 # (your last edit date)
+image: "./screenshot_3483.png"
+categories: [musings, neutrinos, experiments, NOS, exp_bios]
+description: "ℹ️ **README:** How do you measure the speed of a neutrino? And what if there's a surprise?"
 draft: false
 ---
 
@@ -12,17 +14,17 @@ Author: Chip Brock · Published: May 17, 2025
 
 ------------------------------------------------------------------------
 
-Let me tell you a story.
+Under Construction 🚧 👷‍♂️
 
-## The speed of light
+# Measuring the speed of neutrinos
 
-In **QS&BB** we'll spend a lot of effort becoming comfortable with Einstein’s Theory of Relativity. One of its famous, bedrock rules is that the speed of light is the fastest that anything can travel. (BTW, for Einstein that was technically a "postulate," not a law.) Relativity has been confirmed so many times that we use it as a tool and not a theory to be tested…Florida should call it the Law of Relativity. But we don’t. It’s the Theory of Relativity.
+In **QS&BB** we'll spend a lot of effort becoming comfortable with Einstein’s Theory of Relativity. One of its famous, bedrock rules is that the speed of light is the fastest that anything can travel. (BTW, for Einstein that was technically a "postulate," not a law.) Relativity has been confirmed so many times that we use it as a tool and not a theory to be tested…Florida should call it the Law of Relativity. But we don’t. It’s the Theory of Relativity. (I mentioned this in \[laws\](/NOS/20250514_0100-laws/0100-laws.qmd) )
 
 There is an elementary particle called the neutrino that is so light that it travels at almost the speed of light. In 2011 an experiment called OPERA (Oscillation Project with Emulsion-tracking Apparatus) in a mountain in the middle of Italy was under way to measure properties of neutrinos coming from the CERN particle accelerator in Geneva, Switzerland, almost 500 miles away.
 
 ![The Gran Sasso Lab near Rome is not near Geneva!](./gran_sasso.png)
 
-### The experiment
+## The experiment
 
 The neutrinos are received after they've traveled 730 km from CERN, through a cord of the Earth. The laboratory in Italy is inside of a large mountain about 1400 meters high.
 
@@ -31,6 +33,10 @@ The neutrinos are received after they've traveled 730 km from CERN, through a co
 The experiment was designed to measure neutrino oscillations,[^1] a project done in multiple locations around the globe. But the scientists realized that they could make a measurement of the velocity of neutrinos very precisely. They made sure that they understood the distance from the source at CERN to the experiment (their "Geodesy campaign" determined that they knew the 730 km distance to a precision of 20 centimeters! This includes any geological movement of the crust. There was an earthquake in 2009 and the measurements of the crust movement were published.) and with a precise determination of when the neutrinos left CERN and when they arrived in Italy, the velocity could be measured.
 
 [^1]: This is a measurement of neutrino properties of great importance...covered in a future post.
+
+Here's a little animation to give you a sense of what the experiment does...buy imagining a footrace: <iframe src="opera-simulation-standalone-4.html" width="100%" height="2000px" style="border:none; border-radius: 8px;">
+
+</iframe>
 
 To do that, OPERA had a sophisticated GPS system that measured times in Geneva and times in the mountain at a precision better than ±0.000000010 seconds ($\pm10$ nanoseconds). The figure shows the GPS satellite communication with CERN and then to the top of the Gran Sasso mountain...and then down through the mountain almost 8000 meters to the electronics of the OPERA experiment.
 
@@ -42,7 +48,7 @@ $$
 
 They seemed to be traveling at 1.0000248 times the speed of light! Special Relativity cannot abide this. What do you do?
 
-#### Law of relativity?
+### Law of relativity?
 
 If Relativity were a Law of Nature in the Florida-way ([laws](./../../trigger.qmd)) – say the “Law of Relativity” – then the surprising OPERA measurement would have confronted the authority of that Law of Relativity and the scientists would back down – can’t cross that threshold of Law. But OPERA scientists couldn’t do that. The experimenters worked very hard to redo their analyses and scoured their experimental apparatus for any place that the few nanoseconds might have been missing.
 
@@ -80,20 +86,21 @@ Here's the abstract from the original paper, *Measurement of the neutrino veloci
 
 Nothing breathless. Nothing grandiose. Just the facts. The experimenters did nothing wrong. Their analysis was proper. Their use of timing was proper, but unfortunately for them, there was a really hidden single point of failure in the timing circuit that led to an unaccounted for 60 nanoseconds of delay.
 
-I was proud of my community during that episode. That’s how it’s supposed to work. There are no Laws of the capital L kind.
+## The followup
 
-## Some technical details (in words)
+Theoretical physicists got to work. Within a year, almost 200 theory papers were published explaining the faster-than-light neutrino within new models beyond Relativity. The stakes were high and a new beam was produced by CERN which greatly narrowed that broad proton timing distribution – in essence, beating the frequency of the drum of neutrino production faster and more precisely. Another experiment at CERN (ICARUS) was running and could make a comparable measurement. As I noted the Fermilab experiment which first had broad timing distributions made measurements with their new GPS system. Everything fell in line: Relativity was still not disconfirmed.
 
-### The beam
+::: {.callout-important  icon=false}
+🫵 I was proud of my community during that episode. That’s how it’s supposed to work. There are no Laws of the capital L kind.
+:::
+
+
+# The beam
+
+[how proton accelerators make neutrino beams](/experiment-bios/neutrino_beams/neutrino_beams.qmd)
 
 How accelerators produce neutrino beams varies according to capabilities, scientific need, and strategy. Beams are electrostatically and magnetically removed from the primary proton accelerator at a regular rate, related to the fact that the protons in the primary beam are bunched in small packets. The protons are sent to a target which produces unstable particles (pions) which decay in a long, evacuated pipe into neutrinos which then travel to the distant detector.
 
 The time determination was not on an event by event basis, but a statistical one. In the original measurement the Super Proton Synchrotron delivered protons to the target in a "continuous" distribution which was 10 microseconds wide separated from one another by 50 milliseconds. Notice that the anomalous measurement was different by 60 *nanoseconds*. Within that broad distribution of protons' times when they created neutrinos, there were five peaks separated by 5 nanoseconds (corresponding to the accelerator's 200 MHz radiofrequency structure. Any proton in that long bunch could produce an interaction in the detector in a broad time window, relative to the difference measured.
 
 The accumulated time stamps of each event were packaged into a probability distribution and shaped-wise compared with the known shape of the accelerator's proton distribution. The analysis of the results was done blindly – meaning that crucial parameters were hidden from the scientists (with one or two holding the key). When all of the timing and geodesy calibrations were done, then the unblinding was done so that actual times were for the first time revealed. The result must have terrified people. Either they had overturned Relativity or they had a long project ahead of them to understand it.
-
-### The followup
-
-Theoretical physicists got to work. Within a year, almost 200 theory papers were published explaining the faster-than-light neutrino within new models beyond Relativity. The stakes were high and a new beam was produced by CERN which greatly narrowed that broad proton timing distribution – in essence, beating the frequency of the drum of neutrino production faster and more precisely. Another experiment at CERN (ICARUS) was running and could make a comparable measurement. As I noted the Fermilab experiment which first had broad timing distributions made measurements with their new GPS system. Everything fell in line: Relativity was still not disconfirmed.
-
-------------------------------------------------------------------------

@@ -2,9 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/musings/Opera_neutrinos/Opera_neutrinos.html",
       "/particle-bios/20250412_1881-electron/1881-electron.html",
-      "/experiment-bios/OPERA/OPERA_experiment.html",
+      "/experiment-bios/OPERA/OPERA_experiment_neutrino_speed.html",
+      "/experiment-bios/neutrino_beams/neutrino_beams.html",
       "/history/galileo_free_fall.html",
       "/NOS/20250514_0100-laws/0100-laws.html",
       "/NOS/20250514_0200-models/0200-models.html",
@@ -24,23 +24,14 @@
     ]
   },
   {
-    "listing": "/math/index.html",
-    "items": []
-  },
-  {
-    "listing": "/musings/index.html",
+    "listing": "/experiment-bios/index.html",
     "items": [
-      "/musings/Opera_neutrinos/Opera_neutrinos.html"
+      "/experiment-bios/OPERA/OPERA_experiment_neutrino_speed.html",
+      "/experiment-bios/neutrino_beams/neutrino_beams.html"
     ]
   },
   {
-    "listing": "/particle-bios/index.html",
-    "items": [
-      "/particle-bios/20250412_1881-electron/1881-electron.html"
-    ]
-  },
-  {
-    "listing": "/NOS/index_original.html",
+    "listing": "/NOS/index.html",
     "items": [
       "/NOS/20250514_0300-knowledge/0300-knowledge.html",
       "/NOS/20250514_0200-models/0200-models.html",
@@ -52,7 +43,7 @@
     "items": []
   },
   {
-    "listing": "/NOS/index.html",
+    "listing": "/NOS/index_original.html",
     "items": [
       "/NOS/20250514_0300-knowledge/0300-knowledge.html",
       "/NOS/20250514_0200-models/0200-models.html",
@@ -60,10 +51,18 @@
     ]
   },
   {
-    "listing": "/experiment-bios/index.html",
+    "listing": "/particle-bios/index.html",
     "items": [
-      "/experiment-bios/OPERA/OPERA_experiment.html"
+      "/particle-bios/20250412_1881-electron/1881-electron.html"
     ]
+  },
+  {
+    "listing": "/musings/index.html",
+    "items": []
+  },
+  {
+    "listing": "/math/index.html",
+    "items": []
   },
   {
     "listing": "/people/index.html",
@@ -72,10 +71,10 @@
   {
     "listing": "/stories.html",
     "items": [
-      "/musings/Opera_neutrinos/Opera_neutrinos.html",
       "/particle-bios/20250412_1881-electron/1881-electron.html",
       "/pinned/about_blog.html",
-      "/experiment-bios/OPERA/OPERA_experiment.html",
+      "/experiment-bios/OPERA/OPERA_experiment_neutrino_speed.html",
+      "/experiment-bios/neutrino_beams/neutrino_beams.html",
       "/history/galileo_free_fall.html",
       "/NOS/20250514_0100-laws/0100-laws.html",
       "/NOS/20250514_0200-models/0200-models.html",

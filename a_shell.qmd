@@ -1,0 +1,23 @@
+---
+title: "Neutrino Beams"
+number-sections: true
+date: 2025-08-21 # (your last edit date)
+image: "./screenshot_3483.png"
+categories: [musings, neutrinos, experiments, NOS]
+description: "ℹ️ **README:** How do you measure the speed of a neutrino? And what if there's a surprise?"
+draft: false
+---
+
+::: {style="font-size:0.85em; color:#555; margin-top:0.5em;"}
+Author: Chip Brock · Published: May 17, 2025
+:::
+
+------------------------------------------------------------------------
+
+Let me tell you a story.
+
+## The apparatus and the beam
+
+
+
+------------------------------------------------------------------------
