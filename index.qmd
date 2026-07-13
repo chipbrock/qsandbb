@@ -25,7 +25,7 @@ draft: false
 <br>
 
 <div class="custom-intro">
-  I’m an experimental particle physicist at Michigan State University. In my career, I have done my research at <a href="https://pa.msu.edu/high-energy-physics/index.aspx"
+  I’m an old experimental particle physicist at Michigan State University. In my career, I have done my research at <a href="https://pa.msu.edu/high-energy-physics/index.aspx"
   target="_blank"
    style="color: #ff6600 !important;"
    onmouseover="this.style.setProperty('color', '#4563A7', 'important');"

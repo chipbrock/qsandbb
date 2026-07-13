@@ -2,7 +2,7 @@
 title: "The speed of neutrinos!"
 number-sections: true
 date: 2025-08-21 # (your last edit date)
-image: "./screenshot_3483.png"
+image: "./screenshot_3984.png"
 categories: [musings, neutrinos, experiments, NOS, exp_bios]
 description: "ℹ️ **README:** How do you measure the speed of a neutrino? And what if there's a surprise?"
 draft: false

@@ -58,7 +58,10 @@
   },
   {
     "listing": "/musings/index.html",
-    "items": []
+    "items": [
+      "/musings/post_template.html",
+      "/musings/20250517_0100-academic_science/0100-academic_science.html"
+    ]
   },
   {
     "listing": "/math/index.html",

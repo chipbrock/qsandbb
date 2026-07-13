@@ -4,7 +4,7 @@ number-sections: true
 date: 2025-08-21 # (your last edit date)
 image: "./screenshot_3483.png"
 categories: [musings, neutrinos, experiments, NOS]
-description: "ℹ️ **README:** How do you measure the speed of a neutrino? And what if there's a surprise?"
+description: "ℹ️ **README:** How do you make neutrino beams at accelerators?"
 draft: false
 ---
 

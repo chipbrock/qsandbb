@@ -6,7 +6,13 @@ draft: false
 
 > ℹ️ README. *Quarks, Spacetime, and the Big Bang* (aka **QS&BB**), is an umbrella phrase that covers all of my research in elementary particle physics. It's also the name of a course I created for non-science students at Michigan State University.
 
-This site a continuation of that teaching...a repackaging of my course content from classical and contemporary topics in relativity, quantum mechanics, particle physics, and cosmology.
+This site a continuation of that teaching with three bundles:
+
+1.  [Informative stories](./stories.qmd) on particle physics, history, technology, and biography. The list is in the "journal tab" ☝️.
+2.  [Skinny Physics](https://chipbrock.github.io/SkinnyPhysics/) is a short "textbook" on the physics topics that will make the posts easier to swallow if you've not had physics courses in your background...or if it was long ago. You can find it also in the "topics" pull-down, ☝️.
+3.  [Feynman Diagrams (FD)](https://chipbrock.github.io/FeynmanDiagramsEveryone/) is a toolkit on how to draw Feynman Diagrams correctly, but in a non-professional way. You'll see, but the posts will use FDs a lot. You can find it also in the "topics" pull-down, ☝️.
+
+This site is a repackaging of my course content from classical and contemporary topics in relativity, quantum mechanics, particle physics, and cosmology.
 
 :::: column-margin
 ::: margin-figure
@@ -16,12 +22,15 @@ This site a continuation of that teaching...a repackaging of my course content f
 :::
 ::::
 
-> **Wait.** What’s that logo about? <br> **Glad you asked.** Above the horizon is the sky as it would appear to you if you had microwave vision and shows the difference in temperature across the sky. It's a baby picture of the universe taken when it only a few thousand of its 14 billion years old. Isn't it cute? Below the horizon is a computer reconstruction of a proton-proton collision in my experiment, ATLAS, at the Large Hadron Collider at the international CERN laboratory in Geneva, Switzerland. I'll talk *a lot* about what goes on here!
+::: {.callout-tip icon="false"}
+## Wait! <br>
+
+🤨 **Wait:** What’s that logo about? <br><br> 😎 **Glad you asked:** Above the horizon is the sky as it would appear to you if you had microwave vision and shows the difference in temperature across the sky. It's a baby picture of the universe taken when it only a few thousand of its 14 billion years old. Isn't it cute? Below the horizon is a computer reconstruction of a proton-proton collision in my experiment, ATLAS, at the Large Hadron Collider at the international CERN laboratory in Geneva, Switzerland. I'll talk *a lot* about what goes on here!
+:::
 
 <!-- <img src="logo_orange_words.png" alt="screenshot_3343" style="zoom:45%;"/> -->
 
-We'll talk about what what both images mean, but I'll mention here that the difference in that sky temperature image between the between <span class="large-word">[**orange**]{style="color: #ff6600;"}</span> and <span class="large-word">[**blue**]{style="color: #4563a7;"}</span>? 1 part in 100,000 of a degree. Very This is a word with a different size.
- smooth. Which is nice. But it's also a problem. We'll see.
+We'll talk about what what both images mean, but I'll mention here that the difference in that sky temperature image between the between [**orange**]{style="color: #ff6600;"} and [**blue**]{style="color: #4563a7;"}? 1 part in 100,000 of a degree. Very This is a word with a different size. smooth. Which is nice. But it's also a problem. We'll see.
 
 I've prepared this site for a non-specialist audience (is that you?) and I hope you'll enjoy the stories, and the pedagogy and learn something new with each post.
 
