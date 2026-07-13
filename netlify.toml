@@ -1,3 +1,2 @@
 [build]
-  command = "quarto render"
   publish = "docs"
