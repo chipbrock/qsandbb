@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Chip Brock –  Quarks, Spacetime, and the Big Bang</title>
+<title>Quarks, Spacetime, and the Big Bang –  Quarks, Spacetime, and the Big Bang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -78,11 +79,40 @@ window.MathJax = {
 };
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -166,49 +196,121 @@ window.MathJax = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-nature-of-science" id="toc-the-nature-of-science" class="nav-link active" data-scroll-target="#the-nature-of-science"><span class="header-section-number">1</span> The Nature of Science</a>
+  <ul class="collapse">
+  <li><a href="#laws" id="toc-laws" class="nav-link" data-scroll-target="#laws"><span class="header-section-number">1.1</span> Laws</a></li>
+  <li><a href="#theories" id="toc-theories" class="nav-link" data-scroll-target="#theories"><span class="header-section-number">1.2</span> Theories</a></li>
+  <li><a href="#models-and-scientific-statements" id="toc-models-and-scientific-statements" class="nav-link" data-scroll-target="#models-and-scientific-statements"><span class="header-section-number">1.3</span> Models and Scientific Statements</a></li>
+  <li><a href="#scientific-knowledge-proof-and-truth" id="toc-scientific-knowledge-proof-and-truth" class="nav-link" data-scroll-target="#scientific-knowledge-proof-and-truth"><span class="header-section-number">1.4</span> Scientific Knowledge, Proof, and Truth</a>
+  <ul class="collapse">
+  <li><a href="#proof" id="toc-proof" class="nav-link" data-scroll-target="#proof"><span class="header-section-number">1.4.1</span> Proof?</a></li>
+  </ul></li>
+  <li><a href="#reality-and-the-role-of-mathematics" id="toc-reality-and-the-role-of-mathematics" class="nav-link" data-scroll-target="#reality-and-the-role-of-mathematics"><span class="header-section-number">1.5</span> Reality and the Role of Mathematics</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="media/chip_c.jpeg" class="about-image
-  round " style="height: 10em; width: 10em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Chip Brock</h1>
+<h1 class="title">Quarks, Spacetime, and the Big Bang</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><main class="content" id="quarto-document-content">
-<p><br></p>
-<div class="custom-intro">
-<p>I’m an experimental particle physicist at Michigan State University. In my career, I have done my research at <a href="https://pa.msu.edu/high-energy-physics/index.aspx" target="_blank" style="color: #ff6600 !important;" onmouseover="this.style.setProperty('color', '#4563A7', 'important');" onmouseout="this.style.setProperty('color', '#ff6600', 'important');"> MSU </a>, <a href="https://www.fnal.gov" target="_blank" style="color: #ff6600 !important;" onmouseover="this.style.setProperty('color', '#4563A7', 'important');" onmouseout="this.style.setProperty('color', '#ff6600', 'important');"> Fermilab </a>, <a href="https://www.anl.gov" target="_blank" style="color: #ff6600 !important;" onmouseover="this.style.setProperty('color', '#4563A7', 'important');" onmouseout="this.style.setProperty('color', '#ff6600', 'important');"> Argonne National Laboratory </a>, and <a href="https://home.cern" target="_blank" style="color: #ff6600 !important;" onmouseover="this.style.setProperty('color', '#4563A7', 'important');" onmouseout="this.style.setProperty('color', '#ff6600', 'important');"> CERN </a>. I specialize in teaching modern physics to non-science students and this <a href="./stories.html" target="_blank" rel="noopener"><strong> 📚 JOURNAL</strong></a> brings that content and more to an audience beyond my lecture hall. <br><br>Our stories range from descriptive to sophisticated and regardless of your background, you can learn with me. Start with the tab ☝️ called… “start” and you’ll get the lay of the QS&amp;BB land.</p>
-</div>
-<div class="line-block"><a href="./me-in-2-seconds.html">me in 2 seconds</a> | <a href="./CV.html">Curriculum Vitae</a> | <a href="./teaching.html">teaching</a> | <a href="./research.html">research</a> | <a href="./professional.html">professional</a></div>
+  
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://www.linkedin.com/in/raymond-brock-47261919/" class="about-link" rel="" target="">
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="mailto:brockr@msu.edu" class="about-link" rel="" target="">
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://www.facebook.com/chip.brock1" class="about-link" rel="" target="">
-     <span class="about-link-text">Facebook</span>
-  </a>
-  <a href="https://bsky.app/profile/chipbrock.bsky.social" class="about-link" rel="" target="">
-     <span class="about-link-text">Bluesky</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=vfLYgg8AAAAJ&amp;hl=en" class="about-link" rel="" target="">
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="https://orcid.org/0000-0002-4556-9212" class="about-link" rel="" target="">
-     <span class="about-link-text">ORCiD</span>
-  </a>
+</header>
+
+
+<section id="the-nature-of-science" class="level1 page-columns page-full" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> The Nature of Science</h1>
+<p>Just how science works can be tricky and everyone has an opinion. The Nature of Science (NOS) is its own discpline across philosophy, history, sociology, and science itself. While we physicists have a pretty good sense of what constitutes good science, we don’t have a rulebook and we can sometimes argue about this among ourselves.</p>
+<p>There’s an element of “if it works, it’s okay.” But also some taboos.</p>
+<p>Since I’ll be talking about old and new ideas, I thought I should try to put down my views on NOS from my physics-perspective. Below is a sketch to be fleshed out in separate posts with links below.</p>
+<section id="laws" class="level2 page-columns page-full" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="laws"><span class="header-section-number">1.1</span> Laws</h2>
+<p>I think that the term scientific “Law” is misleading because it implies a fancy 🎓 permanence and universality, running counter to the fact that science is contingent. It originated with Isaac Newton’s deciphering of what appeared to be the absolute rules of the Universe. His explanations convinced people that the world was knowable –&nbsp;no small part of the basis of the Enlightenment. So science revealed <em>Laws</em>, capital “L.”</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="margin-figure">
+<p><img src="https://miro.medium.com/v2/resize:fit:2400/1*JfEyipp5DIDdIs9qDkGcfQ.jpeg" alt="logo" style="zoom:25%;"></p>
+<p>
+The mystic William Blake, painted his <em>Newton</em> (1795–c.1805, William Blake) as a negative image. Blake was distinctly unhappy with what he thought was a sterile and godless turn in European thought. But that he chose this subject as a vehicle for his annimosity toward the Enlightenment is…, well, enlightening.
+</p>
 </div>
-</div>
- <!-- /main -->
+</div></div><p>But we don’t do Law any more. We do theories and models – at least I do 😎. That’s because the distinction between a Law of physics and a theory of physics is often often misunderstood. (See in the menu bar ☝️ my gripe in <a href="./../trigger.html" target="_blank">just a theory?</a> .) For now, if I mention an old-historical “law” (“Newton’s law”) I’ll use lower case. Otherwise, it’s theories…all the way down.</p>
+</section>
+<section id="theories" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="theories"><span class="header-section-number">1.2</span> Theories</h2>
+<p>I think that the common idea about a theory is that it is a set of guesses or hunches. We all do it: have a theory as to why that tree fell down (“It was leaning and it was really windy.”)</p>
+<p>This everyday sense leads to the a mistaken notion that theories are somehow less than laws. Since I’ve aleready set aside “laws” as unhelpful, let me try to explain what my notion of theories are.</p>
+<p>A scientific theory is a framework that can have three jobs:</p>
+<ol type="1">
+<li>Explain observed phenomena.</li>
+<li>Tie together ideas that once seemed unrelated.</li>
+<li>Predict new phenomena – while being consistent with previously successes. (Ask Mr Google about Immanuel Velikovsky and Venus.)</li>
+</ol>
+<p>We usually emphasize #3, but I think that #1 is underappreciated. Can an acceptable theory <em>only</em> explain even if it doesn’t yet predict novel phenomena? (See “arguing among ourselves” in the first paragraph.)</p>
+<p>Textbooks often define a scientific theory as a systematic explanation facts. But what counts as an explanation? A paragraph? A logical set of proofs? A set of mathematical equations? A nicely formed tweet?</p>
+<p>My problem is distinguishing something as all encompassing as Quantum Theory from the theory of atoms. The latter is a part of the former since we describe atoms using the tools and commitments of Quantum Theory.</p>
+<p>Here’s my take:</p>
+<p>A framework – made of logical statements and/or mathematics – provides tools and guidance on how to use them. Furthermore – and this is important – a theory limits itself to a domain: For example, A theory of chemical bonding doesn’t need to encompass the theory of black holes. Its “domain” is atoms and molecules. Engineers bulding bridges use Newton’s (“laws of” we say) mechanics, but their domain doesn’t encompass the theory of evolution. But there are overlaps: the theory of chemical bonding must embrace the rules of the quantum theory, so there is a heirarchy among theories.</p>
+<p>Two important aspects of this complicated mix.</p>
+<ol type="1">
+<li><strong>Our trust in theories is earned.</strong> Quantum mechanics is highly trusted (not sacred, so not Law-like) It might be a part of a grander theory.</li>
+<li><strong>We can’t use or test a theory directly.</strong> Einstein’s Special Theory of Relativity consists of two short English (well, German) sentences in the form of postuates. That’s the framework idea. Testing and using them requires building models..</li>
+</ol>
+<p>We’re guided bytheories, but we test models. In physics, those models are mathematical.</p>
+</section>
+<section id="models-and-scientific-statements" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="models-and-scientific-statements"><span class="header-section-number">1.3</span> Models and Scientific Statements</h2>
+<p>When we make mathematical <strong>[model]</strong>s, they are very specific. First they consist of inputs, Let’s call them (x, y, z), where the variables could be numerical facts or procedural commitments or other inputs. Then, a model has some calculational, ✏️ , process. An algorithm if you will that tests an idea. Maybe you remember “turning the crank” in a school cacluation.</p>
+<p>That model has an…urgency. Start it going (calculating) and a conclusion, 📈 , is the result. So in cartoon form:</p>
+<p>” <strong>[<strong>(x, y, z) → ✏️ </strong>]</strong> will result in: 📈 .”</p>
+<p>What comes out after “turning the crank” is 📈: a function, a number, a plot, an expected state of matter. This a theory cannot do.</p>
+<p>The result, 📈, can refer to something previously known (an <em>explanation</em>) or to something to be tested (a <em>prediction</em>). The whole process, [model + successful explanation] or [model + prediction + successful measurement] I’ll call a <em>scientific process</em>.</p>
+</section>
+<section id="scientific-knowledge-proof-and-truth" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="scientific-knowledge-proof-and-truth"><span class="header-section-number">1.4</span> Scientific Knowledge, Proof, and Truth</h2>
+<p>Scientific knowledge is a bit special. It’s easy for us in everyday life to spontaneously decide that we “know” something –&nbsp;until we learn that we were were wrong! And that’s not a problem, it happens.</p>
+<p>But scientific knowledge is different and we expect a lot from it. It’s not a ’belief” which is personal and often unjustifiable. In fact, while it sounds scientific, “I believe in evolution” is not a scientific statement. Just like “I believe in martians” isn’t. <em>Belief</em> is not justified in scientific language.</p>
+<p>One of the jobs of a scientific statement is to assert something that’s checkable. It must be public, based on expertise, always open to scrutiny, and within the norms of the scientific community (admitedly, a tough thing to define). What’s important is that scientific statements are made and trusted by experts. Unfortunately, folks with expertise are sometimes now called “elites,” as if expertise is bad.</p>
+<p>Scientific statements are the grammar used to test the claims of models against experiment. They can take the form of sentences, a mathematical function, the prediction of a state of matter, or a numerical fact. Interpreting them can, however, be nuanced.</p>
+<p>If my scientific statement ( 📈 ) does not agree with the results of an experiment, I would have to say that my statement is <em>disconfirmed</em> (not “disproven”). If it repeatedly doesn’t match, that result casts doubt on the model but more likely on the inputs to the model.</p>
+<section id="proof" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="proof"><span class="header-section-number">1.4.1</span> Proof?</h3>
+<p>When the results of a measurement appears to agree with the model’s prediction, then we say that the model is <em>confirmed</em>. But that’s nuanced in a variety of ways.</p>
+<ol type="1">
+<li>First, the domain may be so broad as to be unhelpful as a scientific statement. That Winston-Salem is between Detroit and Miami could be confirmed but it’s not very precise.</li>
+<li>Second, it’s possible for a scientific statement to agree with experiment, but accidentally. When I say it’s 2 pm and it is 2 pm, but my watch stopped at 2 am, that’s not a helpful scientific conclusion. Justification is required of a confirmed scientific statement.</li>
+<li>Finally, and this is both important and not understood outside of the scientifi community is uncertainty. If the results of a political poll say that candidate X polls at 49% and candidate Y polls at 51% and that the margin of uncertainty is 5%, then those candidates are tied. Y is not ahead of X. In political polling these are statements about the statistical precision of the measurement, but in scientific prediction and measurement there are other uncertainties in play. The inputs (x, y, z) are certainly imprecise and that uncertainty will be carried through to the results of the model. And, the model’s algorithm might have its own uncertainties. The end result is that if I were to say that my scientific statement is 2 feet, that’s not scientific. If you used a yardstick without any markings to make your measurement, then your ability to be as precise as one foot is nil. If you used a micrometer to make your measurement, then your determination of “2” might be very precise, but it would still have uncertainty. The scientifically proper way to report the model’s prediction and/or the experiment’s result is <span class="math inline">\(2\pm a\)</span> feet where <span class="math inline">\(a\)</span> is the uncertainty, like <span class="math inline">\(2 \pm 0.1\)</span> feet.</li>
+</ol>
+<p>This means that no prediction and no measurement is absolutely precise. And so one cannot <em>prove</em> a result, not a model and certainly not a theory. So, following on that and using the term in its normal way, there is no measureable <em>truth</em> in a scientific process.</p>
+</section>
+</section>
+<section id="reality-and-the-role-of-mathematics" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="reality-and-the-role-of-mathematics"><span class="header-section-number">1.5</span> Reality and the Role of Mathematics</h2>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -373,6 +475,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
