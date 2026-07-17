@@ -11,7 +11,7 @@ draft: true
   <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Nos</a> > <strong>reality</strong>
 </div>
 ::: {.post-nav}
-👈 [Previous: 3.00 scientific knowledge](../20250514_0300-knowledge/0300-knowledge.html)
+👈 [Previous: 3.00 we test models](../20250514_0300-models/0300-models.html)
 :::
 
 <div style="font-size:0.85em; color:#555; margin-top:0.5em;">
@@ -30,5 +30,5 @@ Watch this space.
 
 ---
 ::: {.post-nav}
-👈 [Previous: 5.00 models](../20250514_0500-models/0500-models.html)
+👈 [Previous: 3.00 we test models](../20250514_0300-models/0300-models.html)
 :::

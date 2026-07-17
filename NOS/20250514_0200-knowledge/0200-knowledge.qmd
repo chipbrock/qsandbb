@@ -1,5 +1,5 @@
 ---
-title: "3.00 Scientific Knowledge, Proof, and Truth"
+title: "2.00 Scientific Knowledge, Proof, and Truth"
 date: 2025-08-16 # (your last edit date)
 image: "iStock_000006766990Small.png"
 categories: [NOS, philosophy]
@@ -10,7 +10,7 @@ draft: false
   <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Nos</a> > <strong>knowledge</strong>
 </div>
 ::: {.post-nav}
-👈 [Previous: 2.00 models](../20250514_0200-models/0200-models.html) | [Next: 4.00 reality and mathematics](../20250514_0400-reality/0400-reality.html) 👉
+👈 [Previous: 1.00 laws](../20250514_0100-laws/0100-laws.html) | [Next: 3.00 we test models](../20250514_0300-models/0300-models.html) 👉
 :::
 
 <div style="font-size:0.85em; color:#555; margin-top:0.5em;">
@@ -97,5 +97,5 @@ First of all, everyday knowledge production doesn't adhere to strict rules, so t
 ---
 
 ::: {.post-nav}
-👈 [Previous: 2.00 models](../20250514_0200-models/0200-models.html) | [Next: 4.00 reality and mathematics](../20250514_0400-reality/0400-reality.html) 👉
+👈 [Previous: 1.00 laws](../20250514_0100-laws/0100-laws.html) | [Next: 3.00 we test models](../20250514_0300-models/0300-models.html) 👉
 :::

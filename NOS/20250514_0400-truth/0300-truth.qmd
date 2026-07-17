@@ -1,5 +1,5 @@
 ---
-title: "3.00 facts and truth"
+title: "4.00 facts and truth"
 image: "Friday.png"
 date: 2025-07-07  # (your last edit date)
 categories: [NOS, drafting]

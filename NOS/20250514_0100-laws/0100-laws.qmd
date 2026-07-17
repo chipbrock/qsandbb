@@ -12,7 +12,7 @@ draft: false
 :::
 
 ::: post-nav
-[Next: 2.00 models](../20250514_0200-models/0200-models.html) 👉
+[Next: 2.00 scientific knowledge](../20250514_0200-knowledge/0200-knowledge.html) 👉
 :::
 
 ::: {style="font-size:0.85em; color:#555; margin-top:0.5em;"}
@@ -130,5 +130,5 @@ So "theories all the way down" really means that we have a few theories that we 
 ------------------------------------------------------------------------
 
 ::: post-nav
-[Next: 2.00 models](../20250514_0200-models/0200-models.html) 👉
+[Next: 2.00 scientific knowledge](../20250514_0200-knowledge/0200-knowledge.html) 👉
 :::

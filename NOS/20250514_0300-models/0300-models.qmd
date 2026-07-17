@@ -1,5 +1,5 @@
 ---
-title: "2.00 Models and Scientific Statements"
+title: "3.00 We Test Models"
 date: 2025-08-16 # (your last edit date)
 image: "model.png"
 categories: [NOS, drafting]
@@ -11,7 +11,7 @@ draft: false
   <a href="../../stories.html">Stories</a> > <a href="../index.qmd">TOC Nos</a> > <strong>models</strong>
 </div>
 ::: {.post-nav}
-👈 [Previous: 1.00 laws and theories](../20250514_0100-laws/0100-laws.html) | [Next: 3.00 scientific knowledge, proof, and truth](../20250514_0300-knowledge/0300-knowledge.html) 👉
+👈 [Previous: 2.00 scientific knowledge](../20250514_0200-knowledge/0200-knowledge.html) | [Next: 4.00 what's real](../20250514_0400-reality/0400-reality.html) 👉
 :::
 
 <div style="font-size:0.85em; color:#555; margin-top:0.5em;">
@@ -131,5 +131,5 @@ There are dos and don’ts here for scientists (and students of science). When i
 ---
 
 ::: {.post-nav}
-👈 [Previous: 4.00 proof](../20250514_0400-proof/0400-proof.html) | [Next: 6.00 reality](../20250514_0600-reality/0600-reality.html) 👉
+👈 [Previous: 2.00 scientific knowledge](../20250514_0200-knowledge/0200-knowledge.html) | [Next: 4.00 what's real](../20250514_0400-reality/0400-reality.html) 👉
 :::
