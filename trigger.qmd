@@ -37,6 +37,7 @@ There are other words and phrases that deserve a scientific explanation and here
 2.  <a href="./NOS/20250514_0200-knowledge/0200-knowledge.html" target="_blank">Scientific knowledge is a unique and reliable kind of knowledge.</a>
 3.  <a href="./NOS/20250514_0300-models/0300-models.html" target="_blank">We test models.</a>
 6.  <a href="./NOS/20250514_0400-reality/0400-reality.html" target="_blank">There is a reality “out there” and our understanding of it continuously improves.</a>
-7.  Science is what scientists do.
+
+I many ways, Science is what scientists do. And it's surprisingly nuanced and not entirely different from saying that Art is what artists do!
 
 Thinking yet? Each of the above is a separate post tagged "NOS" so you can find them.
